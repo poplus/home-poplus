@@ -16,31 +16,56 @@
     <body>
 
         <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
-
-                {{ content }}
-
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  {{ site.owner }}<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
+          <div class="site-header">
+              <div class="site">
+                <div class="header">
+                  <a href="/"><img src="{{ url }}/images/logo-poplus.png"></a>
+                  <!-- <h1 class="title"><a href="/">{{ site.name }}</a></h1> -->
+                  <ul class="menu">
+                    <a href="../blog.html"><li>Blog</li></a>
+                    <a href="../workspace.html"><li>Workspace</li></a>
+                    <a href="../catalogue.html"><li>Developments & Deploys</li></a>
+                    <a href="../about.html"><li>About</li></a>
+                    <a href="../join.html"><li>Join</li></a>
+                    <a href="../index.html"><li>Home</li></a>
+                  </ul>
+                </div>
               </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
-              </div>
-            </div>
           </div>
-        </div> <!-- /container -->
+          <div class="site">
+                {{ content }}
+          </div> <!-- /container -->
+
+          <div class="site-logos">
+              <div class="site">
+                <p>logos</p>
+              </div>
+          </div>
+
+          <div class="site-footer">
+            
+            {% if page.class == "home" %}
+            {% include home-footer.html %}
+            {% endif %}
+
+              <div class="site">
+                <div class="footer">
+                  <div class="contact">
+                    <p>
+                      {{ site.owner }}<br />
+                      What You Are<br />
+                      your@email.com
+                    </p>
+                  </div>
+                  <div class="contact">
+                    <p>
+                      <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
+                      <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+          </div>
 
     </body>
 </html>

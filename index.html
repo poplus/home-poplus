@@ -1,13 +1,19 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Home Poplus
+class: home
 ---
 
+<div id="hero-background"></div>
 <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+	<div id="hero-left">
+	  <h1>Shared & Collaborative Civic coding </h1>
+	  <h2>Interoperable web-service components and pre-packaged toolsTo enable world’s civic society to easily launch high quality online iniciatives</h2>
+	</div>
+	<div id="hero-right">
+	  <a a href="/">Start your iniciative<span>Use our modules</span></a>
+	  <a a href="/">Join the development<span>Upload an app</span></a>
+	</div>
 </div>
+
+<!-- {% include home-footer.html %} -->
