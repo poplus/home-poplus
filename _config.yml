@@ -6,12 +6,14 @@ auto: true
 name: Poplus
 author: Fundación Ciudadano Inteligente
 featured-image: //images/post/
-url: http://beta.poplus.ciudadanointeligente.org
+# url: http://beta.poplus.ciudadanointeligente.org
 description: Poplus project.
 twitter: ciudadanoi
 github: ciudadanointeligente
 gravatar_url: http://gravatar.com/avatar/6f63cde8b16b035280ca615f621a6c8c
 hashtag: '#Poplus'
+
+url: http://localhost:4000/
 
 analytics :
   provider : google

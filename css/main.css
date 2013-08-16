@@ -356,7 +356,7 @@ h3.secondaryTitle {
 }
 
 #hero-right a {
-	padding: 20px 10px;
+	padding: 20px 0px;
 	background: #89a000;
 	border-radius: 6px;
 	color: #fff;
@@ -365,4 +365,32 @@ h3.secondaryTitle {
 	width: 80%;
 	text-align: center;
 	float: right;
+	position: relative;
+	font-family: 'signikabold';
+	font-size: 24px;
+}
+
+#hero-right a span {
+	font-family: 'signikaregular';
+	font-size: 16px;
+}
+
+#hero-right a:before {
+	content: url(../images/start-iniciative.png) no-repeat;
+	background: #6d8700;
+	position: absolute;
+	left: -50px;
+	top: 0px;
+	border-radius: 6px 0px 0px 6px;
+	padding: 4px 7px;
+}
+
+#hero-right a.bt-red {
+	background: #ee4036;
+}
+
+#hero-right a.bt-red:before {
+	content: url(../images/upload-app.png) no-repeat;
+	background: #d32420;
+	padding: 8px 7px 0px;
 }
