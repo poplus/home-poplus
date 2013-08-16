@@ -1,1 +1,6 @@
+#temp
+*.DS_Store
+
+#jekyll
+_plugins
 _site
