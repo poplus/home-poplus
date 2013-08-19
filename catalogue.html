@@ -3,4 +3,28 @@ layout: default
 title: Catalogue Poplus
 ---
 
-	  <h1>Catalogue</h1>
+<h1>Catalogue</h1>
+
+    <!-- {{ site.categories.development}} -->
+
+    <ul class="posts">
+			{% for post in site.categories.development %}
+			    <li>
+			    	<h2>{{ post.title }}</h2>
+			    	<p>{{ post.excerpt }}</p>
+			    	<p>{{ post.tags | array_to_sentence_string }}</p>
+				    <p>Website: <a href="{{ post.url }}">{{ post.url }}</a></p>
+				    <p>Github repository: <a href="{{ post.repo }}">{{ post.repo }}</a></p>
+			    </li>
+			{% endfor %}
+	</ul>
+
+<!-- 	<ul>
+			  {% for post in site.posts %}
+			    <li>
+		    	<p>{{ post.excerpt }}</p>
+			      <a href="{{ post.url }}">{{ post.title }}</a>
+			      <a href="{{ post.repo }}">{{ post.repo }}</a>
+			    </li>
+			{% endfor %}
+	</ul> -->

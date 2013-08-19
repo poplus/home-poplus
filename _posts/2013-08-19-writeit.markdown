@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Write-it"
+date:   2013-08-19 11:40:00
+categories: development
+owner: Ciudadano Inteligente
+url: http://writeit.ciudadanointeligente.org/en/
+repo: https://github.com/ciudadanointeligente/write-it
+excerpt: Descripción de Write-it.
+tags:
+- mail 
+- online message
+- off message
+
+---
+
+Write-it
+---------------------
