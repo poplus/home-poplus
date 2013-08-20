@@ -79,11 +79,16 @@ h2 {
 	font-size: 28px;
 	font-family: 'signikabold';
 	line-height: 34px;
-	}
+}
 
 h3 { 
 	font-size: 24px;
 	font-family: 'signikaregular';
+}
+
+h4 {
+	font-size: 18px;
+	font-family: 'signikabold';
 }
 
 p { margin: 1em 0; }
@@ -101,30 +106,52 @@ a:visited { color: #a0a; }
 /* Home
 /*
 /*****************************************************************************/
-ul.posts {
+ul.catalogue {
   list-style-type: none;
   margin-bottom: 2em;
   clear: both;
   *zoom: 1;
 }
 
-ul.posts:after {
+ul.catalogue:after {
   content: "";
   display: table;
   clear: both;
 }
 
-ul.posts li {
-	border: 1px solid #333;
-	padding: 20px 15px;
-	margin: 0px 20px 0px 0px;
+ul.catalogue li {
+	background: #fff;
+	margin: 0px 20px 20px 0px;
 	float: left;
+	border-radius: 6px 6px 0px 0px;
+	width: 30%;
 }
 
-ul.posts span {
+ul.catalogue li div {
+	padding: 15px 15px 25px;
+}
+
+ul.catalogue div.catalogue-links {
+	background: #eaedf2;
+	margin-top: 10px;
+	padding: 9px 13px;
+	border-radius: 6px;
+}
+
+ul.catalogue span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
+}
+
+.catalogue h4 {
+	background: #2e353f;
+	padding: 8px 15px;
+	border-radius: 6px 6px 0px 0px;
+}
+
+.catalogue h4 a {
+	color: #fff;
 }
 
 /*****************************************************************************/
