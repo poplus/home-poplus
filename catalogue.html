@@ -12,7 +12,7 @@ title: Catalogue Poplus
 			    <li>
 			    	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 			    	<p>{{ post.excerpt }}</p>
-			    	<p>{{ post.tags | array_to_sentence_string }}</p>
+			    	<h5>Tags: </h5><p>{{ post.tags | array_to_sentence_string }}</p>
 				    <p><a href="{{ post.component_url }}">Website</a></p>
 				    <p><a href="{{ post.repo }}">Github repository</a></p>
 			    </li>
