@@ -87,7 +87,11 @@ h3 {
 
 p { margin: 1em 0; }
 
-a         { color: #00a; }
+a { 
+	color: #00a; 
+	text-decoration: none;
+}
+
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
@@ -100,10 +104,20 @@ ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
   clear: both;
+  *zoom: 1;
+}
+
+ul.posts:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 ul.posts li {
-  line-height: 1.75em;
+	border: 1px solid #333;
+	padding: 20px 15px;
+	margin: 0px 20px 0px 0px;
+	float: left;
 }
 
 ul.posts span {
@@ -124,7 +138,7 @@ ul.posts span {
 }
 
 .site {
-  font-size: 115%;
+  font-size: 105%;
   text-align: left;
   width: 90%;
   margin: 0em auto;
@@ -159,8 +173,8 @@ ul.posts span {
 }
 
 .site .header a {
-  font-weight: bold;
   text-decoration: none;
+  float: left;
 }
 
 .site .header h1.title {
@@ -190,7 +204,7 @@ ul.posts span {
 }
 
 .site .footer {
-  font-size: 80%;
+  font-size: 85%;
   overflow: hidden;
 }
 
@@ -362,17 +376,22 @@ h3.secondaryTitle {
 
 #hero-right a {
 	padding: 15px 0px;
-  background: #89a000;
-  border-radius: 6px;
-  color: #fff;
-  text-decoration: none;
-  margin-bottom: 10px;
-  width: 70%;
+	background: #89a000;
+	border-radius: 6px;
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 10px;
+	width: 70%;
 	text-align: center;
 	float: right;
 	position: relative;
 	font-family: 'signikabold';
 	font-size: 24px;
+	opacity: 0.9;
+}
+
+#hero-right a:hover {
+	opacity: 1;
 }
 
 #hero-right a span {
@@ -387,7 +406,7 @@ h3.secondaryTitle {
 	left: -50px;
 	top: 0px;
 	border-radius: 6px 0px 0px 6px;
-	padding: 7.5px 8px;
+	padding: 6px 8px;
 }
 
 #hero-right a.bt-red {
