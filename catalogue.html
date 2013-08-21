@@ -7,9 +7,9 @@ title: Catalogue Poplus
 
     <!-- {{ site.categories.development}} -->
 
-    <ul class="catalogue">
+    <div id="container">
 			{% for post in site.categories.development %}
-			    <li>
+			    <div class="item">
 			    	<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
 			    	<div>
 			    		{{ post.excerpt }}
@@ -17,6 +17,16 @@ title: Catalogue Poplus
 					    <a href="{{ post.component_url }}">Website</a><br>
 					    <a href="{{ post.repo }}">Github repository</a></div>
 					</div>
-			    </li>
+			    </div>
 			{% endfor %}
-	</ul>
+	</div>
+
+<script type="text/javascript">
+var container = document.querySelector('#container');
+var msnry = new Masonry( container, {
+  // options
+  // columnWidth: 100,
+  itemSelector: '.item'
+});
+</script>
+
