@@ -4,3 +4,5 @@
 #jekyll
 _plugins
 _site
+build
+serve

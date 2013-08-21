@@ -7,24 +7,26 @@ title: Catalogue Poplus
 
     <!-- {{ site.categories.development}} -->
 
-    <ul class="posts">
+    <div id="container">
 			{% for post in site.categories.development %}
-			    <li>
-			    	<h2>{{ post.title }}</h2>
-			    	<p>{{ post.excerpt }}</p>
-			    	<p>{{ post.tags | array_to_sentence_string }}</p>
-				    <p>Website: <a href="{{ post.url }}">{{ post.url }}</a></p>
-				    <p>Github repository: <a href="{{ post.repo }}">{{ post.repo }}</a></p>
-			    </li>
+			    <div class="item">
+			    	<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+			    	<div>
+			    		{{ post.excerpt }}
+				    	<div class="catalogue-links"><strong>Tags: </strong>{{ post.tags | array_to_sentence_string }}<br>
+					    <a href="{{ post.component_url }}">Website</a><br>
+					    <a href="{{ post.repo }}">Github repository</a></div>
+					</div>
+			    </div>
 			{% endfor %}
-	</ul>
+	</div>
 
-<!-- 	<ul>
-			  {% for post in site.posts %}
-			    <li>
-		    	<p>{{ post.excerpt }}</p>
-			      <a href="{{ post.url }}">{{ post.title }}</a>
-			      <a href="{{ post.repo }}">{{ post.repo }}</a>
-			    </li>
-			{% endfor %}
-	</ul> -->
+<script type="text/javascript">
+var container = document.querySelector('#container');
+var msnry = new Masonry( container, {
+  // options
+  // columnWidth: 100,
+  itemSelector: '.item'
+});
+</script>
+
