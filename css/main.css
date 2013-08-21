@@ -139,6 +139,40 @@ a:visited { color: #a0a; }
 	color: #fff;
 }
 
+
+
+/*Join*/
+
+.join { 
+  width: 100%;
+  background: #fff;
+  margin: 0px 15px 15px 0px;
+  border-radius: 6px 6px 0px 0px;
+  *zoom: 1;
+}
+
+.join:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.join div {
+  padding: 10px;
+  border-radius: 6px;
+  background: #eaedf2;
+  width: 30%;
+  float: left;
+  margin: 10px;
+}
+
+.join h2 {
+  background: #2e353f;
+  padding: 8px 15px;
+  border-radius: 6px 6px 0px 0px;
+  color: #fff;
+}
+
 /*****************************************************************************/
 /*
 /* Site
