@@ -76,8 +76,9 @@ h1 {
 }
 
 h2 {
-font-size: 28px;
-font-family: 'signikabold';
+	font-size: 28px;
+	font-family: 'signikabold';
+	line-height: 34px;
 }
 
 h3 { 
@@ -85,9 +86,18 @@ h3 {
 	font-family: 'signikaregular';
 }
 
+h4 {
+	font-size: 18px;
+	font-family: 'signikabold';
+}
+
 p { margin: 1em 0; }
 
-a         { color: #00a; }
+a { 
+	color: #00a; 
+	text-decoration: none;
+}
+
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
@@ -96,20 +106,37 @@ a:visited { color: #a0a; }
 /* Home
 /*
 /*****************************************************************************/
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-  clear: both;
+
+
+
+/*Catalogue*/
+
+.item { 
+  width: 250px;
+  background: #fff;
+  margin: 0px 15px 15px 0px;
+  border-radius: 6px 6px 0px 0px;
 }
 
-ul.posts li {
-  line-height: 1.75em;
+.item div {
+	padding: 10px;
 }
 
-ul.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+.item div.catalogue-links {
+	background: #eaedf2;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 6px;
+}
+
+.item h4 {
+	background: #2e353f;
+	padding: 8px 15px;
+	border-radius: 6px 6px 0px 0px;
+}
+
+.item h4 a {
+	color: #fff;
 }
 
 /*****************************************************************************/
@@ -124,7 +151,7 @@ ul.posts span {
 }
 
 .site {
-  font-size: 115%;
+  font-size: 105%;
   text-align: left;
   width: 90%;
   margin: 0em auto;
@@ -159,8 +186,8 @@ ul.posts span {
 }
 
 .site .header a {
-  font-weight: bold;
   text-decoration: none;
+  float: left;
 }
 
 .site .header h1.title {
@@ -190,7 +217,7 @@ ul.posts span {
 }
 
 .site .footer {
-  font-size: 80%;
+  font-size: 85%;
   overflow: hidden;
 }
 
@@ -219,6 +246,7 @@ ul.menu {
   list-style: none;
   float: right;
   padding: 6px 0px;
+  display: inline-block;
 }
 
 ul.menu li {
@@ -362,17 +390,22 @@ h3.secondaryTitle {
 
 #hero-right a {
 	padding: 15px 0px;
-  background: #89a000;
-  border-radius: 6px;
-  color: #fff;
-  text-decoration: none;
-  margin-bottom: 10px;
-  width: 70%;
+	background: #89a000;
+	border-radius: 6px;
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 10px;
+	width: 70%;
 	text-align: center;
 	float: right;
 	position: relative;
 	font-family: 'signikabold';
 	font-size: 24px;
+	opacity: 0.9;
+}
+
+#hero-right a:hover {
+	opacity: 1;
 }
 
 #hero-right a span {
@@ -387,7 +420,7 @@ h3.secondaryTitle {
 	left: -50px;
 	top: 0px;
 	border-radius: 6px 0px 0px 6px;
-	padding: 7.5px 8px;
+	padding: 6px 8px;
 }
 
 #hero-right a.bt-red {
