@@ -148,27 +148,106 @@ a:visited { color: #a0a; }
   background: #fff;
   margin: 0px 15px 15px 0px;
   border-radius: 6px 6px 0px 0px;
-  *zoom: 1;
 }
 
-.join:after {
+.join div:after {
   content: "";
   display: table;
   clear: both;
 }
 
+.join div {
+  padding: 15px 10px 20px;
+  *zoom: 1;
+}
+
 .join div.join-box {
-  width: 20%;
+  width: 23%;
   float: left;
-  margin: 20px;
+  padding: 0;
+  margin-right: 15px;
 }
 
 .join div.join-box div.join-bt {
-  padding: 10px;
+  padding: 10px 10px 10px 67px;
   border-radius: 6px;
-  background: #c2d83a;
-  width: 100%;
-  text-align: center;
+  text-align: left;
+  color: #2e353f;
+  margin-bottom: 15px;
+  min-height: 40px;
+}
+
+.join div.join-box a.board div.join-bt {
+  background: url(../images/icon-code.png) no-repeat 8px #c2d83a;
+}
+
+.join div.join-box a.board div.join-bt:hover {
+  background: url(../images/icon-code.png) no-repeat 8px #B4D100;
+}
+
+.join div.join-box a.google div.join-bt {
+  background: url(../images/icon-google.png) no-repeat 8px #ee4036;
+  color: #fff;
+}
+
+.join div.join-box a.google div.join-bt:hover {
+  background: url(../images/icon-google.png) no-repeat 8px #dd2622;
+}
+
+.join div.join-box a.partnership div.join-bt {
+  background: url(../images/icon-link.png) no-repeat 8px #c2d83a;
+}
+
+.join div.join-box a.partnership div.join-bt:hover {
+  background: url(../images/icon-link.png) no-repeat 8px #B4D100;
+}
+
+.join div.join-box a.use div.join-bt {
+  background: url(../images/icon-usemodule.png) no-repeat 8px #c2d83a;
+}
+
+.join div.join-box a.use div.join-bt:hover {
+  background: url(../images/icon-usemodule.png) no-repeat 8px #B4D100;
+}
+
+.join div.join-box a.connect div.join-bt {
+  background: url(../images/icon-contact.png) no-repeat 8px #c2d83a;
+}
+
+.join div.join-box a.connect div.join-bt:hover {
+  background: url(../images/icon-contact.png) no-repeat 8px #B4D100;
+}
+
+.join div.join-box a.fund div.join-bt {
+  background: url(../images/icon-fundmodule.png) no-repeat 8px #c2d83a;
+}
+
+.join div.join-box a.fund div.join-bt:hover {
+  background: url(../images/icon-fundmodule.png) no-repeat 8px #B4D100;
+}
+
+.join div.join-box a.submit div.join-bt {
+  background: url(../images/icon-submitmodule.png) no-repeat 8px #c2d83a;
+}
+
+.join div.join-box a.submit div.join-bt:hover {
+  background: url(../images/icon-submitmodule.png) no-repeat 8px #B4D100;
+}
+
+.join div.join-box a.list div.join-bt {
+  background: url(../images/icon-list.png) no-repeat 8px #c2d83a;
+}
+
+.join div.join-box a.list div.join-bt:hover {
+  background: url(../images/icon-list.png) no-repeat 8px #B4D100;
+}
+
+.join div.join-box a.issue div.join-bt {
+  background: url(../images/icon-issue.png) no-repeat 8px #c2d83a;
+}
+
+.join div.join-box a.issue div.join-bt:hover {
+  background: url(../images/icon-issue.png) no-repeat 8px #B4D100;
 }
 
 .join h2 {
