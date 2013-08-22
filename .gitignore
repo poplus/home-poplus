@@ -6,3 +6,4 @@ _plugins
 _site
 build
 serve
+_config.yml
