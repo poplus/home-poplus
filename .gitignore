@@ -5,4 +5,5 @@
 _plugins
 _site
 build
-serve
+serv
+_config.ymle
