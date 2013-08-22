@@ -3,7 +3,7 @@ layout: default
 title: Group
 ---
 ##Community
-Please let us hear your voice and keep in touch with the rest of the Poplus [community][googlegroup].
+Please let us hear your voice and keep in touch with the rest of the Poplus [community][googlegroup] (group e-mail address is poplus\[at\]googlegroups.com).
 
 <iframe id="forum_embed"
   src="javascript:void(0)"
