@@ -94,12 +94,12 @@ h4 {
 p { margin: 1em 0; }
 
 a { 
-	color: #00a; 
+	color: #ee4036; 
 	text-decoration: none;
 }
 
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a:hover   { color: #E51509; }
+a:visited { color: #ee4036; }
 
 /*****************************************************************************/
 /*
@@ -193,6 +193,14 @@ a:visited { color: #a0a; }
 
 .join div.join-box a.google div.join-bt:hover {
   background: url(../images/icon-google.png) no-repeat 8px #dd2622;
+}
+
+.join div.join-box a.drive div.join-bt {
+  background: url(../images/icon-google.png) no-repeat 8px #c2d83a;
+}
+
+.join div.join-box a.drive div.join-bt:hover {
+  background: url(../images/icon-google.png) no-repeat 8px #B4D100;
 }
 
 .join div.join-box a.partnership div.join-bt {
@@ -425,6 +433,11 @@ ul.menu a li:hover {
   background-color: #333;
 }
 
+.post h4 {
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+
 /*Home*/
 
 #hero-background {
@@ -481,12 +494,7 @@ ul.menu a li:hover {
 	text-align: center;
 }
 
-#hero-secondary .oneForth:first-child .textBoxBorder {
-	border-color: #F37763;
-}
-
 .textBoxBorder {
-	border-right: 1px dotted;
 	padding: 10px;
 	min-height: 130px;
 }
