@@ -157,13 +157,18 @@ a:visited { color: #a0a; }
   clear: both;
 }
 
-.join div {
+.join div.join-box {
+  width: 20%;
+  float: left;
+  margin: 20px;
+}
+
+.join div.join-box div.join-bt {
   padding: 10px;
   border-radius: 6px;
-  background: #eaedf2;
-  width: 30%;
-  float: left;
-  margin: 10px;
+  background: #c2d83a;
+  width: 100%;
+  text-align: center;
 }
 
 .join h2 {
@@ -171,6 +176,7 @@ a:visited { color: #a0a; }
   padding: 8px 15px;
   border-radius: 6px 6px 0px 0px;
   color: #fff;
+  font-size: 22px;
 }
 
 /*****************************************************************************/
