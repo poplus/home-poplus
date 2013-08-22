@@ -164,8 +164,9 @@ a:visited { color: #a0a; }
 .join div.join-box {
   width: 23%;
   float: left;
-  padding: 0;
-  margin-right: 15px;
+  padding: 0 8px 15px 0;
+  margin-right: 8px;
+  border-right: 1px dashed #CFD3DA;
 }
 
 .join div.join-box div.join-bt {
@@ -549,4 +550,19 @@ h3.secondaryTitle {
 #hero-right a.bt-red:before {
 	content: url(../images/upload-app.png) no-repeat;
 	background: #d32420;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 820px) {
+  .join div.join-box {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .join div.join-box {
+    width: 100%;
+    border-right: none;
+  }
 }
