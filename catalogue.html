@@ -3,12 +3,12 @@ layout: default
 title: Catalogue Poplus
 ---
 
-<h1>Catalogue</h1>
+<h1>Developments</h1>
 
     <p>This is what we have so far, do you miss something? add it at the <a href="https://trello.com/b/5gGF4xrJ/poplus-development">Development Board.</a></p>
 
     <div id="container">
-			{% for post in site.categories.development %}
+			{% for post in site.categories.component %}
 			    <div class="item">
 			    	<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
 			    	<div>
@@ -20,6 +20,23 @@ title: Catalogue Poplus
 			    </div>
 			{% endfor %}
 	</div>
+
+<h1>Deploys</h1>
+
+    <div id="container">
+			{% for post in site.categories.deploy %}
+			    <div class="item">
+			    	<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+			    	<div>
+			    		{{ post.excerpt }}
+				    	<div class="catalogue-links"><strong>Tags: </strong>{{ post.tags | array_to_sentence_string }}<br>
+					    <a href="{{ post.component_url }}">Website</a><br>
+					    <a href="{{ post.repo }}">Github repository</a></div>
+					</div>
+			    </div>
+			{% endfor %}
+	</div>
+
 
 <script type="text/javascript">
 var container = document.querySelector('#container');
