@@ -1,6 +1,6 @@
 markdown: redcarpet
 pygments: true
-permalink: /posts/:title
+permalink: posts/:title
 auto: true
 
 name: Poplus
