@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+<div class="post">
+		<h1>{{ page.title }}</h1>
+		<h4>By {{ page.owner }}</h4>
+		{{ content }}
+
+	<ul>
+		{% if page.component_url %}
+		  <li><a href="{{ page.component_url }}">Website</a></li>
+		{% endif %}
+		{% if page.repo %}
+		  <li><a href="{{ page.repo }}">Github Repository</a></li>
+		{% endif %}
+		{% if page.status %}
+		  <li><strong>Status: </strong>{{ page.status }}</li>
+		{% endif %}
+		{% if page.tags %}
+		  <li><strong>Tags: </strong>{{page.tags | array_to_sentence_string }}</li>
+		{% endif %}
+	</ul>
+</div>

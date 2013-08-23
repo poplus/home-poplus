@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2013-08-09 17:40:57
-categories: jekyll update
+author: Cata
+date: 23-08-2013
+categories: post
 tags: website
 ---
 

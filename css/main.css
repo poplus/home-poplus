@@ -401,6 +401,12 @@ ul.menu a li:hover {
 /*
 /*****************************************************************************/
 
+
+ul.posts {
+  background: #fff;
+  padding: 20px;
+}
+
 /* standard */
 .post pre {
   border: 1px solid #ddd;
@@ -434,8 +440,9 @@ ul.menu a li:hover {
 }
 
 .post h4 {
-  margin-top: -30px;
+  margin-top: -25px;
   margin-bottom: 20px;
+  opacity: 0.78;
 }
 
 /*Home*/

@@ -6,7 +6,27 @@ title: Blog Poplus
 	  <h1>Blog</h1>
 
   <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
+  			{% for post in site.categories.post %}
+			    	<div>
+			    		<p class="meta">{{ post.date | date_to_string }}</p>
+	    				<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+			    		<h4>By {{ post.author }}</h4>
+			    		{{ post.content }}
+			    		<a href="{{ site.url}}{{ post.url }}#disqus_thread"> Comments</a>
+					</div>
+			{% endfor %}
   </ul>
+
+  <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = '{{ site.disqus.shortname }}'; // required: replace example with your forum shortname
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function () {
+          var s = document.createElement('script'); s.async = true;
+          s.type = 'text/javascript';
+          s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+          (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      }());
+  </script>
+
