@@ -9,6 +9,14 @@ layout: default
 	<h4>By {{ page.owner }}</h4>
 	{{ content }}
 
+<!-- <ul>
+  {% for page.component_url %}
+    <li>
+      <a href="{{ page.component_url }}">Website</a>
+    </li>
+  {% endfor %}
+</ul> -->
+
 	<a href="{{ page.component_url }}">Website</a><br>
 	<a href="{{ page.repo }}">Github Repository</a>
 	<div><strong>Status: </strong>{{ page.status }}</div>
