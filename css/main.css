@@ -402,12 +402,6 @@ ul.menu a li:hover {
 /*
 /*****************************************************************************/
 
-
-ul.posts {
-  background: #fff;
-  padding: 20px;
-}
-
 /* standard */
 .post pre {
   border: 1px solid #ddd;
@@ -441,7 +435,6 @@ ul.posts {
 }
 
 .post h4 {
-  margin-top: -25px;
   margin-bottom: 20px;
   opacity: 0.78;
 }
@@ -454,8 +447,8 @@ ul.posts {
   top: 0px;
   left: 0px;
   z-index: -1;
-  height: 430px;
-  background: url(../images/bg_grid.png) no-repeat 20% 93% #c2d83a;
+  height: 100%;
+  background: url(../images/bg_grid.png) no-repeat 20% 50px #c2d83a;
 }
 
 #home:after {
@@ -570,15 +563,137 @@ h3.secondaryTitle {
 
 /*Media Queries*/
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1025px) {
+  #home h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  #home h2 {
+    font-size: 18px;
+    color: #FFF;
+    font-family: 'signikaregular';
+    line-height: 23px;
+    text-shadow: 1px 1px 1px rgba(104, 132, 0, 0.75);
+  }
+}
+
+@media screen and (max-width: 801px) {
+
+/*Home*/
+
+  .site {
+    padding: 10px 0px;
+  }
+
+  #hero-right a:before, #hero-right a.bt-red:before {
+    background: transparent;
+    left: -5px;
+  }
+
+  #hero-right a {
+    font-size: 20px;
+    padding: 15px 0px 15px 50px;
+  }
+
+  #hero-secondary .oneForth {
+    width: 23%;
+  }
+
+/*Join*/
+
   .join div.join-box {
     width: 45%;
   }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 604px) {
+
+/*Home*/
+
+  #home:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 30px;
+  }
+
+  #hero-secondary .oneForth {
+    width: 45%;
+  }
+
+}
+
+@media screen and (max-width: 604px) {
+
+  #hero-left {
+    width: 100%;
+    float: none;
+    margin-top: 40px;
+  }
+
+  #hero-right {
+    width: 100%;
+    float: none;
+    margin-top: 30px;
+  }
+
+  #hero-right a {
+    width: 100%;
+    float: none;
+    display: inline-block;
+    padding: 15px 0px;
+  }
+
+}
+
+@media screen and (max-width: 361px) {
+
+/*Menu*/
+
+  ul.menu li {
+    margin: 0px 6px 6px 0px;
+  }
+
+/*Home*/
+
+  .site {
+    padding: 0px;
+  }
+
+  #hero-right a:before, #hero-right a.bt-red:before {
+    content: none;
+  }
+
+  #hero-left {
+    margin-top: 160px;
+  }
+
+  #hero-background {
+    padding-bottom: 160px;
+  }
+
+/*Join*/
+
   .join div.join-box {
     width: 100%;
-    border-right: none;
   }
+
+  @media screen and (max-width: 321px) {
+
+/*Home*/
+
+  #hero-secondary .oneForth {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .textBoxBorder {
+    padding: 0px;
+    min-height: 0;
+  }
+
 }
+
