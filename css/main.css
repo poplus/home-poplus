@@ -55,7 +55,7 @@
   padding: 0;
 }
 
-html, body { height: 100%; }
+/*html, body { height: 100%; }*/
 
 body {
   background-color: #eaedf2;
@@ -304,6 +304,7 @@ a:visited { color: #ee4036; }
 	width: 100%;
 	bottom: 0;
 	color: rgba(255, 255, 255, 0.6);
+  position: absolute;
 }
 
 .site-footer h3 {
@@ -348,6 +349,7 @@ a:visited { color: #ee4036; }
 .site .footer {
   font-size: 85%;
   overflow: hidden;
+  padding: 0px 0px 30px;
 }
 
 .site .footer .contact {
@@ -563,7 +565,16 @@ h3.secondaryTitle {
 
 /*Media Queries*/
 
+@media screen and (max-width: 1601px) {
+
+  .site-footer {
+    position: relative;
+  }
+
+}
+
 @media screen and (max-width: 1025px) {
+
   #home h1 {
     font-size: 40px;
     line-height: 40px;
@@ -576,6 +587,7 @@ h3.secondaryTitle {
     line-height: 23px;
     text-shadow: 1px 1px 1px rgba(104, 132, 0, 0.75);
   }
+
 }
 
 @media screen and (max-width: 801px) {
@@ -621,10 +633,6 @@ h3.secondaryTitle {
   #hero-secondary .oneForth {
     width: 45%;
   }
-
-}
-
-@media screen and (max-width: 604px) {
 
   #hero-left {
     width: 100%;
