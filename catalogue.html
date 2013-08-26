@@ -14,8 +14,8 @@ title: Catalogue Poplus
 			    	<div>
 			    		{{ post.excerpt }}
 				    	<div class="catalogue-links"><strong>Tags: </strong>{{ post.tags | array_to_sentence_string }}<br>
-					    <a href="{{ post.component_url }}">Website</a><br>
-					    <a href="{{ post.repo }}">Github repository</a></div>
+					    <a href="{{ post.component_url }}"><i class="icon-external-link"></i>Website</a><br>
+					    <a href="{{ post.repo }}"><i class="icon-github-alt"></i>Github repository</a></div>
 					</div>
 			    </div>
 			{% endfor %}

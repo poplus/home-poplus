@@ -140,6 +140,52 @@ a:visited { color: #ee4036; }
 	color: #fff;
 }
 
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none;
+}
+
+.icon-github-alt:before {
+  content: "\f113";
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-top: 1px;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-image: url("../img/glyphicons-halflings.png");
+  background-position: 14px 14px;
+  background-repeat: no-repeat;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+  margin-top: 0;
+  margin-right: 3px;
+}
+
+li [class^="icon-"], .nav li [class^="icon-"], li [class*=" icon-"], .nav li [class*=" icon-"] {
+  display: inline-block;
+  width: 1.25em;
+  text-align: center;
+}
+
 
 
 /*Join*/
@@ -197,11 +243,11 @@ a:visited { color: #ee4036; }
 }
 
 .join div.join-box a.drive div.join-bt {
-  background: url(../images/icon-google.png) no-repeat 8px #c2d83a;
+  background: url(../images/icon-folder.png) no-repeat 8px #c2d83a;
 }
 
 .join div.join-box a.drive div.join-bt:hover {
-  background: url(../images/icon-google.png) no-repeat 8px #B4D100;
+  background: url(../images/icon-folder.png) no-repeat 8px #B4D100;
 }
 
 .join div.join-box a.partnership div.join-bt {
@@ -260,6 +306,14 @@ a:visited { color: #ee4036; }
   background: url(../images/icon-issue.png) no-repeat 8px #B4D100;
 }
 
+.join div.join-box a.crowdtasks div.join-bt {
+  background: url(../images/icon-tasks.png) no-repeat 8px #c2d83a;
+}
+
+.join div.join-box a.crowdtasks div.join-bt:hover {
+  background: url(../images/icon-tasks.png) no-repeat 8px #B4D100;
+}
+
 .join h2 {
   background: #2e353f;
   padding: 8px 15px;
@@ -304,11 +358,15 @@ a:visited { color: #ee4036; }
 	width: 100%;
 	bottom: 0;
 	color: rgba(255, 255, 255, 0.6);
-  position: absolute;
 }
 
 .site-footer h3 {
 	color: rgba(255, 255, 255, 1);
+}
+
+.footer-right {
+  text-align: right;
+  margin-top: -56px;
 }
 
 .site-header .site {
