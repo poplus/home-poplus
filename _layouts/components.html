@@ -11,10 +11,10 @@ layout: default
 
 	<ul>
 		{% if page.component_url %}
-		  <li><a href="{{ page.component_url }}">Website</a></li>
+		  <li><a href="{{ page.component_url }}"><i class="icon-external-link"></i>Website</a></li>
 		{% endif %}
 		{% if page.repo %}
-		  <li><a href="{{ page.repo }}">Github Repository</a></li>
+		  <li><a href="{{ page.repo }}"><i class="icon-github-alt"></i>Github Repository</a></li>
 		{% endif %}
 		{% if page.status %}
 		  <li><strong>Status: </strong>{{ page.status }}</li>
