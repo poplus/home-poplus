@@ -499,6 +499,22 @@ ul.menu a li:hover {
   opacity: 0.78;
 }
 
+.post h1 {
+  margin-bottom: 20px;
+}
+
+.post h2 {
+  border-top: 4px solid rgba(46, 53, 63, 0.2);
+  padding-top: 15px;
+  margin-top: -13px;
+}
+
+.post h2 a {
+  color: #b4c418;
+}
+
+
+
 /*Home*/
 
 #hero-background {
