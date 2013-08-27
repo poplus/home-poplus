@@ -7,6 +7,10 @@ layout: default
 <div class="post">
 		<h1>{{ page.title }}</h1>
 		<h4>By {{ page.owner }}</h4>
+		{% if page.status %}
+		  <span><strong>Status: </strong>{{ page.status }}</span>
+		{% endif %}
+		
 		{{ content }}
 
 	<ul>
@@ -15,12 +19,6 @@ layout: default
 		{% endif %}
 		{% if page.repo %}
 		  <li><a href="{{ page.repo }}"><i class="icon-github-alt"></i>Github Repository</a></li>
-		{% endif %}
-		{% if page.status %}
-		  <li><strong>Status: </strong>{{ page.status }}</li>
-		{% endif %}
-		{% if page.tags %}
-		  <li><strong>Tags: </strong>{{page.tags | array_to_sentence_string }}</li>
 		{% endif %}
 	</ul>
 </div>

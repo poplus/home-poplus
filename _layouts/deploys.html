@@ -5,12 +5,18 @@ layout: default
 <p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
-	<h1>{{ page.title }}</h1>
-	<h4>By {{ page.owner }}</h4>
-	{{ content }}
+		<h1>{{ page.title }}</h1>
+		<h4>By {{ page.owner }}</h4>
+		
+		{{ content }}
 
-	<a href="{{ page.component_url }}"><i class="icon-external-link"></i>Website</a><br>
-	<a href="{{ page.repo }}"><i class="icon-github-alt"></i>Github Repository</a>
-	<div><strong>Tags: </strong>{{ page.tags | array_to_sentence_string }}</div>
+	<ul>
+		{% if page.deploy_url %}
+		  <li><a href="{{ page.component_url }}"><i class="icon-external-link"></i>Website</a></li>
+		{% endif %}
+		{% if page.repo %}
+		  <li><a href="{{ page.repo }}"><i class="icon-github-alt"></i>Github Repository</a></li>
+		{% endif %}
+	</ul>
 </div>
 
