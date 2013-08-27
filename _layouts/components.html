@@ -20,9 +20,5 @@ layout: default
 		{% if page.repo %}
 		  <li><a href="{{ page.repo }}"><i class="icon-github-alt"></i>Github Repository</a></li>
 		{% endif %}
-
-		{% if page.tags %}
-		  <li><strong>Tags: </strong>{{page.tags | array_to_sentence_string }}</li>
-		{% endif %}
 	</ul>
 </div>

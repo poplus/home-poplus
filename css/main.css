@@ -358,6 +358,8 @@ li [class^="icon-"], .nav li [class^="icon-"], li [class*=" icon-"], .nav li [cl
 	width: 100%;
 	bottom: 0;
 	color: rgba(255, 255, 255, 0.6);
+/*  position: absolute;
+  margin-bottom: -190px;*/
 }
 
 .site-footer h3 {
@@ -523,7 +525,7 @@ ul.menu a li:hover {
   top: 0px;
   left: 0px;
   z-index: -1;
-  height: 100%;
+  height: 80%;
   background: url(../images/bg_grid.png) no-repeat 20% 50px #c2d83a;
 }
 
