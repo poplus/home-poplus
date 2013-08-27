@@ -9,8 +9,8 @@ layout: default
 	<h4>By {{ page.owner }}</h4>
 	{{ content }}
 
-	<a href="{{ page.component_url }}">Website</a><br>
-	<a href="{{ page.repo }}">Github Repository</a>
+	<a href="{{ page.component_url }}"><i class="icon-external-link"></i>Website</a><br>
+	<a href="{{ page.repo }}"><i class="icon-github-alt"></i>Github Repository</a>
 	<div><strong>Tags: </strong>{{ page.tags | array_to_sentence_string }}</div>
 </div>
 

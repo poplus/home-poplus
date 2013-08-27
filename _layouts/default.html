@@ -9,11 +9,15 @@
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://poplus.org/" />
         <meta property="og:image" content="{{ site.url }}/images/poplus-icon.jpg" />
-        <meta property="og:description" content="Shared & Collaborative Civic coding." />
+        <meta property="og:description" content="Interoperable web-service components and pre-packaged tools to enable world’s civic society to easily launch high quality online iniciatives." />
         <meta name="viewport" content="width=device-width">
+        <meta name="description" content="Interoperable web-service components and pre-packaged tools to enable world’s civic society to easily launch high quality online iniciatives.">
+        <meta name="keywords" content="develop, application, civic coding, social, open code, technology, writeit, billit, sayit, popit, mapit, web service, appi, write-it, bill-it, say-it, pop-it, map-it, write it, bill it, say it, pop it, map it">
+        <meta name="author" content="Ciudadano Inteligente">
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
@@ -43,30 +47,25 @@
           </div> <!-- /container -->
 
           <div class="site-footer">
-            <div class="site">
-              {% if page.class == "home" %}
-                {% include home-footer.html %}
-              {% endif %}
-            </div>
-          </div>
-
-          <div class="site-logos">
-              <div class="site">
-                <!-- <p>logos</p> -->
-              </div>
-          </div>
-
-          <div class="site-footer">
-
-              <div class="site">
-                <div class="footer">
-                  
-                    <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Poplus Site</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
-                  
-                  </div>
+                <div class="site">
+                  {% if page.class == "home" %}
+                    {% include home-footer.html %}
+                  {% endif %}
                 </div>
-              </div>
+
+                <div class="site">
+                      <div class="footer">
+                      
+                        <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Poplus Site</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>
+
+                      </div>
+
+                      <div class="footer footer-right">Proudly hosted by <a href="https://github.com/" target="_blank"><img src="{{ url }}/images/github-logo.png" alt="Poplus"></a></div>   
+
+                </div>
           </div>
+
+        </div>
 
     </body>
 </html>
