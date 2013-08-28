@@ -783,6 +783,7 @@ h3.secondaryTitle {
 
   .join div.join-box {
     width: 100%;
+    border-right: none;
   }
 
   @media screen and (max-width: 321px) {
