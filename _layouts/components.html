@@ -6,14 +6,13 @@ layout: default
 
 <div class="post">
 		<h1>{{ page.title }}</h1>
-		<h4>By {{ page.owner }}</h4>
-		{% if page.status %}
-		  <span><strong>Status: </strong>{{ page.status }}</span>
-		{% endif %}
+		<h4>By {{ page.owner }} |
+			{% if page.status %}
+			  <span><strong>Status: </strong>{{ page.status }}</span>
+			{% endif %}
+		</h4>
 		
-		{{ content }}
-
-	<ul>
+	<ul class="link-box">
 		{% if page.component_url %}
 		  <li><a href="{{ page.component_url }}"><i class="icon-external-link"></i>Website</a></li>
 		{% endif %}
@@ -21,4 +20,7 @@ layout: default
 		  <li><a href="{{ page.repo }}"><i class="icon-github-alt"></i>Github Repository</a></li>
 		{% endif %}
 	</ul>
+
+		{{ content }}
+
 </div>
