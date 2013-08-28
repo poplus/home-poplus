@@ -80,6 +80,7 @@ h2 {
 	font-size: 28px;
 	font-family: 'signikabold';
 	line-height: 34px;
+  margin: 20px 0;
 }
 
 h3 { 
@@ -339,7 +340,7 @@ li [class^="icon-"], .nav li [class^="icon-"], li [class*=" icon-"], .nav li [cl
   width: 90%;
   margin: 0em auto;
   line-height: 1.5em;
-  max-width: 1000px;
+  max-width: 950px;
   padding: 30px 0px;
 }
 
@@ -513,6 +514,23 @@ ul.menu a li:hover {
 
 .post h2 a {
   color: #b4c418;
+}
+
+.link-box li {
+  list-style: none;
+}
+
+.post ul.link-box {
+  margin-left: 0;
+  background: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  float: right;
+  margin-top: -90px;
+}
+
+.post h5 {
+  margin-top: -20px;
 }
 
 
