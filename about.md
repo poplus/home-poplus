@@ -3,7 +3,7 @@ layout: default
 title: About Poplus
 ---
 
-## What is Poplus?
+# What is Poplus?
 
 POPLUS is a community of activists, citizens and developers. Aiming to serve our wider community, we collaborate to create quality web services that are open (source), easy to use, setup and re-use. Our goals is to foster social change by empowering citizens and civil society groups with the use of web technology.
 

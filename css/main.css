@@ -80,6 +80,7 @@ h2 {
 	font-size: 28px;
 	font-family: 'signikabold';
 	line-height: 34px;
+  margin: 20px 0;
 }
 
 h3 { 
@@ -339,7 +340,7 @@ li [class^="icon-"], .nav li [class^="icon-"], li [class*=" icon-"], .nav li [cl
   width: 90%;
   margin: 0em auto;
   line-height: 1.5em;
-  max-width: 1000px;
+  max-width: 950px;
   padding: 30px 0px;
 }
 
@@ -358,8 +359,7 @@ li [class^="icon-"], .nav li [class^="icon-"], li [class*=" icon-"], .nav li [cl
 	width: 100%;
 	bottom: 0;
 	color: rgba(255, 255, 255, 0.6);
-/*  position: absolute;
-  margin-bottom: -190px;*/
+  padding: 10px 0;
 }
 
 .site-footer h3 {
@@ -515,6 +515,23 @@ ul.menu a li:hover {
   color: #b4c418;
 }
 
+.link-box li {
+  list-style: none;
+}
+
+.post ul.link-box {
+  margin-left: 0;
+  background: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  float: right;
+  margin-top: -90px;
+}
+
+.post h5 {
+  margin-top: -20px;
+}
+
 
 
 /*Home*/
@@ -525,7 +542,8 @@ ul.menu a li:hover {
   top: 0px;
   left: 0px;
   z-index: -1;
-  height: 80%;
+  height: 60%;
+  min-height: 540px;
   background: url(../images/bg_grid.png) no-repeat 20% 50px #c2d83a;
 }
 
@@ -609,6 +627,7 @@ h3.secondaryTitle {
 	font-family: 'signikabold';
 	font-size: 24px;
 	opacity: 0.9;
+  line-height: 21.2px;
 }
 
 #hero-right a:hover {
@@ -621,7 +640,7 @@ h3.secondaryTitle {
 }
 
 #hero-right a:before {
-	content: url(../images/start-iniciative.png) no-repeat;
+	content: url(../images/start-iniciative.png);
 	background: #6d8700;
 	position: absolute;
 	left: -50px;
@@ -635,19 +654,11 @@ h3.secondaryTitle {
 }
 
 #hero-right a.bt-red:before {
-	content: url(../images/upload-app.png) no-repeat;
+	content: url(../images/upload-app.png);
 	background: #d32420;
 }
 
 /*Media Queries*/
-
-@media screen and (max-width: 1601px) {
-
-  .site-footer {
-    position: relative;
-  }
-
-}
 
 @media screen and (max-width: 1025px) {
 
@@ -697,6 +708,10 @@ h3.secondaryTitle {
 
 @media screen and (max-width: 604px) {
 
+  .container {
+    margin: 130px 0px 0px;
+  }
+
 /*Home*/
 
   #home:after {
@@ -713,7 +728,6 @@ h3.secondaryTitle {
   #hero-left {
     width: 100%;
     float: none;
-    margin-top: 40px;
   }
 
   #hero-right {
@@ -729,9 +743,17 @@ h3.secondaryTitle {
     padding: 15px 0px;
   }
 
+  .footer-right {
+    display: inline;
+  }
+
 }
 
 @media screen and (max-width: 361px) {
+
+  .container {
+    margin: 170px 0px 0px;
+  }
 
 /*Menu*/
 
@@ -761,6 +783,7 @@ h3.secondaryTitle {
 
   .join div.join-box {
     width: 100%;
+    border-right: none;
   }
 
   @media screen and (max-width: 321px) {
