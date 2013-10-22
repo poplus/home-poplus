@@ -9,7 +9,7 @@ published: true
 
 This is a very humble post, actually it's almost done. The only reason to write this post is to tell the obvious, _this site is up_. 
 
-Poplus.org was built to be the _hub_ for all who might be interested in **Poplus project** (to become a member, to use the technology, to ask for support, to point out a problem, to suggest a new feature or aliance). [MySociety][mysociety] and [Ciudadano Inteligente][fci] have been working for the last months in a set of components to support web application with civic purposes. Currently the list is short but it's enough to build a lot of websites, that's why we feel ready to say: "Hello World! Poplus project is ready to be use and grow".
+Poplus.org was built to be the _hub_ for all who might be interested in **Poplus project** (to become a member, to use the technology, to ask for support, to point out a problem, to suggest a new feature or aliance). [mySociety][mysociety] and [Ciudadano Inteligente][fci] have been working for the last months in a set of components to support web application with civic purposes. Currently the list is short but it's enough to build a lot of websites, that's why we feel ready to say: "Hello World! Poplus project is ready to be use and grow".
 
 In Poplus.org you'll find:
 

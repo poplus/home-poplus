@@ -4,7 +4,7 @@ title:  "Votainteligente"
 date:   2013-08-27
 categories: deploy
 owner: Ciudadano Inteligente
-deploy_url: htt://votainteligente.cl
+deploy_url: http://votainteligente.cl
 repo: https://github.com/ciudadanointeligente/votainteligente-portal-electoral
 excerpt: One stop site to be informed about your next election. Candidates profies, comparison, matching quiz, ask them questions end more
 ---

@@ -88,7 +88,7 @@ Any individual or organization can use and contribute to the PO+ ecosystem. Comp
 
 [Ciudadano Inteligente][ciudadanoi] (LATAM)
 
-[My Society][mysociety] (UK)
+[mySociety][mysociety] (UK)
 
 
 [catalogue]: catalogue.html
