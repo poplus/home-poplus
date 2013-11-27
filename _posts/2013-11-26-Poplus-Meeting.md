@@ -14,7 +14,7 @@ Please feel free to comment, ask, and participate!
 What we talked about this week:
 
 + Jen (from [Mysociety][mysociety], UK) is coming to Chile (where [Ciudadano Inteligente][fci] is based) on April! Yay! So we could have a Poplus event around that date.
-+ [Pop-it][pop-it] is going to have per-instance private fields, and will use API keys. Check out the github issue [here][https://github.com/mysociety/popit/issues/256#issuecomment-29220540].
++ [Pop-it][pop-it] is going to have per-instance private fields, and will use API keys. Check out the github issue [here][issue].
 + Ciudadano Inteligente is working on a PMO site, so they (we) are going to check out [Pombola][pombola] to see if it could be reused and extended.
 + More work on [write-it][write-it], focusing on the needs of the new chilean PMO site, poke-it (new project), and pombola.
 + Jen has new changes for the poplus site! So we (FCI) need to take a look at that.
@@ -24,3 +24,4 @@ What we talked about this week:
 [fci]: http://ciudadanointeligente.org
 [write-it]: http://poplus.org/posts/writeit/
 [pop-it]: http://poplus.org/posts/popit/
+[issue]: https://github.com/mysociety/popit/issues/256#issuecomment-29220540
