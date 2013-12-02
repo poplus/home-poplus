@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "2013-11-26 Poplus Meeting"
+title: "2013-11-26 Poplus Meeting"
 author: Marcel Augsburger
-date: 28-08-2013
+date: "28-08-2013"
 categories: post
 published: true
 ---
@@ -17,7 +17,7 @@ What we talked about this week:
 + [Pop-it][pop-it] is going to have per-instance private fields, and will use API keys. Check out the github issue [here][issue].
 + Ciudadano Inteligente is working on a PMO site, so they (we) are going to check out [Pombola][pombola] to see if it could be reused and extended.
 + More work on [write-it][write-it], focusing on the needs of the new chilean PMO site, poke-it (new project), and pombola.
-+ Jen has new changes for the poplus site! So we (FCI) need to take a look at that.
++ Jen has new changes for the poplus site! So we (FCI) need to take a look at that. We might try [prose.io](http://prose.io) as a tool for edition.
 
 [mysociety]: http://mysociety.org
 [pombola]: https://github.com/mysociety/pombola
