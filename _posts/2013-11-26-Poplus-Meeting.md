@@ -18,6 +18,7 @@ What we talked about this week:
 + Ciudadano Inteligente is working on a PMO site, so they (we) are going to check out [Pombola][pombola] to see if it could be reused and extended.
 + More work on [write-it][write-it], focusing on the needs of the new chilean PMO site, poke-it (new project), and pombola.
 + Jen has new changes for the poplus site! So we (FCI) need to take a look at that. We might try [prose.io](http://prose.io) as a tool for edition.
++ We have now tried the tool and think it is awesome!
 
 [mysociety]: http://mysociety.org
 [pombola]: https://github.com/mysociety/pombola
