@@ -1,4 +1,9 @@
 ---
+layout: post
+title: "Poplus and Pombola"
+author: Jen
+date: "04-12-2013"
+categories: post
 published: true
 ---
 
