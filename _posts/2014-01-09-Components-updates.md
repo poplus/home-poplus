@@ -1,5 +1,10 @@
 ---
 published: true
+layout: post
+title: Components updates
+author: Jen Bramley
+date: "08-01-2014"
+categories: post
 ---
 
 It's been a while since our last chat so we've had a lot to update on. 
@@ -13,5 +18,3 @@ There's been quite a bit of work done on [PopIt](http://poplus.org/posts/popit/)
 In other news the FCI dev team have been discussing a [VotaInteligente](http://votainteligente.cl/) site for Morocco and some potential [WriteIt](http://poplus.org/posts/writeit/) uses there as well. 
 
 Don't forget that you can leave comments here or on the [Poplus mailing list](https://groups.google.com/forum/#!forum/poplus) for us.
-
-
