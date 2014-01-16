@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 author: Jen Bramley
 date: "15-01-2014"
@@ -23,4 +23,4 @@ To show you SayIt's full capabilities, we've published a few examples:
 
 Perhaps you can see some exciting uses for SayIt? It will work in any language, so long as the transcripts are formatted to the (Akoma Ntoso standard)[http://sayit.mysociety.org/about/akoma-ntoso]. Whether or not you have the technical skills to convert your data to this format, please (get in touch with mySociety)[mailto:sayit@mysociety.org] and we'll help you get your transcripts online.
 
-Want to know more? Have a look through (mySociety's launch blog post)[link to follow].
+Want to know more? Have a look through (mySociety's launch blog post)[http://www.mysociety.org/2014/01/15/introducing-sayit-a-poplus-component-to-bring-transcript-publication-into-the-modern-world/].
