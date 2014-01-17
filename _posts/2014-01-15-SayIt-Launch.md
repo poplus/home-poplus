@@ -7,7 +7,6 @@ date: "15-01-2014"
 categories: post
 ---
 
-## SayIt is live
 
 SayIt launches today - you can check it out [here](http://sayit.mysociety.org/). The latest Poplus component, SayIt was built by [mySociety](http://www.mysociety.org). 
 
