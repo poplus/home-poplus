@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+title: SayIt Launch
 author: Jen Bramley
 date: "15-01-2014"
 categories: post
