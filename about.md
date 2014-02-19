@@ -58,7 +58,7 @@ Supporters may simply be people who happily use the Poplus Components to make th
 
 
 #### 2) Contributors
-Contributors are those who contribute to the Poplus Ecosystem — perhaps by creating a new Component, adding features to existing ones, or providing technical support. [Give examples of adding something to provides some new functionality for anything built on the Poplus standards (e.g. a new display for Popolo-format people data)]
+Contributors are those who contribute to the Poplus Ecosystem — perhaps by creating a new Component, adding features to existing ones, or providing technical support. 
 
 How do I become a contributor?
 
