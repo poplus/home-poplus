@@ -29,17 +29,17 @@ Ideally, we'd love to be able to provide you with a website 'out the box', which
 
 Or... is it? When you look carefully, you see that, no matter how different they are, all parliaments consist of many of the same elements:
 
-People hold positions (eg the Minister of Education or a member of Congress)
-Each person is usually the member of a party or holds some affiliation
-Each person can make speeches about topics and vote on bills
-People are often related to a jurisdiction or constituency that has boundaries
++ _People_ hold _positions_ (eg the Minister of Education or a Member of Congress)
++ Each _person_ is usually the member of a _party_ or holds some affiliation
++ Each _person_ can make _speeches_ about topics and _vote_ on bills
++ _People_ are often related to a _jurisdiction_ or _constituency_ that has boundaries
 
 Now it might seem easy enough to create a database of people, and cross-reference it with a database of positions, but in fact, it's harder than you'd think.
 
-Politicians sometimes change party
-They often change position
-Sometimes they change their names - most commonly this happens when a woman gets married
-Inconveniently, they sometimes die
++ Politicians sometimes change party
++ They often change position
++ Sometimes they change their names - most commonly this happens when a woman gets married
++ They die and are replaced with a different politician
 
 In each case it’s not enough to simply update your database — you need to accurately display the correct historic version when showing what they did in the past. And these are just some of the predictable issues. Invariably, there are always unpredictable ones, too, which can cause headaches when they first arise months or even years after your site launches.
 
@@ -60,7 +60,7 @@ Supporters may simply be people who happily use the Poplus Components to make th
 #### 2) Contributors
 Contributors are those who contribute to the Poplus Ecosystem — perhaps by creating a new Component, adding features to existing ones, or providing technical support. 
 
-How do I become a contributor?
+##### How do I become a contributor?
 
 We're still working on this right now but check back in a couple of days and we'll have updated this!
 
