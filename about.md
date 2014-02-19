@@ -5,46 +5,64 @@ title: About Poplus
 
 # What is Poplus?
 
-Poplus is a community of activists, citizens and developers. Aiming to serve our wider community, we collaborate to create quality web services that are open (source), easy to use, setup and re-use. Our goals is to foster social change by empowering citizens and civil society groups with the use of web technology.
+Poplus is an international community of activists, citizens and developers. 
+
+Together we are creating standardised, internationalised, interoperable, open-source Components, to make it easier to build websites that empower citizens, no matter where you are based.
 
 ## Our Founding Principles
 
 1. We believe technology can empower organized citizens to pursue social change.
 2. We believe that the best technology solutions come out of collaboration.
-3. We believe that robust technological solutions should not be considered as expensive, difficult, or time costly, but as cheap, easy and quick.
+3. We believe that robust technological solutions can be cheap, easy, and quick, rather than expensive, difficult, and time-consuming.
+4. We believe that key technology solutions should be easy to replicate, no matter where in the world you are or what language you speak.
+
+## How this Works.
+
+
+You have a vision that would make your country's democracy more accessible for everyone. You'd like to build a website that—let's say—monitors your Parliament. It would provide information about all the representatives, and publish everything they say or vote on. 
+
+Thanks to your website, people would be far better informed about what goes on in Parliament, and better able to make fact-based decisions.
+
+But websites like that require a lot of coding, and take a long time (and a lot of money) to build and maintain. Because of this, that's where many people would give up.
+
+Ideally, we'd love to be able to provide you with a website 'out the box', which you could put your country's data into, and use right away. Sadly, the world isn't like that. Lesislatures are all very different, and it's impossible to provide a system that can be used in every country.
+
+Or... is it? When you look carefully, you see that, no matter how different they are, all parliaments consist of many of the same elements:
+
+People hold positions (eg the Minister of Education or a member of Congress)
+Each person is usually the member of a party or holds some affiliation
+Each person can make speeches about topics and vote on bills
+People are often related to a jurisdiction or constituency that has boundaries
+
+Now it might seem easy enough to create a database of people, and cross-reference it with a database of positions, but in fact, it's harder than you'd think.
+
+Politicians sometimes change party
+They often change position
+Sometimes they change their names - most commonly this happens when a woman gets married
+Inconveniently, they sometimes die
+
+In each case it’s not enough to simply update your database — you need to accurately display the correct historic version when showing what they did in the past. And these are just some of the predictable issues. Invariably, there are always unpredictable ones, too, which can cause headaches when they first arise months or even years after your site launches.
+
+With all this in mind, we developed Poplus Components - slot-in pieces of software that take all these problems into consideration, so that you don't have to worry about them. You can use just one, or you can put them all together - they're designed to interoperate.
+
+Poplus isn't just about parliamentary monitoring websites, though. We've applied the same formula to every kind of civic or democratic website, from sites for reporting potholes, to sites which let you request information from those in power.
+
 
 ## Community
 
-There are three ways to participate in Poplus: as Partners, Members, and Users.
+You can participate in Poplus as a Supporter or a Contributor.
 
 
-#### 1) Partners
-
-Are: The decision makers, strategists and the overall leaders of Poplus.
-
-They provide: resources to the project for the benefit of the wider community, helping to develop and grow the community through outreach, giving support on components that have been created for the wider community, and channelling information to specific interest groups about POPlus members that could be useful to them.
-
-They receive: 1. Reputational benefit both in the eyes of potential funders, governments, institutions and other NGOs; 2. support in the development and deployment of their own projects technically, strategically and operationally; 3. the potential to receive funding to support projects powered by or linked to Poplus; 4. access to the resources of created by other organisations and memberships to help grow your organisation; 5. potential to have wider impact on the open source community through the credibility of being a POPlus partner,
-
-I want to be a Partner!
+#### 1) Supporters
+Supporters may simply be people who happily use the Poplus Components to make their lives easier. But we’re also including anyone who commits to celebrating and endorsing the idea of using shared technology for empowerment across multiple countries.
 
 
-#### 2) Members 
+#### 2) Contributors
+Contributors are those who contribute to the Poplus Ecosystem — perhaps by creating a new Component, adding features to existing ones, or providing technical support. [Give examples of adding something to provides some new functionality for anything built on the Poplus standards (e.g. a new display for Popolo-format people data)]
 
-Are: Those who contribute resources to Poplus based on their own needs [eg creating components or changes based on the things they need]. Members interact with the community, use the software and providing valuable feedback. 
+How do I become a contributor?
 
-Receive: The kudos of being a part of something that is helping to change and shape societies, support from partners and the community for all components, credible and respected components with a good reputation, and Potential for funding from donors to create resources to contribute to the community.
-
-I want to be a member!
-
-
-####  3) User 
-
-Are: Those who don’t need to contribute anything towards Poplus, and thus, do not have the responsibility of participating in the direction of the organisation.
-
-Receive: Free open source software that is regularly updated and easy to use.
-
-I want to use Poplus!
+We're still working on this right now but check back in a couple of days and we'll have updated this!
 
 
 ## Technology
@@ -54,19 +72,6 @@ Our technological solution was born from the failure that our founding organisat
 
 Check out our [existing][catalogue] components!
 Check out the [list of components][developmentboard] we will build soon!
-
-
-## Code of Honor
-
-
-Poplus is a community and as such, its members and partners have mutual responsibilities. One of them is to respect our Code of Honor. This 'code' requires that each contributor to the component ecosystem will be responsible for taking care and securing technological support to the component each contributor has developed. Furthermore, whenever possible, Poplus community members will provide assistance to other community members in order to facilitate the implementation of components into new websites.
-
-
-
-## How this Works.
-
-
-Any individual or organization can use and contribute to the Poplus ecosystem. Components are available in a community repository where new website developers can search to find and use the components they need for their own website, no matter if its for congress monitoring, using FOIA, or mapping public service delivery, developers are welcome to use the components that suits best their needs. In return, developers are encouraged to contribute with their own code and web innovations to further expand the Poplus ecosystem. In this sense, the Poplus developer community agrees to follow a set of basic rules and standards that may include code language, frameworks, and data tabulation for API’s or further semantic references. The key to the success of Poplus is getting the community to agree and follow common rules (which can change over time), so that we can make sure that no matter what component an individual or organization is developing, if it follows Poplus, it means that such component will likely be interoperable with the other components of the Poplus ecosystem (though some adjustments may be required).
 
 
 ## The Objectives
