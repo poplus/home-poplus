@@ -13,23 +13,22 @@ Together we are creating standardised, internationalised, interoperable, open-so
 
 1. We believe technology can empower organized citizens to pursue social change.
 2. We believe that the best technology solutions come out of collaboration.
-3. We believe that robust technological solutions can be cheap, easy, and quick, rather than expensive, difficult, and time-consuming.
-4. We believe that key technology solutions should be easy to replicate, no matter where in the world you are or what language you speak.
+3. We believe that key technology solutions should be easy to replicate, no matter where in the world you are or what language you speak.
+4. We believe that robust technological solutions can be cheap, easy, and quick, rather than expensive, difficult, and time-consuming.
 
 ## How this Works.
 
-
-You have a vision that would make your country's democracy more accessible for everyone. You'd like to build a website that—let's say—monitors your Parliament. It would provide information about all the representatives, and publish everything they say or vote on. 
+You have a vision that would make your country's democracy more accessible for everyone. You’ve seen sites like [TheyWorkForYou.com](http://theyworkforyou.com/) or [VotaInteligente.cl](http://votainteligente.cl/) and would like to build a similar site that monitors your Parliament. It would provide information about all the representatives, and publish everything they say or vote on. 
 
 Thanks to your website, people would be far better informed about what goes on in Parliament, and better able to make fact-based decisions.
 
-But websites like that require a lot of coding, and take a long time (and a lot of money) to build and maintain. Because of this, that's where many people would give up.
+But websites like that require a lot of coding, and take a long time (and a lot of money) to build and maintain. Because of this, many people either give up, or settle for a site that does a small fraction of what they would create if they had a much bigger budget.
 
-Ideally, we'd love to be able to provide you with a website 'out the box', which you could put your country's data into, and use right away. Sadly, the world isn't like that. Lesislatures are all very different, and it's impossible to provide a system that can be used in every country.
+Ideally, we'd love to be able to provide you with a website ‘out of the box’, which you could put your country's data into, and use right away. Sadly, the world isn’t like that. Legislatures are all very different, and it’s impossible to provide a system that can be used in every country.
 
-Or... is it? When you look carefully, you see that, no matter how different they are, all parliaments consist of many of the same elements:
+Or... is it? When you look carefully, you see that, no matter how different they are, all Parliaments consist of many of the same elements:
 
-+ _People_ hold _positions_ (eg the Minister of Education or a Member of Congress)
++ _People_ hold _positions_ (e.g. the Minister of Education or a Member of Congress)
 + Each _person_ is usually the member of a _party_ or holds some affiliation
 + Each _person_ can make _speeches_ about topics and _vote_ on bills
 + _People_ are often related to a _jurisdiction_ or _constituency_ that has boundaries
@@ -38,14 +37,13 @@ Now it might seem easy enough to create a database of people, and cross-referenc
 
 + Politicians sometimes change party
 + They often change position
-+ Sometimes they change their names - most commonly this happens when a woman gets married
-+ They die and are replaced with a different politician
++ Sometimes they change their name — perhaps when they get married
 
-In each case it’s not enough to simply update your database — you need to accurately display the correct historic version when showing what they did in the past. And these are just some of the predictable issues. Invariably, there are always unpredictable ones, too, which can cause headaches when they first arise months or even years after your site launches.
+In each case it’s not enough to simply update your database — you need to accurately display the correct historic version when showing what they did in the past. And these are just some of the _predictable_ issues. Invariably, there are always _unpredictable_ ones, too, which can cause headaches when they first arise months or even years after your site launches. (We’ve been running sites like this for over ten years now, and have learned lots of this the hard way!)
 
-With all this in mind, we developed Poplus Components - slot-in pieces of software that take all these problems into consideration, so that you don't have to worry about them. You can use just one, or you can put them all together - they're designed to interoperate.
+With all this in mind, we’ve developed Poplus Components — pieces of software that take all these problems into consideration, so that you don't have to worry about them. You can use just one, or you can put them all together - they're designed to interoperate.
 
-Poplus isn't just about parliamentary monitoring websites, though. We've applied the same formula to every kind of civic or democratic website, from sites for reporting potholes, to sites which let you request information from those in power.
+Poplus isn't just about parliamentary monitoring websites, though. We're applying the same formula to every kind of civic or democratic website, from sites for reporting potholes, to sites which let you request information from those in power.
 
 
 ## Community
