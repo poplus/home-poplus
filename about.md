@@ -63,27 +63,108 @@ Contributors are those who contribute to the Poplus Ecosystem — perhaps by cre
 We're still working on this right now but check back in a couple of days and we'll have updated this!
 
 
-## Technology
+
+## Some Poplus Components
+
+Poplus Components do all sorts of things, and if you're planning on building a civic or democratic website, you'll find them really useful. Here are just a few:
+
+[PopIt][PopIt]: when you're dealing with _people_ holding _positions_ in _organisations_, PopIt takes care of the details.
+
+[MapIt][MapIt]: if you want to match representatives to _jurisdictions_, you'll need to be able to map geographical points to _boundaries_. MapIt does that for you.
+
+[WriteIt][WriteIt]: an easy way for your users to contact people in power.
+
+[BillIt][BillIt]: lets you track the texts of bills and laws as they pass through your legislature.
+
+[SayIt][SayIt]: is a better way to present debates and transcripts so that they can be fully searched, linked to, etc.
+
+_Do components have to end in the word 'it'?_ No, they don't! But our early projects do seem to have picked up that pattern...
+
+What all these Components have in common is that they save you from having to 'reinvent the wheel'. All you have to do is concentrate on building the parts that are unique to your own country or jurisdiction.
+
+And there are more to come. For example, planned projects currently include:
+
++ **EventIt** - allowing you to easily create a timeline of everything a particular public figure says and does.
+
++ **PromiseIt** - track the promises a politician has made, then see if he or she keeps them during their term of office.
+
++ **FundIt** - see who's donating money to political campaigns.
+
+Would you like to get involved with these projects? Visit the [Trello Board][developmentboard] to find who's behind them, sign up and then you can make contact or add comments to the project you're interested in.
 
 
-Our technological solution was born from the failure that our founding organisations faced in the implementation of new deployments of different applications in also different contexts (different countries, different cultures, different laws). Implementation of new websites and apps had become increasingly expensive, as each deployment required to 'reinvent the wheel' and re-write the code, adapting to each particular context. In order to avoid this problem, we took a more sustainable approach, which is to promote the development of websites from a component-based approach. This means that a websites must not be acknowledged as a whole, but as a group of different components that serve different and specific functionalities. In Poplus we develop generic components based on Rest API's, so that future websites may choose to use one, two or several components, based on the functional needs that need to be satisfied.
 
-Check out our [existing][catalogue] components!
-Check out the [list of components][developmentboard] we will build soon!
+## How It Works (the technical version)
+
+#### How do I use Components?
+
+1. **Read and socialise!**
+  The first step is to identify the Component you want to use, and then make sure you read the documentation. 
+
+  You should also join the [Components mailing list][googlegroup], where you'll find many friendly and helpful people who can answer any questions that may arise.
+
+2. **Format your data**
+  One feature of Components is that they are standardised, yet flexible.
+
+  Normally, you will need to transform your underlying data so that it is in a format the Component can recognise - for example, [SayIt][SayIt] publishes speeches and transcripts using the [Akoma Ntoso standard][akstandard], while [PopIt][popit] can import your people data if it adheres to the [Popolo standard][pstandard].
+
+  This might seem a nuisance, but it's all for a good reason - it means the tools don't need to be rewritten for every different country, and it also helps them to interoperate smoothly.
+
+  If your data just won't fit the given standards - and in our experience, this is rare - you should find that you only need to adapt the existing code a little, rather than completely rewriting it. If you're really stuck, don't worry - [get in touch][googlegroup] and we can help you.
+
+3. **Integrate**
+  
+  So, how do you get a Component working within your own website? There are a few options:
+
+  - **Embed it into your own software**; All Components exist as a software library (like a Django app or Rails engine) which you can embed into your own software
+
+  - Or **let us host it**; Many Components offer a hosted option which you can use over an API. While this may not be suitable longterm, it's often the best and simplest option when you are testing things out. 
+
+  - **Many Components have a super-easy user interface**, so you can get your non-technical friends to help you out.
+
+  - **It's all FLOSS (_Free and Open Source_)**. That means that you welcome to use it, for nothing. You are also more than welcome to adapt it, copy it, distribute it, improve it, and especially, to contribute back to the projects as a whole. 
 
 
-## The Objectives
+4. **Interoperate**
+  You don't have to stop with just one Component. in fact, they are designed to work together, and indeed you can put several together to create an entire website.
+
+  For example, you might start by importing a database of politicians into [PopIt][popit]. Once you've done that, other components, like [SayIt][sayit] or [WriteIt][writeit] know how to work with that data.
+
+5. **Go!**
+  Here's a [list of all the existing Components][catalogue]. Go and explore... and help yourself!
 
 
-1. Poplus will reduce the cost and time of citizen driven tech efforts, encourage collective action and collaboration among users.
 
-2. As a result of the latter, with Poplus we expect to see more citizen driven tools during the first years of implementation, as well as more citizen-tech organizations that due to Poplus can get easily up and running. 
 
-3. Due to the generic nature of Poplus modules (using rest APIs), they should go beyond the perimeter of transparency and participation apps that originally motivated the development of these generic modules. Hence, Poplus will also foster the development of apps for issues that are as diverse as extraction of natural resources, poverty, aid, public budgets, crisis management, etc.
+### How can I contribute a Component?
+ 
+1. **Read and socialise**
+  Read our [community page][join] and [join the mailing list][googlegroup]. Introduce yourself, and outline your plans. You might find that someone has already built, or is in the middle of building, the same Component, so it's worth checking first.
 
-4. Because Poplus provides the basic app infrastructure, we expect to see further innovation in citizen app development, which can expand on top of existing components (no need to spend time to get the basic infrastructure right). Thanks to a proper documentation, Poplus aims to achieve a positive learning curve among its community. 
+2. **Understand what makes a Component.**
 
-5. To see tech collaboration in the development and use of generic modules is only the first stage of a broader effort that in future iterations could include collaboration in the policy and advocacy front. Hence, organizations that attempt to control corruption may not only develop transparency platforms based in common components, but they may also extend collaboration of accountability efforts from other non-tech grounds. For example, a corrupt organization that is legally based in the US., but which operates in Chile and has impact in Kenya, could eventually be hold accountable by coordinated organizations in each of the three countries. 
+  - Components carry out a single, clear function well - for instance, storing voting records, or enabling the sending of  email messages.
+  - Components have a clear use for those running democratic or civic websites (although they may also have uses outside that arena)
+  - Components are designed for international use, such that they are based on universalities, while allowing for customisation of aspects that vary from country to country.
+  - Components are built to operate with one another.
+  - Components are contributed, at no charge, to the Poplus community, as FLOSS (free/libre open software) with the understanding that others will use them, adapt them, and develop them further.
+
+3. **Some extra guidelines**
+
+  - You can write your Component in any language or framework.
+  - You must provide an API, so it can be used easily, even for people with no knowledge of that framework or language. An API will also allow people to experiment with your Component before installing it themselves.
+  - The code must be on an open [Github][github] repo and available under a [GNU Affero licence][licence].
+  - The code must be well documented, and the documentation available on Github.
+  - The code should have a test suite.
+  - It should be easy to translate the interface into different languages using a PO file editor, with the PO file being available on Github. 
+  - You must commit to maintaining your software, actively and responsively - or, if you are not able to continue to do so, you should alert the community so that someone else can take over.
+
+4. **Understood? Then you're ready to go**
+
+  Check out the [list of components][developmentboard] we hope someone will build soon - or come up with your own idea. 
+
+  But before you start building, don't forget to dip into the [mailing list][googlegroup] and find out what everyone else is doing.
+
 
 
 ## Founders
@@ -95,6 +176,17 @@ Check out the [list of components][developmentboard] we will build soon!
 
 
 [catalogue]: catalogue.html
+[join]: join.html
 [developmentboard]: https://trello.com/b/5gGF4xrJ/poplus-development
 [ciudadanoi]: http://ciudadanointeligente.org/ 
 [mysociety]: http://www.mysociety.org/
+[SayIt]: http://sayit.mysociety.org
+[PopIt]: http://popit.mysociety.org
+[WriteIt]: http://writeit.ciudadanointeligente.org/en/
+[BillIt]: http://poplus.org/posts/billit/
+[MapIt]: http://global.mapit.mysociety.org/
+[googlegroup]: https://groups.google.com/forum/#!forum/poplus
+[akstandard]: http://sayit.mysociety.org/about/developers
+[pstandard]: http://popoloproject.com/
+[github]: http://www.github.com
+[license]: http://www.gnu.org/licenses/agpl-3.0.html
