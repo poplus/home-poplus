@@ -12,6 +12,8 @@ title: PoplusCon
   <a class="btn-red" href="https://docs.google.com/forms/d/1v6eTcXjReQmVJpMZ2gw4f0QGddswiyhusivyuFnS7yc/viewform">Register now!</a>
 </div>
 
+<iframe width="100%" height="480" src="//www.youtube.com/embed/x2eMnQ1XxE4?rel=0" frameborder="0" allowfullscreen></iframe>
+
 ## Follow &#35;PoplusCon for updates
 
 #### What’s it About?
