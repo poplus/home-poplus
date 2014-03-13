@@ -103,12 +103,158 @@ a {
 a:hover   { color: #E51509; }
 a:visited { color: #ee4036; }
 
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
 
+/* Home */
+
+
+#hero-background {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  height: 100%;
+  background: url(../images/bg_grid.png) no-repeat 20% 50px #c2d83a;
+}
+
+#home:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-bottom: 70px;
+}
+
+#home h1 {
+  font-size: 48px;
+  color: #FFF;
+  font-family: 'signikabold';
+  line-height: 47px;
+  text-shadow: 1px 1px 1px rgba(104, 132, 0, 0.75);
+  margin: 20px 0px;
+}
+
+#home h2 {
+  font-size: 24px;
+  color: #FFF;
+  font-family: 'signikaregular';
+  line-height: 26px;
+  text-shadow: 1px 1px 1px rgba(104, 132, 0, 0.75);
+  
+}
+
+#hero-left {
+  width: 55%;
+  float: left;
+}
+
+#hero-right {
+  width: 45%;
+  float: right;
+  margin-top: 25px;
+}
+
+#hero-secondary .oneForth {
+  float: left;
+  display: block;
+  width: 215px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.textBoxBorder {
+  padding: 10px;
+  min-height: 130px;
+}
+
+h3.secondaryTitle {
+  color: #ee4036;
+  font-size: 30px;
+  line-height: 120%;
+  font-family: 'signikaregular';
+}
+
+#hero-secondary:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#hero-secondary {
+  *zoom: 1;
+}
+
+#hero-right a {
+  padding: 15px 0px;
+  background: #89a000;
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+  width: 70%;
+  text-align: center;
+  float: right;
+  position: relative;
+  font-family: 'signikabold';
+  font-size: 24px;
+  opacity: 0.9;
+  line-height: 21.2px;
+}
+
+#hero-right a:hover {
+  opacity: 1;
+}
+
+#hero-right a span {
+  font-family: 'signikaregular';
+  font-size: 16px;
+}
+
+#hero-right a:before {
+  content: url(../images/start-iniciative.png);
+  background: #6d8700;
+  position: absolute;
+  left: -50px;
+  top: 0px;
+  border-radius: 6px 0px 0px 6px;
+  padding: 6px 8px;
+}
+
+#hero-right a.bt-red {
+  background: #ee4036;
+}
+
+#hero-right a.bt-red:before {
+  content: url(../images/upload-app.png);
+  background: #d32420;
+}
+
+#banner {
+  background: #2e353f;
+  padding: 15px 0px;
+}
+
+#banner h1 {
+  text-align: center;
+  margin-bottom: 0;
+  line-height: 66px;
+  font-size: 91px;
+  padding: 10px;
+  text-shadow: 0px 0 0px rgba(255, 255, 255, 0.05);
+}
+
+#banner h2 {
+  line-height: 0px;
+  text-align: center;
+  color: #fff;
+}
+
+#banner h1 .clipped {
+  font-size: 60px;
+}
+
+/*#banner .clipped {
+  background: url(../images/conference.jpg) no-repeat top center;
+}*/
 
 
 /*Catalogue*/
@@ -323,6 +469,70 @@ li [class^="icon-"], .nav li [class^="icon-"], li [class*=" icon-"], .nav li [cl
   font-size: 22px;
 }
 
+/*Conference*/
+
+.clipped {
+  background: url(../images/conference.jpg) no-repeat center center;
+  /*background-size: cover;*/
+  color: #fff;
+  /* -webkit-background-clip clips the background of the element to the text */
+  -webkit-text-fill-color: transparent; /* overrides the white text color in webkit browsers */
+  -webkit-background-clip: text;
+}
+
+.clipped-bn {
+  background: url(../images/conference-bn.jpg) no-repeat top center;
+  background-size: cover;
+  color: #fff;
+  /* -webkit-background-clip clips the background of the element to the text */
+  -webkit-text-fill-color: transparent; /* overrides the white text color in webkit browsers */
+  -webkit-background-clip: text;
+}
+
+.clipped h2 {
+  text-align: center;
+  font-size: 13em;
+  line-height: 1em;
+}
+
+.clipped h3 {
+  text-align: center;
+  font-size: 3em;
+  line-height: 0.8em;
+  padding-bottom: 10px;
+}
+
+.clipped h1 {
+  margin-bottom: 0px;
+  padding: 16px 0;
+}
+
+.btn-red {
+  padding: 15px;
+  background: #ee4036;
+  border-radius: 6px;
+  color: #fff;
+  font-family: 'signikabold';
+  font-size: 24px;
+}
+
+a.btn-red:visited {
+  color: #fff;
+}
+
+.center {
+  text-align: center;
+  margin: 20px 0px 60px;
+}
+
+.label-popconf {
+  font-size: 36px;
+  font-family: 'signikabold';
+  padding: 10px 0;
+  text-align: right;
+  line-height: 27px;
+}
+
 /*****************************************************************************/
 /*
 /* Site
@@ -534,129 +744,7 @@ ul.menu a li:hover {
 
 
 
-/*Home*/
 
-#hero-background {
-  width: 100%;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  z-index: -1;
-  height: 60%;
-  min-height: 540px;
-  background: url(../images/bg_grid.png) no-repeat 20% 50px #c2d83a;
-}
-
-#home:after {
-  content: "";
-  display: table;
-  clear: both;
-  margin-bottom: 70px;
-}
-
-#home h1 {
-  font-size: 48px;
-  color: #FFF;
-  font-family: 'signikabold';
-  line-height: 47px;
-  text-shadow: 1px 1px 1px rgba(104, 132, 0, 0.75);
-  margin: 20px 0px;
-}
-
-#home h2 {
-  font-size: 24px;
-  color: #FFF;
-  font-family: 'signikaregular';
-  line-height: 26px;
-  text-shadow: 1px 1px 1px rgba(104, 132, 0, 0.75);
-  
-}
-
-#hero-left {
-  width: 55%;
-  float: left;
-}
-
-#hero-right {
-  width: 45%;
-  float: right;
-  margin-top: 25px;
-}
-
-#hero-secondary .oneForth {
-	float: left;
-	display: block;
-	width: 215px;
-	margin-right: 10px;
-	text-align: center;
-}
-
-.textBoxBorder {
-	padding: 10px;
-	min-height: 130px;
-}
-
-h3.secondaryTitle {
-	color: #ee4036;
-	font-size: 30px;
-	line-height: 120%;
-	font-family: 'signikaregular';
-}
-
-#hero-secondary:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-#hero-secondary {
-  *zoom: 1;
-}
-
-#hero-right a {
-	padding: 15px 0px;
-	background: #89a000;
-	border-radius: 6px;
-	color: #fff;
-	text-decoration: none;
-	margin-bottom: 10px;
-	width: 70%;
-	text-align: center;
-	float: right;
-	position: relative;
-	font-family: 'signikabold';
-	font-size: 24px;
-	opacity: 0.9;
-  line-height: 21.2px;
-}
-
-#hero-right a:hover {
-	opacity: 1;
-}
-
-#hero-right a span {
-	font-family: 'signikaregular';
-	font-size: 16px;
-}
-
-#hero-right a:before {
-	content: url(../images/start-iniciative.png);
-	background: #6d8700;
-	position: absolute;
-	left: -50px;
-	top: 0px;
-	border-radius: 6px 0px 0px 6px;
-	padding: 6px 8px;
-}
-
-#hero-right a.bt-red {
-	background: #ee4036;
-}
-
-#hero-right a.bt-red:before {
-	content: url(../images/upload-app.png);
-	background: #d32420;
-}
 
 /*Media Queries*/
 
