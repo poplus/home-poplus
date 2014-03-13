@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: popconf
 title:  "POPCONF, Save the date"
 author: Pedro Daire
 date: 26-02-2014

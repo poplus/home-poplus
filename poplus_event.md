@@ -3,9 +3,16 @@ layout: default
 title: PoplusCon
 ---
 
-# PoplusCon 2014 - [Register now!][register]
-##29th & 30th April 2014 in Santiago, Chile
-### Follow &#35;PoplusCon for updates
+<div class="clipped">
+  <h2>Poplus Conference</h2>
+  <h3>29th & 30th April 2014 in Santiago, Chile</h3>
+</div>
+
+<div class="center">
+  <a class="btn-red" href="https://docs.google.com/forms/d/1v6eTcXjReQmVJpMZ2gw4f0QGddswiyhusivyuFnS7yc/viewform">Register now!</a>
+</div>
+
+## Follow &#35;PoplusCon for updates
 
 #### What’s it About?
 
@@ -46,7 +53,7 @@ The conference is free to attend
 Santiago, Chile
 
 #### Will travel grants be available?
-Yes, we will be able to help a number of attendees with the cost of travel to the conference, plus accommodation and other expenses whilst there.  If you would like to apply for a travel grant, please complete the details on the registration form
+Yes, we will be able to help a number of attendees with the cost of travel to the conference, plus accommodation and other expenses whilst there.  If you would like to apply for a travel grant, please complete the details on the [registration form][register].
 
 #### How do I register my interest in attending?
 Simple!  Use this [form][register].
