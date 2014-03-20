@@ -7,7 +7,8 @@ $(function(){
 	if((new Date()) > ts){
 		// The new year is here! Count towards something else.
 		// Notice the *1000 at the end - time must be in milliseconds
-		ts = (new Date()).getTime() + 47*24*60*60*1000;
+		// ts = (new Date()).getTime() + 47*24*60*60*1000;
+		ts = (new Date(2014,3,29,9,0,0));
 		newYear = false;
 	}
 		
