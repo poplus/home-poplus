@@ -68,7 +68,7 @@ The conference is free to attend
 Santiago, Chile
 
 #### Will travel grants be available?
-Yes, we will be able to help a number of attendees with the cost of travel to the conference, plus accommodation and other expenses whilst there.  If you would like to apply for a travel grant, please complete the details on the [registration form][register].
+The application process for travel grants has now closed. People eligible for grants will be contacted soon, if you haven't been successful this time we hope to welcome you to future Poplus events!
 
 #### How do I register my interest in attending?
 Simple!  Use this [form][register].
