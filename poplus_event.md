@@ -29,6 +29,8 @@ title: PoplusCon
 
 ## Follow &#35;PoplusCon for updates
 
+## Submit a session proposal [here][sessions]
+
 #### What’s it About?
 
 PoplusCon will bring civic coders, campaigners and activists from around the world together in Santiago for two days of events.  The aims of the conference are:
@@ -87,3 +89,4 @@ Keep checking this website for regular updates and follow us on @Poplusproject. 
 [developmentboard]: https://trello.com/b/5gGF4xrJ/poplus-development
 [popit]: http://popit.mysociety.org/
 [mapit]: http://code.mapit.mysociety.org/
+[sessions]: http://poplus.org/Popluscon_session_FAQ
