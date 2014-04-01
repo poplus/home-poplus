@@ -113,7 +113,7 @@ a:visited { color: #ee4036; }
   top: 0px;
   left: 0px;
   z-index: -1;
-  height: 120%;
+  height: 140%;
   background: url(../images/bg_grid.png) no-repeat 20% 50px #c2d83a;
 }
 
@@ -230,7 +230,7 @@ h3.secondaryTitle {
 
 #banner {
   background: #2e353f;
-  padding: 15px 0px;
+  padding: 0px 75px 30px;
 }
 
 #banner h1 {
@@ -484,7 +484,6 @@ li [class^="icon-"], .nav li [class^="icon-"], li [class*=" icon-"], .nav li [cl
   background: url(../images/conference.jpg) no-repeat center center;
   /*background-size: cover;*/
   color: #fff;
-  /* -webkit-background-clip clips the background of the element to the text */
   -webkit-text-fill-color: transparent; /* overrides the white text color in webkit browsers */
   -webkit-background-clip: text;
 }
@@ -493,7 +492,6 @@ li [class^="icon-"], .nav li [class^="icon-"], li [class*=" icon-"], .nav li [cl
   background: url(../images/conference-bn.jpg) no-repeat top center;
   background-size: cover;
   color: #fff;
-  /* -webkit-background-clip clips the background of the element to the text */
   -webkit-text-fill-color: transparent; /* overrides the white text color in webkit browsers */
   -webkit-background-clip: text;
 }
@@ -503,6 +501,51 @@ li [class^="icon-"], .nav li [class^="icon-"], li [class*=" icon-"], .nav li [cl
   font-size: 13em;
   line-height: 1em;
 }
+
+/*Firefox*/
+
+#bkDiv
+  {
+    background-image : url('http://poplus.org/images/conference-bn.jpg');
+    height:110px;
+    width: 100%;
+  }
+
+#theText
+  {
+    font-family: 'signikabold', sans-serif;
+    font-size: 91px;
+    stroke: #000;
+    stroke-width:0px;
+    fill-opacity:1;
+  }
+
+#bkEventDiv
+  {
+    background-image : url('http://poplus.org/images/conference.jpg');
+    height:190px;
+    width: 100%;
+  }
+
+#theEventText
+  {
+    font-family: 'signikabold', sans-serif;
+    font-size: 40px;
+    stroke: #000;
+    stroke-width:0px;
+    fill-opacity:1;
+  }
+
+#theEventTit
+  {
+    font-family: 'signikabold', sans-serif;
+    font-size: 110px;
+    stroke: #000;
+    stroke-width:0px;
+    fill-opacity:1;
+  }
+
+/*Fin firefox*/
 
 .clipped h3 {
   text-align: center;

@@ -3,9 +3,22 @@ layout: default
 title: PoplusCon
 ---
 
-<div class="clipped">
+<!-- <div class="clipped">
   <h2>Poplus Conference</h2>
   <h3>29th & 30th April 2014 in Santiago, Chile</h3>
+</div> -->
+
+<div id="bkEventDiv">
+<svg width="100%" height="100%">
+  <defs>
+    <mask id="theMask">
+      <rect width="101%" height="100%" fill="#fff" />
+      <text x="0" y="90" id="theEventTit" fill="#000">Populus Conference</text>
+      <text x="0" y="150" id="theEventText" fill="#000">29th & 30th April 2014 in Santiago, Chile</text>
+    </mask>
+  </defs>
+  <rect width="101%" height="100%" mask="url(#theMask)" fill="#eaedf2" />
+</svg>
 </div>
 
 <div class="center">
