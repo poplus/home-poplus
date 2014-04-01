@@ -65,7 +65,7 @@ You’ve got an idea for a great new component and you want to get feedback on i
 Here are the key dates you need to know before you submit your proposal:
 
 + **March 31**: Session proposals open!
-+ **April 16** : Idea submission closes
++ **April 16** : Session proposal submission closes
 + **April 22**: Notification goes out of acceptance or declination. 
 + **April 25**: Schedule on [Poplus.org][poplus.org]
 + **April 29-30**: PoplusCon!
