@@ -54,7 +54,7 @@ We hope you feel the same way and want to use these ideas to select sessions on 
 Here are a couple of general examples of the type of sessions that might to be of interest to the conference attendees.
 
 #### Data for Parliamentary Monitoring
-If you want to run a parliamentary monitoring site what types of data do you need to get it up and running?  What are the challenges (both in terms of quality and availability) in getting hold of these data?  How have other people overcome the challenges?
+How do I convert my Parliamentary Data into formats that let me reuse all the existing components?  What are the challenges of this?  How have other people overcome these challenges? Or for example How do I model my Parliament's bill process to reuse BillIt? 
 
 
 #### Running projects effectively across different countries
