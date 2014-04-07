@@ -67,7 +67,7 @@ The conference is free to attend
 29th and 30th April 2014
 
 #### Where is it?
-Santiago, Chile
+[Lo Contador Campus at the Pontificia Catholic University][location],  El Comendador 1916, Providencia, Santiago, Chile
 
 #### Will travel grants be available?
 The application process for travel grants has now closed. People eligible for grants will be contacted soon, if you haven't been successful this time we hope to welcome you to future Poplus events!
@@ -90,3 +90,4 @@ Keep checking this website for regular updates and follow us on @Poplusproject. 
 [popit]: http://popit.mysociety.org/
 [mapit]: http://code.mapit.mysociety.org/
 [sessions]: http://poplus.org/Popluscon_session_FAQ
+[location]: https://www.google.co.uk/maps/place/Pontificia+Universidad+Cat%C3%B3lica+de+Chile/@-33.420096,-70.618007,17z/data=!3m1!4b1!4m2!3m1!1s0x9662cf6087b6b2a1:0x42104b9842c65eba
