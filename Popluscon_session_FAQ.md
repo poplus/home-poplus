@@ -18,7 +18,7 @@ At PoplusCon, we'll be shaping the future of the *Poplus collaborative civic cod
 
 Sessions at PoplusCon will be proposed and facilitated by you, the participants. If you want to contribute to the conference agenda, check the selection criteria below, and complete [this form][form].
 
-mySociety and Fundación Ciudadano Inteligente will select a number of the final sessions before the conference.  However, on both days of the conference, a third of the slots will be kept open so that attendees can propose sessions. We’ll do this in the morning and will have a board and post-it notes where people can put their ideas and vote on ideas. There will also be lightning talks both days, of a maximum of 5 minutes per talk. Anyone can sign up for one of these and there’s going to be about 10 slots per day.
+mySociety and Fundación Ciudadano Inteligente will select a small number of the final sessions before the conference.  On both days of the conference, a minimum of a third of the slots will be kept open so that attendees can propose sessions. We’ll do this in the morning and will have a board and post-it notes where people can put their ideas and vote on ideas. There will also be lightning talks both days, of a maximum of 5 minutes per talk. Anyone can sign up for one of these and there’s going to be about 10 slots per day.
 
 
 Separately from the sessions we'll create a space where people can collaborate to work on components, sites that use components, data standards or anything practical. 
