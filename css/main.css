@@ -70,38 +70,49 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
 h1 { 
-	margin-bottom: 1em;
-	font-size: 48px;
-	font-family: 'signikabold';
-	color: #2e353f;
+  margin-bottom: 1em;
+  font-size: 48px;
+  font-family: 'signikabold';
+  color: #2e353f;
+  line-height: 48px;
 }
 
 h2 {
-	font-size: 28px;
-	font-family: 'signikabold';
-	line-height: 34px;
+  font-size: 28px;
+  font-family: 'signikabold';
+  line-height: 34px;
   margin: 20px 0;
 }
 
 h3 { 
-	font-size: 24px;
-	font-family: 'signikaregular';
+  font-size: 24px;
+  font-family: 'signikaregular';
+  line-height: 26px;
+  margin: 10px 0;
 }
 
 h4 {
-	font-size: 18px;
-	font-family: 'signikabold';
+  font-size: 18px;
+  font-family: 'signikabold';
 }
 
 p { margin: 1em 0; }
 
 a { 
-	color: #ee4036; 
-	text-decoration: none;
+  color: #ee4036; 
+  text-decoration: none;
 }
 
 a:hover   { color: #E51509; }
 a:visited { color: #ee4036; }
+
+blockquote {
+  background: #FFF;
+  padding: 10px;
+  margin: 10px 0 30px;
+  border-radius: 6px;
+  line-height: 27px;
+}
 
 
 /* Home */
@@ -276,24 +287,24 @@ h3.secondaryTitle {
 }
 
 .item div {
-	padding: 10px;
+  padding: 10px;
 }
 
 .item div.catalogue-links {
-	background: #eaedf2;
-	margin-top: 10px;
-	padding: 10px;
-	border-radius: 6px;
+  background: #eaedf2;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 6px;
 }
 
 .item h4 {
-	background: #2e353f;
-	padding: 8px 15px;
-	border-radius: 6px 6px 0px 0px;
+  background: #2e353f;
+  padding: 8px 15px;
+  border-radius: 6px 6px 0px 0px;
 }
 
 .item h4 a {
-	color: #fff;
+  color: #fff;
 }
 
 [class^="icon-"]:before, [class*=" icon-"]:before {
@@ -593,7 +604,7 @@ a.btn-red:visited {
 
 
 .container {
-	margin: 80px 0px 0px;
+  margin: 80px 0px 0px;
 }
 
 .site {
@@ -608,24 +619,24 @@ a.btn-red:visited {
 
 
 .site-header {
-	background-color: #2e353f;
-	position: fixed;
-	width: 100%;
-	top: 0;
-	z-index: 2;
-	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  background-color: #2e353f;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
 }
 
 .site-footer {
-	background-color: #2e353f;
-	width: 100%;
-	bottom: 0;
-	color: rgba(255, 255, 255, 0.6);
+  background-color: #2e353f;
+  width: 100%;
+  bottom: 0;
+  color: rgba(255, 255, 255, 0.6);
   padding: 10px 0;
 }
 
 .site-footer h3 {
-	color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
 }
 
 .footer-right {
@@ -759,12 +770,11 @@ ul.menu a li:hover {
 }
 
 .post h4 {
-  margin-bottom: 20px;
   opacity: 0.78;
 }
 
 .post h1 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .post h2 {

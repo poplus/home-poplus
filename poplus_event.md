@@ -27,9 +27,10 @@ title: PoplusCon
 
 <iframe width="100%" height="480" src="//www.youtube.com/embed/x2eMnQ1XxE4?rel=0" frameborder="0" allowfullscreen></iframe>
 
-## Follow &#35;PoplusCon for updates
+> #### * Follow &#35;PoplusCon for updates
+> #### * Submit a session proposal [here][sessions]
+> #### * [Things you need to know about Santiago][post-aboutstgo] before PoplusCon.
 
-## Submit a session proposal [here][sessions]
 
 #### What’s it About?
 
@@ -81,7 +82,7 @@ Keep checking this website for regular updates and follow us on @Poplusproject. 
 
 
 
-
+[post-aboutstgo]: /posts/things-you-need-to-know-about-stgo/
 [register]: https://docs.google.com/forms/d/1v6eTcXjReQmVJpMZ2gw4f0QGddswiyhusivyuFnS7yc/viewform
 [writeit]: http://writeit.ciudadanointeligente.org
 [billit]: http://poplus.org/posts/billit/
