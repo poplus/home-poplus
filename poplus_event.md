@@ -21,10 +21,6 @@ title: PoplusCon
 </svg>
 </div>
 
-<div class="center">
-  <a class="btn-red" href="https://docs.google.com/forms/d/1v6eTcXjReQmVJpMZ2gw4f0QGddswiyhusivyuFnS7yc/viewform">Register now!</a>
-</div>
-
 <iframe width="100%" height="480" src="//www.youtube.com/embed/x2eMnQ1XxE4?rel=0" frameborder="0" allowfullscreen></iframe>
 
 > #### * Follow &#35;PoplusCon for updates
@@ -74,7 +70,7 @@ The conference is free to attend
 The application process for travel grants has now closed. People eligible for grants will be contacted soon, if you haven't been successful this time we hope to welcome you to future Poplus events!
 
 #### How do I register my interest in attending?
-Simple!  Use this [form][register].
+Registrations have unfortunately closed, but you'll be able to follow the conference on [Rhinobird][rb] under the hashtag #popluscon
 
 #### How can I learn more?
 Keep checking this website for regular updates and follow us on @Poplusproject. Use the hashtag &#35;PoplusCon for unconference tweets and updates.
@@ -92,3 +88,4 @@ Keep checking this website for regular updates and follow us on @Poplusproject. 
 [mapit]: http://code.mapit.mysociety.org/
 [sessions]: http://poplus.org/Popluscon_session_FAQ
 [location]: https://www.google.co.uk/maps/place/Pontificia+Universidad+Cat%C3%B3lica+de+Chile/@-33.420096,-70.618007,17z/data=!3m1!4b1!4m2!3m1!1s0x9662cf6087b6b2a1:0x42104b9842c65eba
+[rb]: http://rhinobird.tv/
