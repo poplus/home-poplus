@@ -13,7 +13,7 @@ title: PoplusCon
   <defs>
     <mask id="theMask">
       <rect width="101%" height="100%" fill="#fff" />
-      <text x="0" y="90" id="theEventTit" fill="#000">Poplus Conference</text>
+      <text x="0" y="90" id="theEventTit" fill="#000">Welcome to #PoplusCon</text>
       <text x="0" y="150" id="theEventText" fill="#000">29th & 30th April 2014 in Santiago, Chile</text>
     </mask>
   </defs>

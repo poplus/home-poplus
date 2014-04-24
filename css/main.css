@@ -114,6 +114,19 @@ blockquote {
   line-height: 27px;
 }
 
+.agenda td {
+	padding: 5px;
+	border: 2px solid #fff;
+}
+
+table.agenda li {
+float: left;
+margin-right: 10px;
+list-style: none;
+border-right: 2px solid #fff;
+padding-right: 10px;
+}
+
 
 /* Home */
 
@@ -550,7 +563,7 @@ li [class^="icon-"], .nav li [class^="icon-"], li [class*=" icon-"], .nav li [cl
 #theEventTit
   {
     font-family: 'signikabold', sans-serif;
-    font-size: 110px;
+    font-size: 88px;
     stroke: #000;
     stroke-width:0px;
     fill-opacity:1;
