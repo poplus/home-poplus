@@ -26,6 +26,7 @@ title: PoplusCon
 > #### * Follow &#35;PoplusCon for updates
 > #### * Submit a session proposal [here][sessions]
 > #### * [Things you need to know about Santiago][post-aboutstgo] before PoplusCon.
+> #### * Check out [who'll be there][popluscon-participants].
 
 
 #### What’s it About?
@@ -77,7 +78,7 @@ Keep checking this website for regular updates and follow us on @Poplusproject. 
 
 
 
-
+[popluscon-participants]: https://docs.google.com/a/votainteligente.cl/spreadsheet/ccc?key=0AilWvupLW-QEdFFERVlfSzBPTWpfaVp3X0RjOHFZZ1E&usp=gmail#gid=0
 [post-aboutstgo]: /posts/things-you-need-to-know-about-stgo/
 [register]: https://docs.google.com/forms/d/1v6eTcXjReQmVJpMZ2gw4f0QGddswiyhusivyuFnS7yc/viewform
 [writeit]: http://writeit.ciudadanointeligente.org
