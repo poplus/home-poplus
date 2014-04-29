@@ -32,6 +32,7 @@ title: PoplusCon
 > #### * Submit a session proposal [here][sessions]
 > #### * [Things you need to know about Santiago][post-aboutstgo] before PoplusCon.
 > #### * Check out [who'll be there][popluscon-participants]
+> #### * See the [hackpad][hackpad] for Session notes
 
 
 #### What’s it About?
@@ -95,3 +96,4 @@ Keep checking this website for regular updates and follow us on @Poplusproject. 
 [sessions]: http://poplus.org/popluscon_sessions.html
 [location]: https://www.google.co.uk/maps/place/Pontificia+Universidad+Cat%C3%B3lica+de+Chile/@-33.420096,-70.618007,17z/data=!3m1!4b1!4m2!3m1!1s0x9662cf6087b6b2a1:0x42104b9842c65eba
 [rb]: http://rhinobird.tv/
+[hackpad]: https://popluscon.hackpad.com
