@@ -120,11 +120,9 @@ blockquote {
 }
 
 table.agenda li {
-float: left;
-margin-right: 10px;
-list-style: none;
-border-right: 2px solid #fff;
-padding-right: 10px;
+  margin-right: 10px;
+  list-style: none;
+  padding-right: 10px;
 }
 
 
