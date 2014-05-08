@@ -135,7 +135,7 @@ table.agenda li {
   top: 0px;
   left: 0px;
   z-index: -1;
-  height: 140%;
+  height: 100%;
   background: url(../images/bg_grid.png) no-repeat 20% 50px #c2d83a;
 }
 
