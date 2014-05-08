@@ -250,39 +250,6 @@ h3.secondaryTitle {
   background: #d32420;
 }
 
-#banner {
-  background: #2e353f;
-  padding: 0px 75px 30px;
-}
-
-#banner h1 {
-  text-align: center;
-  margin-bottom: 0;
-  line-height: 66px;
-  font-size: 91px;
-  padding: 10px;
-  text-shadow: 0px 0 0px rgba(255, 255, 255, 0.05);
-}
-
-#banner h2 {
-  line-height: 0px;
-  text-align: center;
-  color: #fff;
-}
-
-#banner h2 span {
-  color: #ee4036;
-}
-
-#banner h4 {
-  text-align: center;
-  color: #fff;
-}
-
-#banner h1 .clipped {
-  font-size: 60px;
-}
-
 /*#banner .clipped {
   background: url(../images/conference.jpg) no-repeat top center;
 }*/
