@@ -43,9 +43,10 @@
                   </ul>
                 </div>
               </div>
-          </div>{% if page.class == "home" %}
-                    {% include home-join-call-to-action.html %}
-                  {% endif %}
+          </div>
+          {% if page.class == "home" %}
+            {% include home-join-call-to-action.html %}
+          {% endif %}
           <div class="site">
                 {{ content }}
           </div> <!-- /container -->
