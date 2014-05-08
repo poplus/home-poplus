@@ -69,7 +69,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
-h1 { 
+h1 {
   margin-bottom: 1em;
   font-size: 48px;
   font-family: 'signikabold';
@@ -84,7 +84,7 @@ h2 {
   margin: 20px 0;
 }
 
-h3 { 
+h3 {
   font-size: 24px;
   font-family: 'signikaregular';
   line-height: 26px;
@@ -98,8 +98,8 @@ h4 {
 
 p { margin: 1em 0; }
 
-a { 
-  color: #ee4036; 
+a {
+  color: #ee4036;
   text-decoration: none;
 }
 
@@ -161,7 +161,7 @@ table.agenda li {
   font-family: 'signikaregular';
   line-height: 26px;
   text-shadow: 1px 1px 1px rgba(104, 132, 0, 0.75);
-  
+
 }
 
 #hero-left {
@@ -290,7 +290,7 @@ h3.secondaryTitle {
 
 /*Catalogue*/
 
-.item { 
+.item {
   width: 250px;
   background: #fff;
   margin: 0px 15px 15px 0px;
@@ -368,7 +368,7 @@ li [class^="icon-"], .nav li [class^="icon-"], li [class*=" icon-"], .nav li [cl
 
 /*Join*/
 
-.join { 
+.join {
   width: 100%;
   background: #fff;
   margin: 0px 15px 15px 0px;
@@ -498,113 +498,6 @@ li [class^="icon-"], .nav li [class^="icon-"], li [class*=" icon-"], .nav li [cl
   border-radius: 6px 6px 0px 0px;
   color: #fff;
   font-size: 22px;
-}
-
-/*Conference*/
-
-.clipped {
-  background: url(../images/conference.jpg) no-repeat center center;
-  /*background-size: cover;*/
-  color: #fff;
-  -webkit-text-fill-color: transparent; /* overrides the white text color in webkit browsers */
-  -webkit-background-clip: text;
-}
-
-.clipped-bn {
-  background: url(../images/conference-bn.jpg) no-repeat top center;
-  background-size: cover;
-  color: #fff;
-  -webkit-text-fill-color: transparent; /* overrides the white text color in webkit browsers */
-  -webkit-background-clip: text;
-}
-
-.clipped h2 {
-  text-align: center;
-  font-size: 13em;
-  line-height: 1em;
-}
-
-/*Firefox*/
-
-#bkDiv
-  {
-    background-image : url('http://poplus.org/images/conference-bn.jpg');
-    height:110px;
-    width: 100%;
-  }
-
-#theText
-  {
-    font-family: 'signikabold', sans-serif;
-    font-size: 91px;
-    stroke: #000;
-    stroke-width:0px;
-    fill-opacity:1;
-  }
-
-#bkEventDiv
-  {
-    background-image : url('http://poplus.org/images/conference.jpg');
-    height:190px;
-    width: 100%;
-  }
-
-#theEventText
-  {
-    font-family: 'signikabold', sans-serif;
-    font-size: 40px;
-    stroke: #000;
-    stroke-width:0px;
-    fill-opacity:1;
-  }
-
-#theEventTit
-  {
-    font-family: 'signikabold', sans-serif;
-    font-size: 88px;
-    stroke: #000;
-    stroke-width:0px;
-    fill-opacity:1;
-  }
-
-/*Fin firefox*/
-
-.clipped h3 {
-  text-align: center;
-  font-size: 3em;
-  line-height: 0.8em;
-  padding-bottom: 10px;
-}
-
-.clipped h1 {
-  margin-bottom: 0px;
-  padding: 16px 0;
-}
-
-.btn-red {
-  padding: 15px;
-  background: #ee4036;
-  border-radius: 6px;
-  color: #fff;
-  font-family: 'signikabold';
-  font-size: 24px;
-}
-
-a.btn-red:visited {
-  color: #fff;
-}
-
-.center {
-  text-align: center;
-  margin: 20px 0px 60px;
-}
-
-.label-popconf {
-  font-size: 36px;
-  font-family: 'signikabold';
-  padding: 10px 0;
-  text-align: right;
-  line-height: 27px;
 }
 
 /*****************************************************************************/
