@@ -255,6 +255,52 @@ h3.secondaryTitle {
 }*/
 
 
+/* 'Join' call to action */
+.home .container {
+    margin-top: 50px;
+}
+
+.join-cta {
+    background-color: #ee4036;
+    background-image: url('../images/poplus-bg.png');
+    background-size: 38px 22px;
+    padding-top: 6.5em;
+    padding-bottom: 3.5em;
+    color: #f9fbeb;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+.join-cta a {
+    color: #fff;
+    border-color: #fff;
+    border-bottom: 1px dotted rgba(255,255,255,0.4);
+}
+
+.join-cta a:hover,
+.join-cta a:active,
+.join-cta a:focus {
+    background-color: #d32420;
+    border-color: #fff;
+}
+
+.join-cta .site {
+    text-align: center;
+}
+
+.join-cta h1 {
+    font-size: 72px;
+    margin-bottom: 0.4em;
+    color: #f9fbeb;
+    text-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+    line-height: 0.9em;
+}
+
+.join-cta p {
+    font-size: 24px;
+    font-family: 'signikaregular';
+    line-height: 26px;
+}
+
 /*Catalogue*/
 
 .item {
@@ -813,6 +859,10 @@ ul.menu a li:hover {
     margin: 130px 0px 0px;
   }
 
+    .home .container {
+        margin-top: 120px;
+    }
+
 /*Home*/
 
   #home:after {
@@ -904,4 +954,3 @@ ul.menu a li:hover {
   }
 
 }
-
