@@ -1,8 +1,7 @@
 ---
-layout: default
-title: Group
+layout: inner-page
+title: Community
 ---
-##Community
 Please let us hear your voice and keep in touch with the rest of the Poplus [community][googlegroup] (group e-mail address is poplus\[at\]googlegroups.com).
 
 <iframe id="forum_embed"
