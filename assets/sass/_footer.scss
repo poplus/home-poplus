@@ -1,0 +1,93 @@
+.site-footer {
+    background-color: $colour_dark_blue;
+    color: #fff;
+    padding: 3em 0 2em;
+    @include clearfix;
+    a {
+        color: $colour_green;
+        &:hover,
+        &:active,
+        &:focus {
+            color: #fff;
+        }
+    }
+}
+
+.about-poplus {
+    margin-bottom: 2em;
+    @media (min-width: $large-screen) {
+        float: left;
+        width: 56%;
+        margin-right: 4%;
+    }
+    img {
+        margin-bottom: 1em;
+    }
+}
+
+.poplus-full-logo {
+    display: inline-block;
+    @extend .image-replacement;
+    width: 210px;
+    height: 39px;
+    background-image: url('../assets/img/poplus-logo-full.png');
+    @media ($high-dpi-screen)  {
+        background-image: url('../assets/img/poplus-logo-full@2.png');
+    }
+    background-position: top left;
+    background-repeat: no-repeat;
+    margin-right: 1em;
+    background-size: 210px 39px;
+    margin-bottom: 1em;
+}
+
+.list-of-poplus-components {
+    @extend .unstyled-list;
+    @extend .inline-list;
+    li {
+        margin-right: 1em;
+    }
+}
+
+.poplus-founders {
+    @media (min-width: $large-screen) {
+        text-align: right;
+        float: left;
+        width: 40%;
+        margin-top: 3.6em;
+    }
+}
+
+.founder-logo {
+    display: inline-block;
+    @extend .image-replacement;
+    text-indent: 9000%;
+}
+
+.ci-founder-logo {
+    @extend .founder-logo;
+    width: 116px;
+    height: 32px;
+    background-image: url('../assets/img/ci-logo.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+    margin-right: 1em;
+    background-size: 116px 32px;
+}
+
+.mysociety-founder-logo {
+    @extend .founder-logo;
+    width: 116px;
+    height: 24px;
+    background-image: url('../assets/img/mysociety-logo.png');
+    @media ($high-dpi-screen)  {
+        background-image: url('../assets/img/mysociety-logo@2.png');
+    }
+    background-position: top left;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -5px;
+    background-size: 116px 24px;
+}
+
+
