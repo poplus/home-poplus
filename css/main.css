@@ -513,6 +513,21 @@ li [class^="icon-"], .nav li [class^="icon-"], li [class*=" icon-"], .nav li [cl
   font-size: 22px;
 }
 
+.join--prominent div {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.join--prominent p {
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+
+.join--prominent h2 {
+    background-color: #ee4036;
+    margin-bottom: 0;
+}
+
 /*Conference*/
 
 .clipped {
