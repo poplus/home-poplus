@@ -113,6 +113,18 @@ blockquote {
   border-radius: 6px;
   line-height: 27px;
 }
+.about p,
+.about h1,
+.about h2 {
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about p {
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
 
 .agenda td {
 	padding: 5px;

@@ -25,8 +25,7 @@
         <link rel="stylesheet" href="/css/jquery.countdown.css" />
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     </head>
-    <body class="{% if page.class == "home" %}home{% endif %}">
-
+    <body class="{% if page.class == "home" %}home{% endif %}{% if page.url == "/about.html" %}about{% endif %}">
         <div class="container">
           <div class="site-header">
               <div class="site">
