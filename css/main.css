@@ -113,6 +113,7 @@ blockquote {
   border-radius: 6px;
   line-height: 27px;
 }
+
 .about p,
 .about h1,
 .about h2 {
@@ -121,6 +122,7 @@ blockquote {
     margin-right: auto;
 }
 
+.intro,
 .about p {
     font-size: 1.25em;
     line-height: 1.5em;
