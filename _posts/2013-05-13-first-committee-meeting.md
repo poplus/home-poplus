@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "Poplus: join our first ever committee meeting"
+author: Catalina Margozzini
+date: 13-05-2014
+categories: post
+published: true
+---
+
 #Poplus: join our first ever committee meeting
 
 The first Poplus committee meeting will take place, via Skype, on Thursday 15th May at midday UTC ([see what time that is where you are](http://www.worldtimeserver.com/convert_time_in_UTC.aspx?y=2014&mo=5&d=15&h=12&mn=0)).
