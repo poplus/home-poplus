@@ -123,6 +123,44 @@ dl {
     }
 }
 
+table {
+    width: 100%;
+    max-width: 100%;
+    margin: 1em 0 2em;
+    border-collapse: collapse;
+    font-size: 0.875em;
+    p {
+        margin: 0;
+    }
+}
+
+td, th {
+    border-bottom: 1px solid $colour_borders;
+    padding: 0.75em 0.6em;
+    text-align: left;
+}
+
+
+th {
+    background: inherit;
+    font-weight: normal;
+    color: $colour_blue;
+    font-weight: 600;
+}
+
+th[scope="row"] {
+    color: $colour_dark_grey;
+}
+
+tbody {
+    tr:hover {
+        background-color: $colour_background;
+        th[scope="row"] {
+            color: $colour_black;
+        }
+    }
+}
+
 input[type=text],
 input[type=password],
 input[type=url],
@@ -296,4 +334,4 @@ textarea,
 @import 'header';
 @import 'footer';
 @import 'homepage';
-@import 'popit-styles';
+@import 'poplus-styles';

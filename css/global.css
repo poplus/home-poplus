@@ -462,6 +462,34 @@ dt {
 dl ul {
   margin: 0; }
 
+table {
+  width: 100%;
+  max-width: 100%;
+  margin: 1em 0 2em;
+  border-collapse: collapse;
+  font-size: 0.875em; }
+  table p {
+    margin: 0; }
+
+td, th {
+  border-bottom: 1px solid #eaedf2;
+  padding: 0.75em 0.6em;
+  text-align: left; }
+
+th {
+  background: inherit;
+  font-weight: normal;
+  color: #5d6c7e;
+  font-weight: 600; }
+
+th[scope="row"] {
+  color: #8a8c8f; }
+
+tbody tr:hover {
+  background-color: white; }
+  tbody tr:hover th[scope="row"] {
+    color: #333333; }
+
 input[type=text],
 input[type=password],
 input[type=url],
@@ -756,7 +784,8 @@ textarea,
       color: #fff; }
 
 .about-poplus {
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  position: relative; }
   @media (min-width: 50em) {
     .about-poplus {
       float: left;
@@ -764,6 +793,19 @@ textarea,
       margin-right: 4%; } }
   .about-poplus img {
     margin-bottom: 1em; }
+
+a.contact-us-footer-link {
+  margin-top: 2em;
+  color: #a4b1c2; }
+  a.contact-us-footer-link:hover, a.contact-us-footer-link:active, a.contact-us-footer-link:focus {
+    text-decoration: underline;
+    color: #e94f36; }
+  @media (min-width: 33.75em) {
+    a.contact-us-footer-link {
+      position: absolute;
+      top: 1.1em;
+      left: 15em;
+      margin-top: 0; } }
 
 .poplus-full-logo {
   display: inline-block;
@@ -880,23 +922,6 @@ textarea,
         padding-right: 2em;
         margin-right: 1.5em; } }
 
-.featuring, .examples {
-  margin-top: 1em;
-  margin-bottom: 2em; }
-  .featuring h3, .examples h3 {
-    font-size: 1.125em; }
-  .featuring p, .examples p {
-    font-size: 0.875em;
-    color: #5d6c7e; }
-
-@media (min-width: 33.75em) {
-  .featuring, .examples {
-    margin-top: 3em; } }
-@media (min-width: 50em) {
-  .featuring, .examples {
-    margin-top: 6em;
-    margin-bottom: 2em; } }
-
 @media (min-width: 33.75em) and (max-width: 50em) {
   .column {
     clear: both; } }
@@ -919,6 +944,18 @@ textarea,
       margin-right: 5.043859649%;
       /* 46px */ }
       .column-one-of-four:nth-child(4n+4) {
+        margin-right: 0; } }
+
+.column-one-of-two {
+  margin-bottom: 2em;
+  vertical-align: top; }
+  @media (min-width: 33.75em) {
+    .column-one-of-two {
+      width: 47.478070176%;
+      display: inline-block;
+      margin-right: 5.043859649%;
+      /* 46px */ }
+      .column-one-of-two:nth-child(even) {
         margin-right: 0; } }
 
 .layout-full-width-left-heading:before, .layout-full-width-left-heading:after {
@@ -953,52 +990,7 @@ textarea,
       padding-top: 2.3em;
       border-top: 8px solid #eaedf2; } }
 
-/* Homepage elements that are specific to this component */
-.examples {
-  /* inherit all the typographical styles from .featuring */ }
-
-@media (min-width: 33.75em) {
-  .examples {
-    margin-bottom: 3em; } }
 @media (min-width: 50em) {
-  .examples {
-    margin-top: 4em;
-    margin-bottom: 4em; } }
-
-.example-popit {
-  padding-top: 5em;
-  background-image: url("../assets/img/example-popit-icon.png");
-  background-position: top left;
-  background-repeat: no-repeat;
-  background-size: 83px 60px; }
-  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-    .example-popit {
-      background-image: url("../assets/img/example-popit-icon@2.png"); } }
-  @media (min-width: 33.75em) and (max-width: 50em) {
-    .example-popit {
-      /* Use the available space and put the icon on the right */
-      padding-top: 0; }
-      .example-popit h3, .example-popit p {
-        padding-left: 33%; } }
-  @media (max-width: 33.75em) {
-    .example-popit {
-      /* These use the .column-one-of-four layout, except these need to be two columns on small screens, not one*/
-      width: 47.478070176%;
-      display: inline-block;
-      margin-right: 5.043859649%;
-      /* 46px */ }
-      .example-popit:nth-child(2n+2) {
-        margin-right: 0; } }
-  .example-popit a {
-    display: block; }
-    .example-popit a h3 {
-      color: #2e353e; }
-    .example-popit a:hover, .example-popit a:active, .example-popit a:focus {
-      text-decoration: none; }
-      .example-popit a:hover h3, .example-popit a:active h3, .example-popit a:focus h3 {
-        color: #e94f36; }
-  .example-popit p {
-    margin-bottom: 0; }
-
-.example-popit-icon {
-  max-width: 5.1875em; }
+  .left-heading--no-border {
+    padding-top: 2.8em;
+    border-top: none; } }

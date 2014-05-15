@@ -15,6 +15,7 @@
 
 .about-poplus {
     margin-bottom: 2em;
+    position: relative;
     @media (min-width: $large-screen) {
         float: left;
         width: 56%;
@@ -22,6 +23,23 @@
     }
     img {
         margin-bottom: 1em;
+    }
+}
+
+a.contact-us-footer-link {
+    margin-top: 2em;
+    color: #a4b1c2;
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: underline;
+        color: $colour_red;
+    }
+    @media (min-width: $medium-screen) {
+        position: absolute;
+        top: 1.1em;
+        left: 15em;
+        margin-top: 0;
     }
 }
 
