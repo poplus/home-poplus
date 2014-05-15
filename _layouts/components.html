@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: inner-page
 ---
 
 <p class="meta">{{ page.date | date_to_string }}</p>
@@ -11,7 +11,7 @@ layout: default
 			  <span><strong>Status: </strong>{{ page.status }}</span>
 			{% endif %}
 		</h4>
-		
+
 	<ul class="link-box">
 		{% if page.component_url %}
 		  <li><a href="{{ page.component_url }}"><i class="icon-external-link"></i>Website</a></li>

@@ -1,5 +1,5 @@
 ---
-layout: popconf
+layout: post
 title:  "Things you need to know about Santiago before PoplusCon"
 author: Catalina Margozzini
 date: 16-04-2014
@@ -23,7 +23,7 @@ Fares vary depending on the time of day. The normal rate (US$0.55) is available 
 Metro map here
 
 ####Connecting Metro and bus rides
-While travelling by bus or metro you are able to connect up to 3 times within a 2-hours period with no extra cost. For instance, you might need to take 1 metro ride and 2 bus rides in order to get some places, you'll have to check your TarjetaBip 3 times but it will be charged just once (the first time). 
+While travelling by bus or metro you are able to connect up to 3 times within a 2-hours period with no extra cost. For instance, you might need to take 1 metro ride and 2 bus rides in order to get some places, you'll have to check your TarjetaBip 3 times but it will be charged just once (the first time).
 
 
 ####Taxi
@@ -34,7 +34,7 @@ Always carry cash when travelling in taxi.
 Rampaging micros mean that Santiago's streets are not that safe for bikes, but recent cycle lanes have improved the situation. There are also a lot of public paths that can be used, as well as quieter roads, so don't be put off. Santiago is certainly compact enough to get around by bike and the climate is ideal for it - even if the smog isn't.
 
 
-###Health 
+###Health
 
 Here’s a list of medical services:
 Clínica Santa María - This medical center is closest to the conference venue. and very close to the hotel.
@@ -47,7 +47,7 @@ Clínica Universidad Católica (562 23696000; www.clinicauc.cl in Spanish; Lira 
 Posta Central (562 26341650; Av Portugal 125, Centro; 24hr; Universidad Católica) Santiago's main emergency room is here.
 
 
-###Money 
+###Money
 
 You're never far from an ATM in Santiago: in any bank or subway station.
 Exchange houses are clustered on Agustinas between Bandera and Ahumada. Cambios Afex (56226881143; Agustinas 1050, Centro; Universidad de Chile) is efficient. There is also a whole bunch of cambios (money exchangers) on Av Pedro de Valdivia in Providencia, although some will not change traveler's checks apart from US dollars.
@@ -97,11 +97,11 @@ It’s important to note that we will be doing some walking around, so you shoul
 
 No special clothing will be necessary.
 
-###Food, special allergies 
+###Food, special allergies
 
 Dietary requirements will be considered in all meals during the conference. Nevertheless it’s important to note that not all restaurants in Santiago accommodate all dietary requirements, so if you go out, do ask in advance at the restaurant.
 
-###Customs 
+###Customs
 
 Chile is a very strict country regarding anything entering or leaving the country. At the airport, right next to customs you’ll find the country’s agricultural and livestock service, and it’s very important that you declare any goods with animal or vegetable origin. In this form you’ll find more information. If goods are found and have not been declared, fines can be very high.
 

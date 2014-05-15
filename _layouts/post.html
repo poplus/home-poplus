@@ -2,11 +2,28 @@
 layout: default
 ---
 
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-		<h1>{{ page.title }}</h1>
-		<h4>By {{ page.author }}</h4>
-		{{ content }}
-		{% include disqus-comments.html %}
+
+<div class="page-title page-title--inner-page">
+    <div class="container">
+        <h1>Blog</h1>
+    </div>
+</div>
+<div class="container">
+    <div class="layout-inner-page">
+        <div class="column-content">
+            <div class="main" role="main">
+                <p class="meta">{{ page.date | date_to_string }}</p>
+                <div class="post">
+                        <h1>{{ page.title }}</h1>
+                        <p class="meta--author">By {{ page.author }}</p>
+                        {{ content }}
+                        {% include disqus-comments.html %}
+                </div>
+            </div>
+        </div>
+        <div class="column-navigation">
+
+        </div>
+    </div>
 </div>

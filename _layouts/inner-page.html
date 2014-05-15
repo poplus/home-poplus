@@ -1,27 +1,20 @@
-<!DOCTYPE html>
-<html>
-    {% include html-head.html %}
-    <body>
-        {% include header.html %}
-        <div class="page-title page-title--inner-page">
-                <div class="container">
-                    <h1>{{ page.title }}</h1>
-                </div>
+---
+layout: default
+---
+<div class="page-title page-title--inner-page">
+    <div class="container">
+        <h1>{{ page.title }}</h1>
+    </div>
+</div>
+<div class="container">
+    <div class="layout-inner-page">
+        <div class="column-content">
+            <div class="main" role="main">
+                {{ content }}
             </div>
-            <div class="container">
-                <div class="layout-inner-page">
-                    <div class="column-content">
-                        <div class="main" role="main">
-                            {{ content }}
-                        </div>
-                    </div>
-                    <div class="column-navigation">
-                        {% include sidebar.html %}
-                    </div>
-                </div>
-            </div>
-
-        {% include footer.html %}
-        {% include html-footer.html %}
-    </body>
-</html>
+        </div>
+        <div class="column-navigation">
+            {% include sidebar.html %}
+        </div>
+    </div>
+</div>
