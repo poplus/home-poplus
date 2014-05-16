@@ -11,7 +11,7 @@ We put out a call that anyone who was interested in helping to run Poplus as a f
 
 Over 20 people in multiple timezones attended the meeting via IRC. It was a surprisingly good platform for ensuring that everyone had their say!
 
-Poplus is a very new federation, and its committee is still open to anyone. If you want to be part of the decision-making, there is still time to get involved. Join the Google Group and make yourself known.
+Poplus is a very new federation, and its committee is still open to anyone. If you want to be part of the decision-making, there is still time to get involved. Join the [Google Group](https://groups.google.com/forum/#!forum/poplus) and make yourself known.
 
 In today's meeting, we formed several sub-groups. We now have small committees who will be actively working on:
 
