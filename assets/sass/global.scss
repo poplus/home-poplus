@@ -237,6 +237,11 @@ textarea,
         padding-top: 3em;
         margin-bottom: 3em;
     }
+    h1 {
+        @media (min-width: $medium-screen) and (max-width: $large-screen) {
+            margin-left: .8em;
+        }
+    }
 }
 
 .page-title--inner-page {

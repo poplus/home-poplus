@@ -545,6 +545,9 @@ textarea,
     .page-title {
       padding-top: 3em;
       margin-bottom: 3em; } }
+  @media (min-width: 33.75em) and (max-width: 50em) {
+    .page-title h1 {
+      margin-left: .8em; } }
 
 .page-title--inner-page h1 {
   /*
