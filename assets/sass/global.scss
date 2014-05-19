@@ -225,6 +225,19 @@ textarea,
     }
 }
 
+.button--quarternary {
+    @extend .button;
+    color: $colour_dark_blue;
+    background-color: darken($colour_red, 15%);
+            color: #fff;
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: darken($colour_red, 20%);
+
+    }
+}
+
 /* Inner pages */
 
 .page-title {

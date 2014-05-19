@@ -50,8 +50,8 @@
    @extend .layout-homepage-content-columns;
 }
 
-.home-join {
-    background-color: $colour_green;
+.home-actions {
+    background-color: $colour_blue;
     @extend .layout-homepage-section;
     @media (min-width: $large-screen) {
         padding: 0;
@@ -64,20 +64,38 @@
     }
 }
 
-    .home-join__position {
+    .home-actions__position {
         @media (min-width: $large-screen) {
-            background-color: $colour_green;
             position: absolute;
             right: 0;
-            top: -37.5em;
+            top: -46.5em;
             z-index: 100;
-            width: 29.010238859386%;
-            padding: 3.9249147%;
+            width: 36.6040956%;
+        }
+
+        @media (min-width: 61.4375em) {
+            top: -41em;
+        }
+
+        @media (min-width: $huge-screen) {
+            top: -37em;
         }
     }
 
-    .home-join__section {
+    .home-actions__section {
         margin-bottom: 2em;
+    }
+
+    .home-join {
+        background-color: $colour_green;
+        padding: 2.875em;
+        margin-top: 2.875em;
+    }
+
+    .home-get {
+        background-color: $colour_red;
+        padding: 2.875em;
+        color: #fff;
     }
 
 .home-news {
