@@ -3,7 +3,7 @@ layout: inner-page
 title: Components
 ---
 
-## Poplus Components: What are they?
+##Poplus Components: What are they?
 
 Poplus Components are independent pieces of software developed to solve a range of common problems encountered when building civic and democratic websites.
 
@@ -16,7 +16,7 @@ Using Poplus Components, mixed with your own code, it becomes much less time con
 
 This is a very high-level description of what a Poplus Component is. For a much more detailed description, see below.
 
-## Why use a Poplus Component?
+##Why use a Poplus Component?
 
 Do you have too much time? Or perhaps too much money? Or too many friends who are coders and designers?
 
@@ -24,15 +24,13 @@ If not, then you might want to use Poplus Components to help power your new demo
 
 Also, you might want to use a Poplus Component because they allow non-technical and technical people to collaborate more effectively. Non-technical people can use high-quality interfaces to add and manipulate data, which programmers can then suck into tools and apps to make them work.
 
-## What Poplus Components exist at the moment?
-
-
+##What Poplus Components exist at the moment?
 Here are all the Poplus Components currently in existence. They vary between being very mature and brand new.
 
 <div class="grid-row">
 <!--
 {% for post in site.categories.component %}
-	--><div class="column-one-of-three">
+	--><div class="column-one-of-two">
 		<div class="catalogue-item catalogue-item--poplus-component">
 			<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 			<div class="catalogue-item__content">
@@ -55,14 +53,12 @@ Here are all the Poplus Components currently in existence. They vary between bei
 </div>
 
 
-## Definition of a Poplus Component - v0.01
-
+##Definition of a Poplus Component - v0.01
 One of the most important things that happened at PoplusCon was an agreement about what characteristics a piece of code has to have before it can be called a Poplus Component.
 
 This page represents a v.01 spec, as agreed by about twenty people from various organisations who were in the room at the time. If you’d like to debate it or improve it, please join the mailing list and tell us what should be different in the next version.
 
-
-### Seven things that make a Poplus Component
+###Seven things that make a Poplus Component
 If your code fits every one of the points below, congratulations! It's a Component and eligible for the Poplus seal of approval.
 <ul class="tick-list">
 <li> My code helps Civic/Democratic websites </li>
@@ -73,8 +69,8 @@ If your code fits every one of the points below, congratulations! It's a Compone
 <li> It's Free/Open Source software</li>
 <li> It has a stable, documented API</li>
 </ul>
-### What do these mean?
-#### Civic/Democratic
+###What do these mean?
+####Civic/Democratic
 **Components work on websites that empower people in their civic or democratic lives**
 
 Civic or democratic websites include sites that:
@@ -88,7 +84,7 @@ Typically, such sites are non-commercial, non-partisan and open to all.
 
 Your Component may work well on sites that don't fit these guidelines, but it must also work on sites that do.
 
-#### Solves a Single Problem
+####Solves a Single Problem
 **Each Component does just one thing**
 
 Your Component should solve one problem for people who are running civic or democratic websites. If it does more than one thing, you should split it into different Components.
@@ -101,14 +97,14 @@ Your Component might solve obvious problems, like storing names and positions of
 
 So, it might help with tiny issues that most people would never think about - like that fact that politicians sometimes change their names. Thanks to your Component, people never need to think about it!
 
-#### Composable
+####Composable
 **Components work with other Components**
 
 This is one of the key elements of a Component (and it's where the name Component comes from) - it must work with any other Components. Components are like building blocks: you can put them together to create something bigger.
 
 Standalone sites, or platforms for constructing them (e.g. Alaveteli) are very worthy pieces of software, but they are not Components.
 
-#### Platform Agnostic
+####Platform Agnostic
 **People should be able to use your Poplus Component on any website, no matter what platform they are using.**
 
 Your Component can be written in any programming language or framework - that's because interaction should be over APIs (see below), so the underlying code isn't so important to the person implementing it. Write your Component in whatever language you are most comfortable with.
@@ -117,7 +113,7 @@ Ideally, your Component will be offered as a cloud or SAAS version: that makes i
 
 Docker is one simple way of making this easier.
 
-#### Country Agnostic
+####Country Agnostic
 **Components work everywhere**
 
 Poplus was created so that organisations everywhere could share and collaborate on code. We exist so that people don't have to keep 'reinventing the wheel', or writing new code when they could use code that already exists.
