@@ -349,7 +349,7 @@ table {
   margin: 0 auto;
   position: relative; }
 
-.unstyled-list, .inner-navigation ul, .primary-navigation ul, .list-of-poplus-components {
+.unstyled-list, .inner-navigation ul, .primary-navigation ul, .list-of-poplus-components, .tick-list {
   margin-left: 0;
   padding-left: 0;
   list-style: none outside none; }
@@ -1120,6 +1120,16 @@ a.contact-us-footer-link {
   .home-poplus-component p {
     font-size: 0.875em;
     color: #5d6c7e; }
+
+.tick-list li {
+  background-image: url("../assets/img/tick-list-bg.png");
+  background-repeat: no-repeat;
+  background-size: 22px 18px;
+  background-position: 0 0.4em;
+  padding: 0.4em 0 0.4em 2em; }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .tick-list li {
+      background-image: url("../assets/img/tick-list-bg@2.png"); } }
 
 .post {
   padding: 0; }
