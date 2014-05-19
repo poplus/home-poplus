@@ -109,6 +109,7 @@ img {
     height: auto;
 }
 
+ol,
 ul {
     padding-left: 1.3em;
 }
@@ -174,6 +175,12 @@ textarea,
     border-radius: 3px;
     padding: 0.33em;
     max-width: 100%;
+}
+
+.column-content {
+    li {
+        padding: 0.25em 0;
+    }
 }
 
 .button {

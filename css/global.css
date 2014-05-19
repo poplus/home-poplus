@@ -453,6 +453,7 @@ img {
   max-width: 100%;
   height: auto; }
 
+ol,
 ul {
   padding-left: 1.3em; }
 
@@ -504,7 +505,10 @@ textarea,
   padding: 0.33em;
   max-width: 100%; }
 
-.button, .button--primary, .button--secondary, .button--tertiary {
+.column-content li {
+  padding: 0.25em 0; }
+
+.button, .button--primary, .button--secondary, .button--tertiary, .button--quarternary {
   display: inline-block;
   font-family: "Signika", "Helvetica Neue", Arial, Helvetica, serif;
   font-weight: 600;
