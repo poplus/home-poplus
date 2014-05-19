@@ -157,6 +157,21 @@
         }
     }
 
+
+.tick-list {
+    @extend .unstyled-list;
+    li {
+        background-image: url('../assets/img/tick-list-bg.png');
+        background-repeat: no-repeat;
+        background-size: 22px 18px;
+        background-position: 0 0.4em;
+        padding: 0.4em 0 0.4em 2em;
+        @media ($high-dpi-screen)  {
+            background-image: url('../assets/img/tick-list-bg@2.png');
+        }
+    }
+}
+
 .post {
     padding: 0;
 }
