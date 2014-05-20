@@ -66,9 +66,13 @@
 .primary-navigation-position {
     @media (min-width: $large-screen) {
         position: absolute;
-        right: 0;
+        right: 1em;
         top: 0;
     }
+    @media (min-width: $site-width) {
+        right: 0;
+    }
+
 }
 .primary-navigation {
     ul {

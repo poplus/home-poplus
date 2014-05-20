@@ -715,8 +715,11 @@ textarea,
 @media (min-width: 50em) {
   .primary-navigation-position {
     position: absolute;
-    right: 0;
+    right: 1em;
     top: 0; } }
+@media (min-width: 71.25em) {
+  .primary-navigation-position {
+    right: 0; } }
 
 .primary-navigation ul {
   margin: 0;

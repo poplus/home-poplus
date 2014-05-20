@@ -1,3 +1,5 @@
+@import 'variables';
+
 .image-replacement {
     text-indent: -1000%;
     white-space: nowrap;
@@ -5,7 +7,7 @@
 }
 
 .container {
-    max-width: 71.25em;
+    max-width: $site-width;
     padding: 0 1em;
     margin: 0 auto;
     position: relative;
