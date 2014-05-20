@@ -12,7 +12,7 @@ These common problems include tasks like:
 * Making and maintaining up-to-date data on politicians
 * Working out what district, city or region a particular problem or politician relates to
 
-Using Poplus Components, mixed with your own code, it becomes much less time consuming to build and then maintain a variety of apps and sites. For example, this Parliamentary Monitoring site in South Africa uses two Poplus Components - SayIt and MapIt.
+Using Poplus Components, mixed with your own code, it becomes much less time consuming to build and then maintain a variety of apps and sites. For example, [this Parliamentary Monitoring site in South Africa](http://www.pa.org.za) uses two Poplus Components - [SayIt](http://sayit.poplus.org) and [MapIt](http://mapit.poplus.org).
 
 This is a very high-level description of what a Poplus Component is. For a much more detailed description, see below.
 
@@ -102,7 +102,7 @@ So, it might help with tiny issues that most people would never think about - li
 
 This is one of the key elements of a Component (and it's where the name Component comes from) - it must work with any other Components. Components are like building blocks: you can put them together to create something bigger.
 
-Standalone sites, or platforms for constructing them (e.g. Alaveteli) are very worthy pieces of software, but they are not Components.
+Standalone sites, or platforms for constructing them (e.g. [Alaveteli](http://www.alaveteli.org)) are very worthy pieces of software, but they are not Components.
 
 ####Platform Agnostic
 **People should be able to use your Poplus Component on any website, no matter what platform they are using.**
@@ -111,7 +111,7 @@ Your Component can be written in any programming language or framework - that's 
 
 Ideally, your Component will be offered as a cloud or SAAS version: that makes it really easy for people to use it. At the same time, it should be relatively easy to install, configure and deploy, because many users will eventually want to run their own locally hosted version.
 
-Docker is one simple way of making this easier.
+[Docker](http://docker.io) is one simple way of making this easier.
 
 ####Country Agnostic
 **Components work everywhere**
@@ -148,4 +148,4 @@ Wonderful - you've made a Poplus Component. Please let us know, and we'll help y
 
 Need some help getting there?
 
-Drop a message to the Poplus mailing list - there are many friendly coders there who can help you with queries or problems.
+Drop a message to the [Poplus mailing list](https://groups.google.com/forum/#!forum/poplus) - there are many friendly coders there who can help you with queries or problems.
