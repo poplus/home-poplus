@@ -1029,29 +1029,37 @@ a.contact-us-footer-link {
     width: 60%;
     margin-right: 0; } }
 
-.layout-homepage-content-columns, .home-learn__section, .home-news__section {
+.layout-homepage-content-columns, .home-about__section, .home-news__section {
   margin-bottom: 2em;
   vertical-align: top; }
   @media (min-width: 50em) {
-    .layout-homepage-content-columns, .home-learn__section, .home-news__section {
+    .layout-homepage-content-columns, .home-about__section, .home-news__section {
       width: 26.79180887372%;
       display: inline-block;
       margin-right: 3.9249147%;
       /* 46px */ }
-      .layout-homepage-content-columns:nth-child(even), .home-learn__section:nth-child(even), .home-news__section:nth-child(even) {
+      .layout-homepage-content-columns:nth-child(even), .home-about__section:nth-child(even), .home-news__section:nth-child(even) {
         margin-right: 0; } }
 
-.layout-homepage-section, .home-learn, .home-actions, .home-news, .home-poplus-components {
+.layout-homepage-section, .home-about, .home-actions, .home-news, .home-poplus-components {
   padding: 2em 0; }
   @media (min-width: 33.75em) {
-    .layout-homepage-section, .home-learn, .home-actions, .home-news, .home-poplus-components {
+    .layout-homepage-section, .home-about, .home-actions, .home-news, .home-poplus-components {
       padding: 2.8em 0; } }
-  .layout-homepage-section h2, .home-learn h2, .home-actions h2, .home-news h2, .home-poplus-components h2 {
-    margin-bottom: 1em; }
+  .layout-homepage-section h2, .home-about h2, .home-actions h2, .home-news h2, .home-poplus-components h2 {
+    margin-bottom: 0.66em; }
 
-.home-learn {
+.home-about {
   background-color: #2e353e;
-  color: #fff; }
+  color: #fff;
+  padding-bottom: 4.8em; }
+  .home-about a {
+    color: #c2d83a; }
+    .home-about a:hover, .home-about a:active, .home-about a:focus {
+      color: #fff; }
+
+.home-about__section {
+  margin-bottom: 0; }
 
 .home-actions {
   background-color: #5d6c7e; }
@@ -1075,7 +1083,7 @@ a.contact-us-footer-link {
     top: -41em; } }
 @media (min-width: 65em) {
   .home-actions__position {
-    top: -37em; } }
+    top: -38em; } }
 
 .home-actions__section {
   margin-bottom: 2em; }

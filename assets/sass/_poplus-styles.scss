@@ -40,14 +40,24 @@
     }
 }
 
-.home-learn {
+.home-about {
     background-color: $colour_dark_blue;
     color: #fff;
     @extend .layout-homepage-section;
+    padding-bottom: 4.8em;
+    a {
+        color: $colour_green;
+        &:hover,
+        &:active,
+        &:focus {
+            color: #fff;
+        }
+    }
 }
 
 .home-about__section {
    @extend .layout-homepage-content-columns;
+   margin-bottom: 0;
 }
 
 .home-actions {
@@ -78,7 +88,7 @@
         }
 
         @media (min-width: $huge-screen) {
-            top: -37em;
+            top: -38em;
         }
     }
 
@@ -110,6 +120,7 @@
 .home-poplus-components {
     @extend .layout-homepage-section;
     border-top: 1px solid $colour_borders;
+    padding-bottom: 0;
 }
 
     .home-component__section {
