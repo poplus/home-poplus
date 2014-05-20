@@ -36,7 +36,7 @@
         padding: 2.8em 0;
     }
     h2 {
-        margin-bottom: 1em;
+        margin-bottom: 0.66em;
     }
 }
 
@@ -46,7 +46,7 @@
     @extend .layout-homepage-section;
 }
 
-.home-learn__section {
+.home-about__section {
    @extend .layout-homepage-content-columns;
 }
 
