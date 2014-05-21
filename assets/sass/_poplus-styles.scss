@@ -202,7 +202,22 @@
 }
 
 .post {
+    @extend .unstyled-list;
     padding: 0;
+
+    ul {
+        list-style-type: disc;
+    }
+}
+
+li.listed-post {
+    border-bottom: 1px solid $colour_borders;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.meta {
+    color: $colour_dark_grey;
 }
 
 .column-one-of-three {

@@ -349,7 +349,7 @@ table {
   margin: 0 auto;
   position: relative; }
 
-.unstyled-list, .inner-navigation ul, .primary-navigation ul, .list-of-poplus-components, .tick-list {
+.unstyled-list, .inner-navigation ul, .primary-navigation ul, .list-of-poplus-components, .tick-list, .post {
   margin-left: 0;
   padding-left: 0;
   list-style: none outside none; }
@@ -1170,6 +1170,16 @@ a.contact-us-footer-link {
 
 .post {
   padding: 0; }
+  .post ul {
+    list-style-type: disc; }
+
+li.listed-post {
+  border-bottom: 1px solid #eaedf2;
+  padding-bottom: 2em;
+  margin-bottom: 2em; }
+
+.meta {
+  color: #8a8c8f; }
 
 .column-one-of-three {
   vertical-align: top; }
