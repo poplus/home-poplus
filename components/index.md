@@ -32,16 +32,22 @@ Here are all the Poplus Components currently in existence. They vary between bei
 {% for post in site.categories.component %}
 	--><div class="column-one-of-two">
 		<div class="catalogue-item catalogue-item--poplus-component">
-			<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+			<h3><a href="
+				{% if post.component_url %}
+					    {{ post.component_url }}
+					{% else if post.repo %}
+						{{ post.repo }}
+					{% endif %}
+			">{{ post.title }}</a></h3>
 			<div class="catalogue-item__content">
 				{% if post.excerpt %}
 		    		<p>{{ post.excerpt }}</p>
 	    		{% endif %}
 		    	<div class="catalogue-links"><!-- <strong>Tags: </strong>{{ post.tags | array_to_sentence_string }}<br> -->
 		    		{% if post.component_url %}
-					    <a href="{{ post.component_url }}"><i class="icon-external-link"></i>Website</a><br>
+					    <a href="{{ post.component_url }}">Website</a>
 					{% else if post.repo %}
-						<a href="{{ post.repo }}"><i class="icon-github-alt"></i>Github repository</a>
+						<a href="{{ post.repo }}">Github repository</a>
 					{% endif %}
 				</div>
 			</div>
