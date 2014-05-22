@@ -27,7 +27,7 @@ Also, you might want to use a Poplus Component because they allow non-technical 
 ##What Poplus Components exist at the moment?
 Here are all the Poplus Components currently in existence. They vary between being very mature and brand new.
 
-<div class="grid-row">
+<div class="grid-row" id="components">
 <!--
 {% for post in site.categories.component %}
 	--><div class="column-one-of-two">
@@ -54,9 +54,9 @@ Here are all the Poplus Components currently in existence. They vary between bei
 
 
 ##Definition of a Poplus Component - v0.01
-One of the most important things that happened at PoplusCon was an agreement about what characteristics a piece of code has to have before it can be called a Poplus Component.
+One of the most important things that happened at [PoplusCon](/popluscon/) was an agreement about what characteristics a piece of code has to have before it can be called a Poplus Component.
 
-This page represents a v.01 spec, as agreed by about twenty people from various organisations who were in the room at the time. If you’d like to debate it or improve it, please join the mailing list and tell us what should be different in the next version.
+This page represents a v.01 spec, as agreed by about twenty people from various organisations who were in the room at the time. If you’d like to debate it or improve it, please [join the mailing list](https://groups.google.com/forum/#!forum/poplus) and tell us what should be different in the next version.
 
 ###Seven things that make a Poplus Component
 If your code fits every one of the points below, congratulations! It's a Component and eligible for the Poplus seal of approval.
@@ -137,7 +137,7 @@ Users should be able to rely on Components
 
 So that Components can work together, all functionality should be exposed over APIs. These APIs should be very-well documented, so that anyone can use them, and so that future contributors can work on them.
 
-We recommend a REST-like HTTP API. If you don't know what that means, your developers should (or give us a shout on our mailing list).
+We recommend a REST-like HTTP API. If you don't know what that means, your developers should (or give us a shout on [our mailing list](https://groups.google.com/forum/#!forum/poplus)).
 
 As other sites and Components will be relying on this, it is essential that the API is stable. New endpoints can be added, but existing ones should not disappear, or change meaning, without a version change, or going through a suitable deprecation cycle.
 
