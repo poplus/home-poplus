@@ -9,13 +9,13 @@ Poplus' founding principle is that collaborative civic coding can help save time
 
 Civic websites often need the same basic functionalities, no matter what kind of legislature or form of government they operate within. At Poplus we have been trying to build technologies that can save us all time and money by re-using each others work.
 
-We call the resulting software [Poplus Components](/catalogue.html). They are open source and are available for anyone to use for free.
+We call the resulting software [Poplus Components](/components/). They are open source and are available for anyone to use for free.
 
 ## How Poplus began
 
-In April 2004, the [first Poplus conference](/popluscon_sessions.html) threw the doors open to international attendees, who discussed how to take the project forward - what makes a Component (link), what Components are most needed, how Poplus should organise itself (link), and how to facilitate communication (link).
+In April 2004, the [first Poplus conference](/popluscon/) threw the doors open to international attendees, who discussed how to take the project forward - [what makes a Component](/components/#definition), what Components are most needed, [how Poplus should organise itself](/posts/santiago-conference-2014/), and how to [facilitate communication](https://groups.google.com/forum/#!forum/poplus).
 
-If you are interested in joining Poplus, you can find out more here (link).
+If you are interested in joining Poplus, you can [find out more](https://groups.google.com/forum/#!forum/poplus).
 
 ## Where is Poplus going next?
 

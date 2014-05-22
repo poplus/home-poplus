@@ -60,7 +60,7 @@ This page represents a v.01 spec, as agreed by about twenty people from various 
 
 ###Seven things that make a Poplus Component
 If your code fits every one of the points below, congratulations! It's a Component and eligible for the Poplus seal of approval.
-<ul class="tick-list">
+<ul class="tick-list" id="definition">
 <li> My code helps Civic/Democratic websites </li>
 <li> It solves a Single Problem</li>
 <li> It is Composable with other Poplus Components</li>
