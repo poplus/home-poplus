@@ -40,10 +40,9 @@ Here are all the Poplus Components currently in existence. They vary between bei
 		    	<div class="catalogue-links"><!-- <strong>Tags: </strong>{{ post.tags | array_to_sentence_string }}<br> -->
 		    		{% if post.component_url %}
 					    <a href="{{ post.component_url }}"><i class="icon-external-link"></i>Website</a><br>
+					{% else if post.repo %}
+						<a href="{{ post.repo }}"><i class="icon-github-alt"></i>Github repository</a>
 					{% endif %}
-					{% if post.repo %}
-					    <a href="{{ post.repo }}"><i class="icon-github-alt"></i>Github repository</a>
-				    {% endif %}
 				</div>
 			</div>
 		</div>
