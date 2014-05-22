@@ -1,6 +1,6 @@
 ---
 layout: inner-page
-title: Join &amp; contribute
+title: Get involved
 ---
 Right now, Poplus is nothing more than the people who think it is a good idea. That means there’s no contribution too small to matter, and no skillset that we won’t embrace.
 
