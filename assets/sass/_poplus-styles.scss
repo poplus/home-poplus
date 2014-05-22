@@ -45,6 +45,17 @@
     color: #fff;
     @extend .layout-homepage-section;
     padding-bottom: 4.8em;
+    @media (min-width: $large-screen) {
+        .container {
+            background-image: url('../assets/img/poplus-heart.png');
+            background-repeat: no-repeat;
+            background-size: 425px 401px;
+            background-position:  23% -10px;
+            @media ($high-dpi-screen)  {
+                background-image: url('../assets/img/poplus-heart@2.png');
+            }
+        }
+    }
     a {
         color: $colour_green;
         &:hover,
@@ -56,8 +67,13 @@
 }
 
 .home-about__section {
-   @extend .layout-homepage-content-columns;
-   margin-bottom: 0;
+    margin-bottom: 1em;
+    vertical-align: top;
+    font-size: 1.125em;
+    @media (min-width: $large-screen) {
+        width: 40%;
+        display: inline-block;
+    }
 }
 
 .home-actions {
@@ -121,6 +137,17 @@
     @extend .layout-homepage-section;
     border-top: 1px solid $colour_borders;
     padding-bottom: 0;
+    @media (min-width: $large-screen) {
+        .container {
+            background-image: url('../assets/img/poplus-tree.png');
+            background-repeat: no-repeat;
+            background-size: 300px 476px;
+            background-position:  95% -10px;
+            @media ($high-dpi-screen)  {
+                background-image: url('../assets/img/poplus-tree@2.png');
+            }
+        }
+    }
 }
 
     .home-component__section {
@@ -137,23 +164,6 @@
             &:nth-child(5n+5) {
                 margin-right: 0;
             }
-        }
-    }
-    .home-component__diagram {
-        text-align: center;
-        img {
-            max-width: 70%;
-        }
-
-        @media (min-width: $medium-screen) and  (max-width: $large-screen) {
-            display: none;
-        }
-
-        @media (min-width: $large-screen) {
-            width: 37.645051218772%;
-            display: inline-block;
-            position: relative;
-            top: -5em;
         }
     }
 

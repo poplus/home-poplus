@@ -1032,16 +1032,16 @@ a.contact-us-footer-link {
     width: 60%;
     margin-right: 0; } }
 
-.layout-homepage-content-columns, .home-about__section, .home-news__section {
+.layout-homepage-content-columns, .home-news__section {
   margin-bottom: 2em;
   vertical-align: top; }
   @media (min-width: 50em) {
-    .layout-homepage-content-columns, .home-about__section, .home-news__section {
+    .layout-homepage-content-columns, .home-news__section {
       width: 26.79180887372%;
       display: inline-block;
       margin-right: 3.9249147%;
       /* 46px */ }
-      .layout-homepage-content-columns:nth-child(even), .home-about__section:nth-child(even), .home-news__section:nth-child(even) {
+      .layout-homepage-content-columns:nth-child(even), .home-news__section:nth-child(even) {
         margin-right: 0; } }
 
 .layout-homepage-section, .home-about, .home-actions, .home-news, .home-poplus-components {
@@ -1056,13 +1056,29 @@ a.contact-us-footer-link {
   background-color: #2e353e;
   color: #fff;
   padding-bottom: 4.8em; }
+  @media (min-width: 50em) {
+    .home-about .container {
+      background-image: url("../assets/img/poplus-heart.png");
+      background-repeat: no-repeat;
+      background-size: 425px 401px;
+      background-position: 23% -10px; } }
+  @media (min-width: 50em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 50em) and (min-resolution: 144dpi) {
+    .home-about .container {
+      background-image: url("../assets/img/poplus-heart@2.png"); } }
+
   .home-about a {
     color: #c2d83a; }
     .home-about a:hover, .home-about a:active, .home-about a:focus {
       color: #fff; }
 
 .home-about__section {
-  margin-bottom: 0; }
+  margin-bottom: 1em;
+  vertical-align: top;
+  font-size: 1.125em; }
+  @media (min-width: 50em) {
+    .home-about__section {
+      width: 40%;
+      display: inline-block; } }
 
 .home-actions {
   background-color: #5d6c7e; }
@@ -1107,6 +1123,15 @@ a.contact-us-footer-link {
 .home-poplus-components {
   border-top: 1px solid #eaedf2;
   padding-bottom: 0; }
+  @media (min-width: 50em) {
+    .home-poplus-components .container {
+      background-image: url("../assets/img/poplus-tree.png");
+      background-repeat: no-repeat;
+      background-size: 300px 476px;
+      background-position: 95% -10px; } }
+  @media (min-width: 50em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 50em) and (min-resolution: 144dpi) {
+    .home-poplus-components .container {
+      background-image: url("../assets/img/poplus-tree@2.png"); } }
 
 .home-component__section {
   vertical-align: top; }
@@ -1122,20 +1147,6 @@ a.contact-us-footer-link {
       /* 46px */ }
       .home-component__section:nth-child(5n+5) {
         margin-right: 0; } }
-
-.home-component__diagram {
-  text-align: center; }
-  .home-component__diagram img {
-    max-width: 70%; }
-  @media (min-width: 33.75em) and (max-width: 50em) {
-    .home-component__diagram {
-      display: none; } }
-  @media (min-width: 50em) {
-    .home-component__diagram {
-      width: 37.645051218772%;
-      display: inline-block;
-      position: relative;
-      top: -5em; } }
 
 .home-components-intro {
   margin-bottom: 2em; }
