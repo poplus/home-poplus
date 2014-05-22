@@ -245,4 +245,16 @@ li.listed-post {
 .catalogue-item {
     background-color: $colour_light_grey;
     border-radius: 5px;
+    h3 {
+        padding: 0.75rem 1.5rem;
+        background-color: $colour_green;
+        border-radius: 5px 5px 0 0;
+        a {
+            color: $colour_dark_blue;
+        }
+    }
+}
+
+.catalogue-item__content {
+    padding: 1em 1.5em;
 }

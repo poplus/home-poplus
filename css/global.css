@@ -1206,3 +1206,12 @@ li.listed-post {
 .catalogue-item {
   background-color: #eaedf2;
   border-radius: 5px; }
+  .catalogue-item h3 {
+    padding: 0.75rem 1.5rem;
+    background-color: #c2d83a;
+    border-radius: 5px 5px 0 0; }
+    .catalogue-item h3 a {
+      color: #2e353e; }
+
+.catalogue-item__content {
+  padding: 1em 1.5em; }
