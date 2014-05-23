@@ -1,6 +1,7 @@
 ---
 layout: default
 title: What is a Poplus component?
+permalink: components/
 ---
 # What is a Poplus component?
 
