@@ -13,7 +13,7 @@ We call the resulting software [Poplus Components](/components/). They are open 
 
 ## How Poplus began
 
-In April 2004, the [first Poplus conference](/popluscon/) threw the doors open to international attendees, who discussed how to take the project forward - [what makes a Component](/components/#definition), what Components are most needed, [how Poplus should organise itself](/posts/santiago-conference-2014/), and how to [facilitate communication](https://groups.google.com/forum/#!forum/poplus).
+In April 2014, the [first Poplus conference](/popluscon/) threw the doors open to international attendees, who discussed how to take the project forward - [what makes a Component](/components/#definition), what Components are most needed, [how Poplus should organise itself](/posts/santiago-conference-2014/), and how to [facilitate communication](https://groups.google.com/forum/#!forum/poplus).
 
 If you are interested in joining Poplus, you can [find out more](https://groups.google.com/forum/#!forum/poplus).
 
