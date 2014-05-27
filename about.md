@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: inner-page
 title: About Poplus
 permalink: about/
 ---

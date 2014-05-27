@@ -1,0 +1,260 @@
+.dot-poplus {
+    color: $colour_dark_blue;
+}
+
+/* Change the position of the hero image - it works better on the bottom */
+.hero {
+    background-position: center center;
+}
+
+/* Override the standard hero styles, we don't want a two column description */
+.hero__component-description {
+    p {
+        @media (min-width: $medium-screen) {
+            width: 60%;
+            margin-right: 0;
+        }
+    }
+}
+
+.layout-homepage-content-columns {
+    margin-bottom: 2em;
+    vertical-align: top;
+    @media (min-width: $large-screen) {
+        width: 26.79180887372%;
+        display: inline-block;
+        margin-right: 3.9249147%; /* 46px */
+        &:nth-child(even) {
+            margin-right: 0;
+        }
+    }
+}
+
+.layout-homepage-section {
+    padding: 2em 0;
+    @media (min-width: $medium-screen) {
+        padding: 2.8em 0;
+    }
+    h2 {
+        margin-bottom: 0.66em;
+    }
+}
+
+.home-about {
+    background-color: $colour_dark_blue;
+    color: #fff;
+    @extend .layout-homepage-section;
+    padding-bottom: 4.8em;
+    @media (min-width: $large-screen) {
+        .container {
+            background-image: url('../assets/img/poplus-heart.png');
+            background-repeat: no-repeat;
+            background-size: 425px 401px;
+            background-position:  23% -10px;
+            @media ($high-dpi-screen)  {
+                background-image: url('../assets/img/poplus-heart@2.png');
+            }
+        }
+    }
+    a {
+        color: $colour_green;
+        &:hover,
+        &:active,
+        &:focus {
+            color: #fff;
+        }
+    }
+}
+
+.home-about__section {
+    margin-bottom: 1em;
+    vertical-align: top;
+    font-size: 1.125em;
+    @media (min-width: $large-screen) {
+        width: 40%;
+        display: inline-block;
+    }
+}
+
+.home-actions {
+    background-color: $colour_blue;
+    @extend .layout-homepage-section;
+    @media (min-width: $large-screen) {
+        padding: 0;
+    }
+    .container {
+        position: relative;
+    }
+    h2 {
+        margin-bottom: 0.5em;
+    }
+}
+
+    .home-actions__position {
+        @media (min-width: $large-screen) {
+            position: absolute;
+            right: 0;
+            top: -46.5em;
+            z-index: 100;
+            width: 36.6040956%;
+        }
+
+        @media (min-width: 61.4375em) {
+            top: -41em;
+        }
+
+        @media (min-width: $huge-screen) {
+            top: -38em;
+        }
+    }
+
+    .home-actions__section {
+        margin-bottom: 2em;
+    }
+
+    .home-join {
+        background-color: $colour_green;
+        padding: 2.875em;
+        margin-top: 2.875em;
+    }
+
+    .home-get {
+        background-color: $colour_red;
+        padding: 2.875em;
+        color: #fff;
+    }
+
+.home-news {
+    @extend .layout-homepage-section;
+}
+
+    .home-news__section {
+        @extend .layout-homepage-content-columns;
+        margin-bottom: 0;
+    }
+
+.home-poplus-components {
+    @extend .layout-homepage-section;
+    border-top: 1px solid $colour_borders;
+    padding-bottom: 0;
+    @media (min-width: $large-screen) {
+        .container {
+            background-image: url('../assets/img/poplus-tree.png');
+            background-repeat: no-repeat;
+            background-size: 300px 476px;
+            background-position:  95% -10px;
+            @media ($high-dpi-screen)  {
+                background-image: url('../assets/img/poplus-tree@2.png');
+            }
+        }
+    }
+}
+
+    .home-component__section {
+        vertical-align: top;
+        @media (min-width: $medium-screen) {
+            width: 50%;
+            display: inline-block;
+        }
+
+        @media (min-width: $large-screen) {
+            width: 16.860068259386%;
+            display: inline-block;
+            margin-right: 3.9249147%; /* 46px */
+            &:nth-child(5n+5) {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .home-components-intro {
+        margin-bottom: 2em;
+        @media (max-width: $large-screen) {
+            width: 100%;
+            margin-right: 0;
+        }
+    }
+
+    .home-poplus-component {
+        margin-bottom: 2em;
+        a {
+            color: $colour_dark_blue;
+            text-decoration: none;
+            &:hover,
+            &:active,
+            &:focus {
+                text-decoration: underline;
+                color: $colour_red;
+            }
+        }
+        h3 {
+            font-size: 1.125em;
+        }
+        p {
+            font-size: 0.875em;
+            color: $colour_blue;
+        }
+    }
+
+
+.tick-list {
+    @extend .unstyled-list;
+    li {
+        background-image: url('../assets/img/tick-list-bg.png');
+        background-repeat: no-repeat;
+        background-size: 22px 18px;
+        background-position: 0 0.4em;
+        padding: 0.4em 0 0.4em 2em;
+        @media ($high-dpi-screen)  {
+            background-image: url('../assets/img/tick-list-bg@2.png');
+        }
+    }
+}
+
+.post {
+    @extend .unstyled-list;
+    padding: 0;
+
+    ul {
+        list-style-type: disc;
+    }
+}
+
+li.listed-post {
+    border-bottom: 1px solid $colour_borders;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.meta {
+    color: $colour_dark_grey;
+}
+
+.column-one-of-three {
+    vertical-align: top;
+     @media (min-width: $large-screen) {
+        width: 30.716723533%;
+        display: inline-block;
+        margin-right: 3.9249147%; /* 46px */
+        &:nth-child(3n+3) {
+            margin-right: 0;
+        }
+    }
+}
+
+.catalogue-item {
+    background-color: $colour_light_grey;
+    border-radius: 5px;
+    h3 {
+        padding: 0.75rem 1.5rem;
+        background-color: $colour_green;
+        border-radius: 5px 5px 0 0;
+        a {
+            color: $colour_dark_blue;
+        }
+    }
+}
+
+.catalogue-item__content {
+    padding: 1em 1.5em;
+}

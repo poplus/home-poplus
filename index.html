@@ -1,22 +1,100 @@
 ---
 layout: default
-title: Poplus Project
-class: home
-published: true
+title: Poplus
 ---
 
-<div id="hero-background"></div>
-<div id="home">
-  <div id="hero-left">
-    <h1>Collaborative Civic coding </h1>
-    <h2>Software components that help civil society groups and campaigners launch powerful websites - anywhere in the world.</h2>
-  </div>
-  <div id="hero-right">
-    <a href="/catalogue/">Use<br><span>How Poplus Components can help</span></a>
-    <a class="bt-red" href="/join/">Contribute<br><span>Build tools for everyone to use</span></a>
-  </div>
+<div class="hero">
+    <div class="container">
+        <div class="hero__component-introduction">
+            <h1 class="hero__component-title">Poplus: a global federation for civic tech</h1>
+            <div class="hero__component-description">
+                <p>Sharing technology to help civic and democratic activists&hellip; everywhere</p>
+            </div>
+
+        </div>
+    </div>
 </div>
 
-<!-- {% include home-footer.html %} -->
+<div class="home-about">
+    <div class="container">
+        <h2>About</h2>
+        <div class="grid-row">
+            <div class="home-about__section">
+                <p>Organisations all over the world are holding governments to account, challenging corruption, and demanding the right to transparency, and they are using digital technologies to do so.</p>
+                <p>Why should every organisation have to write their software from scratch? By sharing code, we can make things quicker and easier, freeing up time for the important things.</p>
+            </div>
+            <div>
+                <a href="{{ site.baseurl }}/about/">More about Poplus</a>
+            </div>
+        </div>
+    </div>
+</div>
 
-<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<div class="home-actions">
+    <div class="container">
+        <div class="home-actions__position">
+            <div class="home-get">
+                <h2>Get Poplus Components</h2>
+                <p>Poplus Components are useful, interactive bits of technology that you can slot right into your website or app.</p>
+                <a href="{{ site.baseurl }}/join" class="button--quarternary">Find out more</a>
+            </div>
+            <div class="home-join">
+                <h2>Join us</h2>
+                <p>Poplus is an open federation with members all over the world. Your code and skills can really help make a difference.</p>
+                <a href="{{ site.baseurl }}/join" class="button--tertiary">Get involved</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="home-news">
+    <div class="container">
+        <h2>News</h2>
+        <div class="grid-row">
+            <!--
+            {% for post in site.posts limit:2 %}
+            --><div class="home-news__section">
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <p class="meta--date">{{ post.date | date: "%d %B %Y" }}</p>
+            </div><!--
+            {% endfor %}
+            -->
+        </div>
+    </div>
+</div>
+
+<div class="home-poplus-components">
+    <div class="container">
+        <h2>Poplus components</h2>
+        <div class="grid-row">
+            <div class="home-component__section home-components-intro">
+               <p>Poplus Components are open source and free for anyone to use. </p>
+               <p><a href="{{ site.baseurl }}/components/">See what's available</a></p>
+            </div><!--
+            --><div class="home-component__section">
+                <div class="home-poplus-component">
+                    <h3><a href="http://popit.poplus.org/">PopIt</a></h3>
+                    <p>Store and share lists of politicians</p>
+                </div>
+                <div class="home-poplus-component">
+                    <h3><a href="http://writeit.poplus.org/">WriteIt</a></h3>
+                    <p>Write and send messages to public figures</p>
+                </div>
+                <div class="home-poplus-component">
+                    <h3><a href="http://mapit.poplus.org/">MapIt</a></h3>
+                    <p>Map geographic points to administrative boundaries</p>
+                </div>
+            </div><!--
+            --><div class="home-component__section">
+                <div class="home-poplus-component">
+                    <h3><a href="https://github.com/ciudadanointeligente/bill-it">BillIt</a></h3>
+                    <p>Record, search and track bills as they change</p>
+                </div>
+                <div class="home-poplus-component">
+                    <h3><a href="http://sayit.poplus.org/">SayIt</a></h3>
+                    <p>Search, browse and share your transcripts</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
