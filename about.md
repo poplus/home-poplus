@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About Poplus
+permalink: about/
 ---
 # About
 Poplus is a brand new federation - so new that its governance structure and mission are still being written.
