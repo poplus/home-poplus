@@ -1,6 +1,12 @@
 ---
+<<<<<<< HEAD:popluscon/index.md
 layout: inner-page
 title: PoplusCon 2014
+=======
+layout: default
+title: PoplusCon Session FAQ
+permalink: popluscon/
+>>>>>>> gh-pages:popluscon_sessions.html
 ---
 <p class="intro">PoplusCon was an amazing get together of technologists, journalists and activists in Santiago, Chile. Full a full description, see <a href="http://www.mysociety.org/2014/05/09/a-federation-is-born/">this blog post</a>. The following agenda is a way to explore all the notes and ideas created in the sessions.</p>
 

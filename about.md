@@ -1,6 +1,7 @@
 ---
 layout: inner-page
 title: About Poplus
+permalink: about/
 ---
 # About
 Poplus is a brand new federation - so new that its governance structure and mission are still being written.
@@ -10,6 +11,8 @@ What we do know is this: the world contains an ever-increasing number of people 
 Recently about 80 people from all over the world met in Chile to discuss the basics of what we want Poplus to do - what we need it to do. And now, in May 2014, we’re going to collaborate online to make Poplus into a real thing.
 
 ## Get involved
-The first step is to put together a committee to run Poplus, and to put together a plan for our first year of existence. We’re inviting anyone of good will to join - we’re throwing the doors open and saying that, right now, all you have to do to be one of the people who runs Poplus is to show up at a couple of online meetings.
+The first step was to put together a committee to run Poplus, and to put together a plan for our first year of existence. 
 
-If this sounds like something you want to be part of, please join our mailing list and [send a message](http://poplus.org/join/group.html?place=topic%2Fpoplus%2F8kLpLL3d8z0%2F) saying you want to be involved.
+This committee has been formed of several sub-groups, which you can see [here](http://poplus.org/posts/santiago-conference-2014/).
+
+If this sounds like something you want to be part of, please join our mailing list and [send a message](http://poplus.org/join/group.html?place=topic%2Fpoplus%2F8kLpLL3d8z0%2F) saying you want to be involved, and mentioning which sub-committee (or committees) you'd like to join.
