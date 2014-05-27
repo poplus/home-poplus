@@ -680,7 +680,7 @@ textarea,
   position: absolute;
   top: -0.666em;
   left: 1em;
-  background-image: url("../assets/img/poplus-logo.png");
+  background-image: url("../assets/img/poplus-icon.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 50px 36px; }
@@ -690,9 +690,11 @@ textarea,
   @media (min-width: 33.75em) {
     .poplus-logo-tab {
       height: 5.8125em;
-      width: 6.25em;
+      width: 16em;
       top: -1.333em;
-      background-size: 70px 52px; } }
+      background-size: 223px 40px;
+      background-image: url("../assets/img/poplus-logo.png");
+      } }
 
 .site-title {
   font-family: "Signika", "Helvetica Neue", Arial, Helvetica, serif;
