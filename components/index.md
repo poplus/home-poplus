@@ -12,7 +12,11 @@ These common problems include tasks like:
 * Making and maintaining up-to-date data on politicians
 * Working out what district, city or region a particular problem or politician relates to
 
-Using Poplus Components, mixed with your own code, it becomes much less time consuming to build and then maintain a variety of apps and sites. For example, [this Parliamentary Monitoring site in South Africa](http://www.pa.org.za) uses two Poplus Components - [SayIt](http://sayit.poplus.org) and [MapIt](http://mapit.poplus.org).
+Using Poplus Components, mixed with your own code, it becomes much less time
+consuming to build and then maintain a variety of apps and sites. For example,
+[this Parliamentary Monitoring site in South Africa](http://www.pa.org.za) uses
+two Poplus Components - [SayIt](http://sayit.mysociety.org/) and
+[MapIt](http://code.mapit.mysociety.org/).
 
 This is a very high-level description of what a Poplus Component is. For a much more detailed description, see below.
 
