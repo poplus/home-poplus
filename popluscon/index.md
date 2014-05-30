@@ -2,155 +2,63 @@
 layout: inner-page
 title: PoplusCon 2014
 ---
-<p class="intro">PoplusCon was an amazing get together of technologists, journalists and activists in Santiago, Chile. Full a full description, see <a href="http://www.mysociety.org/2014/05/09/a-federation-is-born/">this blog post</a>. The following agenda is a way to explore all the notes and ideas created in the sessions.</p>
+<p class="intro">In April 2014, coders, journalists and activists met in Santiago Chile for PoplusCon. This international conference was Poplus' first major event. </p>
 
-<h2>DAY 1</h2>
-<table class="agenda" style="width: 100%;">
-  <tr>
-    <td><h4>09:00</h4></td>
-    <td>Registration</td>
-  </tr>
-  <tr>
-    <td><h4>9:30</h4></td>
-    <td>Opening speech / Intros</td>
-  </tr>
-  <tr>
-    <td><h4>10:00</h4></td>
-    <td>Presenting the first Sessions</td>
-  </tr>
-  <tr>
-    <td><h4>10:30</h4></td>
-    <td>Coffee/ Time to publish new sessions into the wall/ sorting into groups</td>
-  </tr>
-  <tr>
-    <td><h4>11:00</h4></td>
-    <td>
-      <ul>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/1bn6ROajUNvG59POS-nREQI0cDNxSmMAvRLufoEjHbAo/edit">Session 1. Red room — Let's build an international vote schema</a></li>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/1ijpJ_AJNKFzAf-IDBMZ-2KdebmqmhM-2xU3SupZk5J0/edit">Session 1. Grey room — Talk more. Code less.</a></li>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/1T5j_j93tsmtoe3rQ63dXGZ-g5QFKBXGrYWtfcLKXwmo/edit">Session 1. Green room — Apps vs. APIs</a></li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td><h4>12:00</h4></td>
-    <td>
-      <ul>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/1tLktEuUig6AuXmJAWjD_F5rx7Ih0nVNmPUqDr43vaxw/edit">Session 2. Red room — Participative Legislation — How to Crowdsource Law Drafting</a></li>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/1CIUX0O8r-MHLmKY-kBC9nyaJZiNaFEPwBYSkAsZNi10/edit">Session 2. Grey room — Bug tracking for politicians</a></li>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/1fVk2zq7NZ1sk0BwsG2GWKC3FPlkYOYk_lKg6lNhybMk/edit">Session 2. Green room — Apps and platforms for monitoring the legislative and political processes - how to research impact</a></li>
-      </ul>
-    </td>
+<p class="intro">The aims were to kickstart the federation and to agree its founding principles; both aims were emphatically achieved! </p>
 
-  </tr>
-  <tr>
-    <td><h4>13:00</h4></td>
-    <td>Lunch</td>
-  </tr>
-  <tr>
-    <td><h4>14:00</h4></td>
-    <td>Networking</td>
-  </tr>
+<p class="intro">After the conference, Poplus had defined a clear direction for its future. We'd also discussed a number of topics highly relevant to Poplus' mission of shared civic coding.</p>
 
-  <tr>
-    <td><h4>15:00</h4></td>
-    <td>Lightning Talks</td>
-  </tr>
-  <tr>
-    <td><h4>15:30</h4></td>
-    <td>
-      <ul>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/1tjfN8dfjnCuKnuI_UmUv9CVnwLIFz4boVK18hv0DmLE/edit">Session 3. Red room — PayIt: Do we need a budgetary component?</a></li>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/1vWPmtY6HCCUCXbaiY0ivX0xBPjNQSTnRhSfHYMCUmgI/edit">Session 3. Grey room — Docker - Is this the way to make Poplus components super easy to install?</a></li>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/1t0boW9JheylLbVdepc5uuC05R6lewBZ6d6gbpWPoTBE/edit">Session 3. Green room — What should the characteristics of the
-          PopIt API be?</a></li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td><h4>16:30</h4></td>
-    <td>Short coffee break</td>
-  </tr>
-  <tr>
-    <td><h4>17:00</h4></td>
-    <td>Learning & Sharing from sessions</td>
-  </tr>
-  <tr>
-    <td><h4>17:45</h4></td>
-    <td>Close</td>
-  </tr>
-  <tr>
-    <td><h4>19:00</h4></td>
-    <td>Party at Girardi 1305</td>
-  </tr>
-</table>
+<p class="intro">You can find out more by exploring the notes from each of the conference sessions, and the follow-up blog posts of delegates. We've linked to all of them below.</p>
 
-<h2>DAY 2</h2>
-<table class="agenda" style="width: 100%;">
+##Session notes
+###Building Poplus
+<p>Four PoplusCon sessions focused on basic definitions and criteria for Poplus. These are the notes you should read if you want a clear understanding of the decisions that are now being acted on:</p>
 
-  <tr>
-    <td><h4>09:00</h4></td>
-    <td>Recap day and Lightning Talks</td>
-  </tr>
-  <tr>
-    <td><h4>10:00</h4></td>
-    <td>
-      <ul>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/15pv4b82l0xRxRXz6TsB4r4WckzdJTzF88hsz7Z9zhbI/edit">Session 1. Red room — What Poplus Components should exist?</a></li>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/1NwOAdPlFimNi-vqT1J9ozqJHICe0nm2h8TXTgMANk8o/edit">Session 1. Green room — Open Data Standards</a></li>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/17CHWNsFz7ZWJbMd91JyW9Rpii1-I35Xu7rvGjkVNar4/edit">Session 1. Grey room — Webscraping with morph.io</a></li>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/1P7tYPlnnz8JCdFthh5bdGkL7iuYBxmTNceAyC9C3u7Y/edit">Session 1. Pink room — Building/maintaining Developer Communities for our projects</a></li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td><h4>11:00</h4></td>
-    <td>Coffee Break</td>
-  </tr>
-  <tr>
-    <td><h4>11:20</h4></td>
-    <td>
-      <ul>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/1MfkQAY2zF3LMCSB5FVD1N2ogKPdtz48GFDd2awh3fE4/edit">Session 2. Red room — What are Poplus components?</a></li>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/149Z9ekJhmMKjC4qgCqkUzSy54icvezR0Q2d-TZkxDvI/edit">Session 2. Green room — Innovative Tools for including more voices and inclusive outreach</a></li>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/1ORDVxSFQffZOwUGsQPcr0dvPVcYILZPeGyAhvBRBfEc/edit">Session 2. Grey room — Billab.io -- collaborative bill writing</a></li>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/1AnKCmXiVpF0nZPlhWRNka91sKhn5bZTOzMgpIBFh6PQ/edit">Session 2. Pink room — Apps to the street: How do we get more users to use our apps?</a></li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td><h4>12:20</h4></td>
-    <td>
-      <ul>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/1Snvv6U80Ezh5orcVXMH68LQwdo7EpArK0q-daAbcrkw/edit">Session 3. Red room — What do we want from Poplus as a Federation?</a></li>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/1ryVXpb38aqwWSgxqlBN0xZxvY0WH1NGX-V3eBmBBeOM/edit">Session 3. Green room — How should document storage work on Billit?</a></li>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/1TyaiFpoukG1K0MiuqBLPGdL0NLxGuv0bdmbapNhDmCc/edit">Session 3. Grey room — User Experience (UX) research</a></li>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/1ZyO4T9UgzDqVsrsVZAkxdB1e7yaGesuOpwWsBfasWuw/edit">Session 3. Pink room — Mapping/modeling relationships between people</a></li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td><h4>13:20</h4></td>
-    <td>Lunch</td>
-  </tr>
-  <tr>
-    <td><h4>14:30</h4></td>
-    <td>Networking</td>
-  </tr>
-  <tr>
-    <td><h4>15:30</h4></td>
-    <td>
-      <ul>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/1I1zSUg1wHa8QEB2aElD9d4hOsOs2AsBTlF3FmVC_SAo/edit">Session 4. Red room — Final Big Questions for Poplus</a></li>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/1hzwQGOAiLeFu3hOAQcZsNu0b6oQbC6z6eP1Eniv7YFE/edit">Session 4. Green room — Hack Democracy</a></li>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/1s9tMaX0Z8cswhUseoKhdWTlauk-4qxVuskGwF6w958s/edit">Session 4. Grey room — Rapid Web Visualisations with d3plus</a></li>
-        <li><a href="https://docs.google.com/a/votainteligente.cl/document/d/1pTIPAzfa3PIpbYPVtto8CLIiWFI_RNf8NJGpPKrPGbw/edit">Session 4. Pink room — Post-conference networking</a></li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td><h4>16:30</h4></td>
-    <td>Close</td>
-  </tr>
-</table>
+<ul><li>[What are Poplus Components?](https://popluscon.hackpad.com/What-are-Poplus-components-yVemaWdWcmI)</li>
+<li>[What Poplus Components should exist?](https://popluscon.hackpad.com/What-Poplus-Components-should-exist-KlZwvmR5ycO)</li>
+<li>[What do we want from Poplus as a Federation?](https://popluscon.hackpad.com/What-do-we-want-from-Poplus-as-a-Federation-jyIAGVGPG8P)</li>
+<li>[Final Big Questions for Poplus](https://popluscon.hackpad.com/Final-Big-Questions-for-Poplus-6EoVyjdlalG)</li></ul>
+
+###Other sessions
+<ul><li>[Let's build an international vote schema](https://docs.google.com/a/votainteligente.cl/document/d/1bn6ROajUNvG59POS-nREQI0cDNxSmMAvRLufoEjHbAo/edit)</li>
+<li>[Talk more. Code less](https://popluscon.hackpad.com/Talk-more.-Code-less-Grey-room-session-1-Tuesday-E9gAXcBOxWO)</li>
+<li>[Apps vs. APIs](https://popluscon.hackpad.com/Apps-vs.-API-Green-Room-Session-1-lpovmuQzPh4)</li>
+<li>[Participative Legislation — How to Crowdsource Law Drafting](https://popluscon.hackpad.com/Participative-Legislation-How-to-Crowdsource-Law-Drafting-fIYfLSz34ri)</li>
+<li>[Bug tracking for politicians](https://popluscon.hackpad.com/1200-grey-room-Bug-tracking-for-politiciansbillsetc.-uL4Kz6Zmqsl)</li>
+<li>[Apps and platforms for monitoring the legislative and political processes - how to research impact](https://popluscon.hackpad.com/How-do-we-research-and-assess-success-of-sitesplatforms-in-our-sector-Green-Room-Session-2-sA7bckIL9Go)</li>
+<li>[PayIt: Do we need a budgetary component?](https://popluscon.hackpad.com/PayIt-Do-we-need-a-budgetary-component-USNO15lt57z)</li>
+<li>[Docker - Is this the way to make Poplus components super easy to install?](https://popluscon.hackpad.com/Docker-easy-to-install-components-IBqLqc3bZla)</li>
+<li>[What should the characteristics of the PopIt API be?](http://hackfoldr.org/poplusconf/hMgGWMQcYWJ)</li>
+<li>[Open Data Standards](https://popluscon.hackpad.com/Open-Data-Standards-lnsndBJuB4P)</li>
+<li>[Webscraping with morph.io](https://popluscon.hackpad.com/Webscraping-with-morph.io-Grey-Room-Session-1-Wednesday-tddMwTdXjZO)</li>
+<li>[Building/maintaining Developer Communities for our projects](https://popluscon.hackpad.com/Building-and-maintaining-Developer-Communities-for-our-projects.-Session-1-Day-2-in-the-Pink-Room-IFygxXAaSo5)</li>
+<li>[Innovative Tools for including more voices and inclusive outreach](https://docs.google.com/document/d/149Z9ekJhmMKjC4qgCqkUzSy54icvezR0Q2d-TZkxDvI/edit)</li>
+<li>[Billab.io -- collaborative bill writing](https://popluscon.hackpad.com/Billab.io-collaborative-bill-writing-Grey-Room-Session-2-Wednesday-Sqx7RHl8l5C)</li>
+<li>[Apps to the street: How do we get more users to use our apps?](https://popluscon.hackpad.com/Apps-to-the-street-How-do-we-get-more-users-to-use-our-apps-Session-2-Day-2-in-the-Pink-Room-I3IzawWR2vo)</li>
+<li>[How should document storage work on Billit?](https://popluscon.hackpad.com/Getting-the-most-out-of-document-storage-fQCwM97zI6n)</li>
+<li>[User Experience (UX)</li> research](https://popluscon.hackpad.com/User-Experience-UX-research-Session-3-Grey-Room-Wednesday-7aHLWZW2Ak9)</li>
+<li>[Mapping/modeling relationships between people](https://popluscon.hackpad.com/Mappingmodeling-relationships-between-people-2n0MfHg5SyB)</li>
+<li>[Hack Democracy](https://popluscon.hackpad.com/Hack-Democracy-GQu257potjb)</li>
+<li>[Rapid Web Visualisations with d3plus](https://popluscon.hackpad.com/Rapid-Web-Visualisations-with-d3plus-Grey-Room-last-session-Wednesday-XEsMMe0y0tC)</li>
+<li>[Post-conference networking - how to ensure we all keep connected](https://popluscon.hackpad.com/Post-conference-networking-session-lpN8N0UAG01)</li></ul>
+
+##Blog posts
+###In English
+
+<ul><li>[A Federation is Born ](http://www.mysociety.org/2014/05/09/a-federation-is-born/) Tom Steinberg from mySociety</li>
+
+<li>[PoplusCon and a Million Possibilities](http://www.congresointeractivo.org/popluscon-and-a-millon-possibilities/) Martín Szyszlican, Congreso Interactivo</li>
+<li>[PoplusCon: Lowering the Tech Barriers for Civic Startups](http://techpresident.com/news/wegov/24982/popluscon-lowering-tech-barriers-civic-startups) Eilís O'Neill, Tech President</li>
+<li>[Highlights from the first-ever PoplusCon in Santiago](http://sunlightfoundation.com/blog/2014/05/12/highlights-from-the-first-ever-popluscon-in-santiago/) James Turk, Sunlight foundation</li>
+<li>[Santiago, Chile 2014: the first ever Poplus conference](https://www.mysociety.org/2014/05/08/santiago-chile-2014-the-first-poplus-conference/) and [PopCon on Storify](https://storify.com/myf/the-first-poplus-conference-in-santiago/) Myf Nixon, mySociety</li></ul>
+
+###In Spanish
+<ul><li>[PoplusCon y miles de posibilidades](http://www.congresointeractivo.org/latamlab-semana-2-popluscon-y-miles-de-posibilidades/) Martín Szyszlican, Congreso Interactivo</li>
+<li>[Compartiendo el código: Poplus y la Programación Cívica](http://www.abrelatam.org/compartiendo-el-codigo-poplus-y-la-programacion-civica/) Fabrizio Scrollini, DATA</li>
+
+###In Chinese
+<ul><li>[Poplus - 世界公民黑客社群大亂鬥](http://blog.clkao.org/post/197828/poplus-global-civic-hacking-community) Chia-liang Kao, g0v.tw</li></ul>
+
+
+
 
