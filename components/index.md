@@ -141,8 +141,9 @@ When we talk about Open Source, we don't just mean that your Component should be
 Developing a Component means being open in every way. So your code should be on Github or an equivalent open source repository, with a public issue tracker that anyone can contribute to.
 
 You should commit to maintaining your Component responsibly and responsively, and if you find that you are no longer able to do this, you should be prepared to hand it over to someone who can.
-Stable, documented API
-Users should be able to rely on Components
+
+#### Stable, documented API
+**Users should be able to rely on Components**
 
 So that Components can work together, all functionality should be exposed over APIs. These APIs should be very-well documented, so that anyone can use them, and so that future contributors can work on them.
 
