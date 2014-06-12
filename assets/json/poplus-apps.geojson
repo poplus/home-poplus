@@ -3,14 +3,62 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-70.60181647539139,-33.42715688267878]
-      },
       "properties": {
-        "marker-symbol": "marker",
+        "marker-symbol": "bar",
         "name": "Fundación Ciudadano Inteligente",
         "address": "Holanda #895, Santiago, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.60183525085448,
+          -33.42717031389605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "bar",
+        "name": "Congreso Interactivo",
+        "address": "Some Place, Buenos Aires, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.52897644042968,
+          -34.44627309101388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "bar",
+        "name": "Parlamento Abierto",
+        "address": "Some Place, Paraguay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.60140419006347,
+          -25.302907041455068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "bar",
+        "name": "Acción Ciudadana",
+        "address": "Some Place, Guatemala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.5354118347168,
+          14.613484945985094
+        ]
       }
     }
   ]
