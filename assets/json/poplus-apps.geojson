@@ -1,10 +1,10 @@
 {
-  "type": "Poplus Apps",
+  "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "marker-symbol": "bar",
+        "marker-symbol": "marker",
         "name": "Fundación Ciudadano Inteligente",
         "address": "Holanda #895, Santiago, Chile"
       },
@@ -19,7 +19,7 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-symbol": "bar",
+        "marker-symbol": "marker",
         "name": "Congreso Interactivo",
         "address": "Some Place, Buenos Aires, Argentina"
       },
@@ -34,7 +34,7 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-symbol": "bar",
+        "marker-symbol": "marker",
         "name": "Parlamento Abierto",
         "address": "Some Place, Paraguay"
       },
@@ -49,7 +49,7 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-symbol": "bar",
+        "marker-symbol": "marker",
         "name": "Acción Ciudadana",
         "address": "Some Place, Guatemala"
       },
