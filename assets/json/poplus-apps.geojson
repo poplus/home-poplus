@@ -6,13 +6,28 @@
             "properties": {
                 "marker-symbol": "marker",
                 "name": "Fundación Ciudadano Inteligente",
-                "address": "Holanda #895, Santiago, Chile"
+                "address": "Holanda 895, Santiago, Providencia, Chile"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -70.60183525085448,
                     -33.42717031389605
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-symbol": "marker",
+                "name": "mySociety",
+                "address": "483 Green Lanes, London, N13 4BS United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.10528743267059326,
+                    51.62262277575113
                 ]
             }
         },
