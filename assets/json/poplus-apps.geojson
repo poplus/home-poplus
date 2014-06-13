@@ -1,80 +1,80 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-symbol": "marker",
-                "name": "Fundación Ciudadano Inteligente",
-                "address": "Holanda 895, Santiago, Providencia, Chile"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -70.60183525085448,
-                    -33.42717031389605
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-symbol": "marker",
-                "name": "mySociety",
-                "address": "483 Green Lanes, London, N13 4BS United Kingdom"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -0.10528743267059326,
-                    51.62262277575113
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-symbol": "marker",
-                "name": "Congreso Interactivo",
-                "address": "Some Place, Buenos Aires, Argentina"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -58.52897644042968,
-                    -34.44627309101388
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-symbol": "marker",
-                "name": "Parlamento Abierto",
-                "address": "Some Place, Paraguay"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -57.60140419006347,
-                    -25.302907041455068
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "marker-symbol": "marker",
-                "name": "Acción Ciudadana",
-                "address": "Some Place, Guatemala"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -90.5354118347168,
-                    14.613484945985094
-                ]
-            }
-        }
-    ]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "marker",
+        "name": "Fundación Ciudadano Inteligente",
+        "address": "Holanda 895, Santiago, Providencia, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.60183525085448,
+          -33.42717031389605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "marker",
+        "name": "mySociety",
+        "address": "483 Green Lanes, London, N13 4BS United Kingdom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.10528743267059326,
+          51.62262277575113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "marker",
+        "name": "Congreso Interactivo",
+        "address": "Buenos Aires, Argentina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.52897644042968,
+          -34.44627309101388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "marker",
+        "name": "Parlamento Abierto",
+        "address": "Paraguay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.60140419006347,
+          -25.302907041455068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "marker",
+        "name": "Acción Ciudadana",
+        "address": "Guatemala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.5354118347168,
+          14.613484945985094
+        ]
+      }
+    }
+  ]
 }
