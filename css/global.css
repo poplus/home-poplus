@@ -513,6 +513,7 @@ textarea,
   font-family: "Signika", "Helvetica Neue", Arial, Helvetica, serif;
   font-weight: 600;
   padding: 0.66em 2em;
+  border: none;
   border-radius: 1.4em;
   font-size: 1.125em;
   text-align: center; }
