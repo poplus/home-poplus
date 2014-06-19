@@ -1,6 +1,6 @@
 ---
 layout: inner-page
-title: PoplusCon 2014
+title: Poplus Conference 2014
 ---
 <p class="intro">In April 2014, coders, journalists and activists met in Santiago Chile for PoplusCon. This international conference was Poplus' first major event. </p>
 

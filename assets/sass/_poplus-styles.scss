@@ -258,3 +258,22 @@ li.listed-post {
 .catalogue-item__content {
     padding: 1em 1.5em;
 }
+
+.inner-navigation {
+  & > ul {
+    margin-top: 0;
+  }
+
+  ul ul {
+    font-size: 0.8em;
+    font-weight: 600;
+  }
+
+  .active > a {
+    color: $colour_black;
+  }
+}
+
+hr {
+  margin: 1em 0;
+}
