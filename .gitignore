@@ -7,3 +7,6 @@ _site
 build
 serve
 # _config.yml
+
+
+.sass-cache
