@@ -684,17 +684,13 @@ textarea,
   background-position: center;
   background-repeat: no-repeat;
   background-size: 50px 36px; }
-  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-    .poplus-logo-tab {
-      background-image: url("../assets/img/poplus-logo@2.png"); } }
   @media (min-width: 33.75em) {
     .poplus-logo-tab {
       height: 5.8125em;
       width: 16em;
       top: -1.333em;
       background-size: 223px 40px;
-      background-image: url("../assets/img/poplus-logo.png");
-      } }
+      background-image: url("../assets/img/poplus-logo.png"); } }
 
 .site-title {
   font-family: "Signika", "Helvetica Neue", Arial, Helvetica, serif;
@@ -751,7 +747,7 @@ textarea,
       margin-left: 1em; } }
 
 .nav-toggle {
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -1064,10 +1060,9 @@ a.contact-us-footer-link {
       background-repeat: no-repeat;
       background-size: 425px 401px;
       background-position: 23% -10px; } }
-  @media (min-width: 50em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 50em) and (min-resolution: 144dpi) {
-    .home-about .container {
-      background-image: url("../assets/img/poplus-heart@2.png"); } }
-
+    @media (min-width: 50em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 50em) and (min-resolution: 144dpi) {
+      .home-about .container {
+        background-image: url("../assets/img/poplus-heart@2.png"); } }
   .home-about a {
     color: #c2d83a; }
     .home-about a:hover, .home-about a:active, .home-about a:focus {
@@ -1131,9 +1126,9 @@ a.contact-us-footer-link {
       background-repeat: no-repeat;
       background-size: 300px 476px;
       background-position: 95% -10px; } }
-  @media (min-width: 50em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 50em) and (min-resolution: 144dpi) {
-    .home-poplus-components .container {
-      background-image: url("../assets/img/poplus-tree@2.png"); } }
+    @media (min-width: 50em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 50em) and (min-resolution: 144dpi) {
+      .home-poplus-components .container {
+        background-image: url("../assets/img/poplus-tree@2.png"); } }
 
 .home-component__section {
   vertical-align: top; }
