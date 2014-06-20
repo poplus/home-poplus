@@ -1216,10 +1216,14 @@ li.listed-post {
 .inner-navigation > ul {
   margin-top: 0; }
 .inner-navigation ul ul {
-  font-size: 0.8em;
-  font-weight: 600; }
+  font-size: 0.8em; }
 .inner-navigation .active > a {
   color: #333333; }
 
 hr {
   margin: 1em 0; }
+
+.example-screenshot {
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  margin-bottom: 1rem; }
