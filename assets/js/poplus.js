@@ -9,7 +9,7 @@ var revealCurrentMenuItem = function(){
 
 $(function(){
 
-  console.log('xx');
+  var nav = responsiveNav(".nav-collapse")
 
   var $sidebars = $('.inner-navigation')
   if ($sidebars.length) {
