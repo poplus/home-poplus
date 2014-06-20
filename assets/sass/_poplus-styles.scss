@@ -266,7 +266,6 @@ li.listed-post {
 
   ul ul {
     font-size: 0.8em;
-    font-weight: 600;
   }
 
   .active > a {
@@ -276,4 +275,10 @@ li.listed-post {
 
 hr {
   margin: 1em 0;
+}
+
+.example-screenshot {
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
 }
