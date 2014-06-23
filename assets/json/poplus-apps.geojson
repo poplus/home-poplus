@@ -30,51 +30,6 @@
           51.62262277575113
         ]
       }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-symbol": "marker",
-        "name": "Congreso Interactivo",
-        "address": "Buenos Aires, Argentina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.52897644042968,
-          -34.44627309101388
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-symbol": "marker",
-        "name": "Parlamento Abierto",
-        "address": "Paraguay"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.60140419006347,
-          -25.302907041455068
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-symbol": "marker",
-        "name": "Acción Ciudadana",
-        "address": "Guatemala"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.5354118347168,
-          14.613484945985094
-        ]
-      }
     }
   ]
 }
