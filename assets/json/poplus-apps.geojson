@@ -30,6 +30,20 @@
           51.62262277575113
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "marker",
+        "name": "Open North"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56659889221191,
+          45.50470207549053
+        ]
+      }
     }
   ]
 }
