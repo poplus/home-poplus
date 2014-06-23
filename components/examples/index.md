@@ -103,6 +103,6 @@ See MapIt in action here:
 
 ## More
 
-This <a href="https://docs.google.com/spreadsheets/d/12V1Ysp14T2YWa0jTCbOA1z9eb4XlNS0Q33vZGkYeFe8/edit#gid=0">shared spreadsheet</a> lists every deployment of a Poplus Component we know about.
+This <a href="https://docs.google.com/a/mysociety.org/spreadsheets/d/1O8-2uwUufcigjwxymcDaSJ25GpXfh1is63PUnhFgmhw/edit#gid=0">shared spreadsheet</a> lists every deployment of a Poplus Component we know about.
 
 Feel free to add anything we've missed.
