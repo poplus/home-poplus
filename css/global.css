@@ -63,7 +63,12 @@ html {
  * Remove default margin.
  */
 body {
-  margin: 0; }
+  margin: 0; 
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
 
 /* ==========================================================================
    Links
