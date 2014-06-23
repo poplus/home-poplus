@@ -258,3 +258,27 @@ li.listed-post {
 .catalogue-item__content {
     padding: 1em 1.5em;
 }
+
+.inner-navigation {
+  & > ul {
+    margin-top: 0;
+  }
+
+  ul ul {
+    font-size: 0.8em;
+  }
+
+  .active > a {
+    color: $colour_black;
+  }
+}
+
+hr {
+  margin: 1em 0;
+}
+
+.example-screenshot {
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}

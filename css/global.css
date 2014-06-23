@@ -63,12 +63,10 @@ html {
  * Remove default margin.
  */
 body {
-  margin: 0; 
+  margin: 0;
   -webkit-font-smoothing: antialiased;
-  -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
-  text-shadow: rgba(0,0,0,.01) 0 0 1px;
-}
-
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px; }
 
 /* ==========================================================================
    Links
@@ -518,6 +516,7 @@ textarea,
   font-family: "Signika", "Helvetica Neue", Arial, Helvetica, serif;
   font-weight: 600;
   padding: 0.66em 2em;
+  border: none;
   border-radius: 1.4em;
   font-size: 1.125em;
   text-align: center; }
@@ -689,17 +688,13 @@ textarea,
   background-position: center;
   background-repeat: no-repeat;
   background-size: 50px 36px; }
-  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-    .poplus-logo-tab {
-      background-image: url("../assets/img/poplus-logo@2.png"); } }
   @media (min-width: 33.75em) {
     .poplus-logo-tab {
       height: 5.8125em;
       width: 16em;
       top: -1.333em;
       background-size: 223px 40px;
-      background-image: url("../assets/img/poplus-logo.png");
-      } }
+      background-image: url("../assets/img/poplus-logo.png"); } }
 
 .site-title {
   font-family: "Signika", "Helvetica Neue", Arial, Helvetica, serif;
@@ -1222,3 +1217,18 @@ li.listed-post {
 
 .catalogue-item__content {
   padding: 1em 1.5em; }
+
+.inner-navigation > ul {
+  margin-top: 0; }
+.inner-navigation ul ul {
+  font-size: 0.8em; }
+.inner-navigation .active > a {
+  color: #333333; }
+
+hr {
+  margin: 1em 0; }
+
+.example-screenshot {
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  margin-bottom: 1rem; }
