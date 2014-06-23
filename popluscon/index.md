@@ -2,6 +2,9 @@
 layout: inner-page
 title: Poplus Conference 2014
 ---
+
+<iframe src="//player.vimeo.com/video/95069822" width="100%" height="350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 <p class="intro">In April 2014, coders, journalists and activists met in Santiago Chile for PoplusCon. This international conference was Poplus' first major event. </p>
 
 <p class="intro">The aims were to kickstart the federation and to agree its founding principles; both aims were emphatically achieved! </p>
