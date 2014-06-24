@@ -11,6 +11,8 @@ If you can't make it, don't worry - the agenda will be on a shared document that
 
 ## Current committees
 
+Looking for all committee documents? Here's [easy access to all agendas, minutes and other resources](http://hackfoldr.org/poplusteam/).
+
 ### Components committee
 
 The Components group will offer support in the creation and use of Poplus Components, and will also work towards the creation of a certification standard.
