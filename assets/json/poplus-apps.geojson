@@ -61,6 +61,38 @@
           44.983334
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "marker",
+        "name": "Open Australia Foundation",
+        "address": "Katoomba NSW, Australia",
+        "url": "https://www.openaustraliafoundation.org.au/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.1833702,
+          -33.679868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "marker",
+        "name": "Congreso Interactivo",
+        "address": "Buenos Aires, Argentina",
+        "url": "http://www.congresointeractivo.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.353304,
+          -34.633086
+        ]
+      }
     }
   ]
 }
