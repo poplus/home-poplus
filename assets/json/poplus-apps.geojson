@@ -35,13 +35,30 @@
       "type": "Feature",
       "properties": {
         "marker-symbol": "marker",
-        "name": "Open North"
+        "name": "Open North",
+        "address": "Montreal, Quebec, Canada"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -73.56659889221191,
           45.50470207549053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "marker",
+        "name": "E-Democracy.org",
+        "address": "Minneapolis, Minnesota, United States",
+        "url": "http://forums.e-democracy.org/projects/tech/poplus/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.26666999999999,
+          44.983334
         ]
       }
     }
