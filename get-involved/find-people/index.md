@@ -5,6 +5,8 @@ title: Where to find Poplus people
 
 <script src="http://embed.github.com/view/geojson/ciudadanointeligente/home-poplus/gh-pages/assets/json/poplus-apps.geojson"></script>
 
+If you wanna add to the map your organisation or yourself checkout [this information](https://github.com/ciudadanointeligente/home-poplus/wiki).
+
 People all over the world are involved in Poplus. We can't always meet up in the same place, so we make very good use of online spaces!
 
 Here's where you can talk and collaborate on current Poplus projects.
