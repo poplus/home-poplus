@@ -21,7 +21,8 @@
       "properties": {
         "marker-symbol": "marker",
         "name": "mySociety",
-        "address": "483 Green Lanes, London, N13 4BS United Kingdom"
+        "address": "United Kingdom"
+        "url": "http://www.mysociety.org"
       },
       "geometry": {
         "type": "Point",
