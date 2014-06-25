@@ -1,3 +1,4 @@
+
 {
   "type": "FeatureCollection",
   "features": [
@@ -62,6 +63,22 @@
         "coordinates": [
           -93.26666999999999,
           44.983334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "marker",
+        "name": "OpenAustralia Foundation",
+        "address": "Australia",
+        "url": "http://oaf.org.au"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.31494140625,
+          -33.71177463759947
         ]
       }
     }
