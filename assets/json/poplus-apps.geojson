@@ -21,7 +21,7 @@
       "properties": {
         "marker-symbol": "marker",
         "name": "mySociety",
-        "address": "United Kingdom"
+        "address": "United Kingdom",
         "url": "http://www.mysociety.org"
       },
       "geometry": {
@@ -37,7 +37,8 @@
       "properties": {
         "marker-symbol": "marker",
         "name": "Open North",
-        "address": "Montreal, Quebec, Canada"
+        "address": "Montreal, Quebec, Canada",
+        "url": "http://www.opennorth.ca"
       },
       "geometry": {
         "type": "Point",
@@ -53,7 +54,8 @@
         "marker-symbol": "marker",
         "name": "E-Democracy.org",
         "address": "Minneapolis, Minnesota, United States",
-        "url": "http://forums.e-democracy.org/projects/tech/poplus/"
+        "url": "http://forums.e-democracy.org/",
+        "participation": "http://forums.e-democracy.org/projects/tech/poplus/"
       },
       "geometry": {
         "type": "Point",
