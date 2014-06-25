@@ -1,6 +1,7 @@
 ---
-layout: inner-page
+layout: "inner-page"
 title: Making new Poplus components
+published: true
 ---
 
 ## How to get your software certified as a Poplus Component
@@ -23,4 +24,6 @@ Applying is not an all-or-nothing process. We encourage people to see applying a
 
 ## Who does the certification process?
 
-At the moment, the certification process is run by a mix of people who have volunteered to be part of the Poplus Components Sub-Group.
+At the moment, the certification process is run by a mix of people who have volunteered to be part of the Poplus Components sub-group.
+
+If you have any questions or want to learn more about Poplus, components, or this process, please join the [Poplus Google Group](https://groups.google.com/forum/#!forum/poplus).
