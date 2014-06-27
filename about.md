@@ -15,4 +15,4 @@ The first step was to put together a committee to run Poplus, and to put togethe
 
 This committee has been formed of several sub-groups, which you can see [here](http://poplus.org/posts/santiago-conference-2014/).
 
-If this sounds like something you want to be part of, please join our mailing list and [send a message](http://poplus.org/join/group.html?place=topic%2Fpoplus%2F8kLpLL3d8z0%2F) saying you want to be involved, and mentioning which sub-committee (or committees) you'd like to join.
+If this sounds like something you want to be part of, please join our mailing list and [send a message](https://groups.google.com/forum/#!forum/poplus) saying you want to be involved, and mentioning which sub-committee (or committees) you'd like to join.
