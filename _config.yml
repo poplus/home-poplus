@@ -1,7 +1,6 @@
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 permalink: posts/:title
-auto: true
 
 name: Poplus
 author: Fundación Ciudadano Inteligente
