@@ -1,14 +1,15 @@
 ---
 layout: components
-title:  "represent-boundaries"
+title:  "Represent Boundaries"
 date:   2014-06-24 11:40:00
 categories: component
 owner: Open North
 component_url: http://represent.opennorth.ca/
-repo: https://github.com/rhymeswithcycle/represent-boundaries
-excerpt: A web service and an easy to include django app, that allows users to find what areas are covered by a given point.
+repo: https://github.com/opennorth/represent-boundaries/
+excerpt: A web API to geographic boundaries (i.e. countries, electoral districts, administrative areas) loaded from shapefiles. Render maps and easily query which boundaries cover your user's location.
 publish: true
-status: Alpha
+tags: gis, geospatial, area, boundary, geometry, shapefile, lookup
+status: Stable
 ---
 
-A web service and an easy to include django app, that allows users to find what areas are covered by a given point.
+A web API to geographic boundaries (i.e. countries, electoral districts, administrative areas) loaded from shapefiles. Render maps and easily query which boundaries cover your user's location.
