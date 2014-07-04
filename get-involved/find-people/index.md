@@ -27,8 +27,8 @@ For instant chat, find us on #poplus on [Freenode](https://webchat.freenode.net/
 
 [Trello](https://trello.com) is where we discuss and prioritise work tasks. There's a board specifically for [ideas for new Components](https://trello.com/b/5gGF4xrJ/ideas-for-new-poplus-components).
 
-### Github
+### GitHub
 
-Poplus Components are all Open Source. You can find their code or add tickets for bugs or suggested changes on Github.
+Poplus Components are all Open Source. You can find their code or add tickets for bugs or suggested changes on GitHub.
 
 See the [Components page]({{ site.baseurl }}/components/) for links.

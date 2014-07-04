@@ -86,7 +86,7 @@ In many cases it will be worthwhile to work with groups in other countries on a 
 
 When we talk about Open Source, we don't just mean that your Component should bear an Open Source licence (although, that part is essential).
 
-Developing a Component means being open in every way. So your code should be on Github or an equivalent open source repository, with a public issue tracker that anyone can contribute to.
+Developing a Component means being open in every way. So your code should be on GitHub or an equivalent open source repository, with a public issue tracker that anyone can contribute to.
 
 You should commit to maintaining your Component responsibly and responsively, and if you find that you are no longer able to do this, you should be prepared to hand it over to someone who can.
 
