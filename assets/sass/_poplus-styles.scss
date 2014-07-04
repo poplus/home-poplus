@@ -287,3 +287,46 @@ hr {
   box-sizing: border-box;
   margin-bottom: 1rem;
 }
+
+.blog-email-subscription {
+    background-color: $colour_light_grey;
+    padding: 1em;
+    margin-bottom: 1.5em;
+    border-radius: 5px;
+    label {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+    input[type=text] {
+        width: 66%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        height: 3em;
+        padding: 0 0 0 1em;
+        border: none;
+    }
+    input[type=submit] {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        width: 33%;
+        max-width: 8em;
+        height: 2.666666667em;
+        padding: 0;
+    }
+}
+
+.position-email-form-elements {
+    position: relative;
+    height: 3em;
+    width: 100%;
+    input[type=text] {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    input[type=submit] {
+        position: absolute;
+        top: 0;
+        left: 66%;
+    }
+}
