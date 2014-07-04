@@ -15,7 +15,7 @@ Add your contributions to the [Google Group](https://groups.google.com/forum/#!f
 
 ## Organise Poplus events (or take Poplus to other events)
 
-Poplus started at the [Poplus conference](http://poplus.org/popluscon/) in Santiago, Chile, in May 2014.
+Poplus started at the [Poplus conference]({{ site.baseurl }}/popluscon/) in Santiago, Chile, in May 2014.
 
 In order for people to come together to share stories, technology and lessons we will need to have more events, in more places.
 
@@ -25,7 +25,7 @@ So you can help by either helping to organise an event about Poplus, or by going
 
 If you’re a coder, there are lots of ways you can get involved.
 
-You can learn about Poplus Components, try them out, and give feedback to the people who are building them. Or you can contribute directly to the development of current Poplus Components, or build new ones. Read about [what a Poplus component is](http://poplus.org/components/), and learn about the ones that [already exist](http://poplus.org/components/#components).
+You can learn about Poplus Components, try them out, and give feedback to the people who are building them. Or you can contribute directly to the development of current Poplus Components, or build new ones. Read about [what a Poplus component is]({{ site.baseurl }}/components/), and learn about the ones that [already exist]({{ site.baseurl }}/components/#components).
 
 But Poplus is not just for people who want to use Poplus Components - it’s for anyone who thinks there is value in sharing lessons relating to technologies for citizens. So if you already run a civic or democratic tech project, and you want to be connected to Poplus, just join [the mailing list](https://groups.google.com/forum/#!forum/poplus) and tell us a bit about yourself, your project, and what you’re trying to do next.
 

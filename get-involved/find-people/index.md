@@ -31,4 +31,4 @@ For instant chat, find us on #poplus on [Freenode](https://webchat.freenode.net/
 
 Poplus Components are all Open Source. You can find their code or add tickets for bugs or suggested changes on Github.
 
-See the [Components page](http://poplus.org/components/) for links.
+See the [Components page]({{ site.baseurl }}/components/) for links.
