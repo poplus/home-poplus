@@ -25,7 +25,7 @@ Here are all the Poplus Components in existence. They vary between being very ma
             {% if post.component_url %}
               <a href="{{ post.component_url }}">Website</a>
           {% else if post.repo %}
-            <a href="{{ post.repo }}">Github repository</a>
+            <a href="{{ post.repo }}">GitHub repository</a>
           {% endif %}
         </div>
       </div>
