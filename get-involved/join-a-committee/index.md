@@ -4,6 +4,7 @@ title: Join a committee
 redirect_from: "/about/committee.html"
 ---
 
+<img src="{{ site.baseurl }}/assets/img/postits.jpg" />
 We have divided the current workload between a number of committees. These groups meet online (via Skype, Google Hangouts or other convenient technologies) at regular intervals, to discuss and divide up the work that needs to be done.
 
 Committee membership is open to anyone, anywhere in the world. Just check our [mailing list](https://groups.google.com/forum/#%21forum/poplus) to find out when the next meeting of you chosen committee will be, and come along.
