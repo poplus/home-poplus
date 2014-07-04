@@ -12,7 +12,7 @@ jekyll serve --watch
 To compile the Sass stylesheets into CSS, run:
 
 ```shell
-sass --watch assets/sass:css
+sass --watch assets/sass:css --style compressed
 ```
 
 **Please don’t edit global.css directly.** If you do, your changes will be overwritten the next time we compile our Sass files.
