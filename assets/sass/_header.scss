@@ -25,15 +25,21 @@
     top: -0.666em;
     left: 1em;
     background-image: url('../assets/img/poplus-icon.png');
+     @media ($high-dpi-screen)  {
+            background-image: url('../assets/img/poplus-logo@2.png');
+        }
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50px 36px;
     @media (min-width: $medium-screen) {
         height: 5.8125em;
-        width: 16em;
+        width: 14.25em;
         top: -1.333em;
-        background-size: 223px 40px;
+        background-size: 188px 34px;
         background-image: url('../assets/img/poplus-logo.png');
+        @media ($high-dpi-screen)  {
+            background-image: url('../assets/img/poplus-logo-full@2.png');
+        }
     }
 }
 
@@ -42,8 +48,7 @@
     font-size: 1.5em;
     margin-left: 3.55em;
     @media (min-width: $medium-screen) {
-        margin-left: 4.2em;
-        font-size: 1.875em;
+        width: 0;
     }
     &:hover,
     &:active,

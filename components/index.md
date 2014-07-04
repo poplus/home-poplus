@@ -13,6 +13,7 @@ Using Poplus Components, mixed with your own code, it becomes much less time con
 
 This is a very high-level description of what a Poplus Component is. For a much more detailed description, see our [definition of a Poplus Component page]({{ site.baseurl }}/components/definition/).
 
+<img src="{{ site.baseurl }}/assets/img/postits2.jpg" />
 ## Why use a Poplus Component?
 
 Do you have too much time? Or perhaps too much money? Or too many friends who are coders and designers?

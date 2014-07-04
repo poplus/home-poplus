@@ -1,4 +1,13 @@
-Here are the minutes from the Communications subcommittee meeting on 6th June 2014. 
+---
+layout: popconf
+title:  "Minutes from the second Communications committee meeting"
+author: Myf Nixon
+date: 06-06-2014
+categories: post
+published: true
+---s
+
+Here are the minutes from the Communications subcommittee meeting on 6th June 2014.
 
 Poplus subcommittees are free for anyone to join in - keep an eye on the [Google Group](https://groups.google.com/forum/#!forum/poplus) to find out when the next one is.
 

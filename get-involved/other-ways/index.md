@@ -2,7 +2,7 @@
 layout: inner-page
 title: Other ways to get involved
 ---
-
+<img src="{{ site.baseurl }}/assets/img/popluscon-talk.jpg" />
 You don’t have to join a committee to be part of the Poplus Federation. Here are some other valuable ways to get involved.
 
 ## Write stories

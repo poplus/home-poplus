@@ -116,12 +116,14 @@
         background-color: $colour_green;
         padding: 2.875em;
         margin-top: 2.875em;
+        border-radius: 5px;
     }
 
     .home-get {
         background-color: $colour_red;
         padding: 2.875em;
         color: #fff;
+        border-radius: 5px;
     }
 
 .home-news {
@@ -143,6 +145,7 @@
             background-repeat: no-repeat;
             background-size: 300px 476px;
             background-position:  95% -10px;
+            padding-bottom: 2em;
             @media ($high-dpi-screen)  {
                 background-image: url('../assets/img/poplus-tree@2.png');
             }
@@ -265,7 +268,7 @@ li.listed-post {
   }
 
   ul ul {
-    font-size: 0.8em;
+    font-size: 0.875em;
   }
 
   .active > a {
@@ -281,4 +284,54 @@ hr {
   border: 1px solid #ddd;
   box-sizing: border-box;
   margin-bottom: 1rem;
+}
+
+.blog-email-subscription {
+    background-color: $colour_light_grey;
+    padding: 1em;
+    margin-bottom: 1.5em;
+    border-radius: 5px;
+    label {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+    input[type=text] {
+        width: 66%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        height: 3em;
+        padding: 0 0 0 1em;
+        border: none;
+    }
+    input[type=submit] {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        width: 33%;
+        max-width: 8em;
+        height: 2.666666667em;
+        padding: 0;
+    }
+}
+
+.position-email-form-elements {
+    position: relative;
+    height: 3em;
+    width: 100%;
+    input[type=text] {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    input[type=submit] {
+        position: absolute;
+        top: 0;
+        left: 66%;
+    }
+}
+
+.column-content {
+    img,
+    iframe {
+        margin-bottom: 1.5em;
+    }
 }

@@ -2,7 +2,7 @@
 layout: inner-page
 title: What is Poplus?
 ---
-
+<img src="{{ site.baseurl }}/assets/img/shiny-happy-poplus-people.jpg" />
 Poplus is an open federation of people and organisations from many different countries. Our joint mission is to share knowledge and technology that can help us to help citizens.
 
 Poplus' founding principle is that collaborative civic coding can help save time and expense for people and organisations everywhere. And that sharing stories and lessons will help us all to be as effective as possible.
