@@ -2,17 +2,17 @@
 layout: inner-page
 title: Blog
 ---
-
-  <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=poplus/blog', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-    <p>
-      <label for="email">Enter your email to subscribe to blog updates:</label>
-      <input type="text" name="email" id="email">
+<div class="blog-email-subscription">
+  <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=poplus/blog', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" class="blog-email-subscription__form">
+    <label for="email">Enter your email to subscribe to blog updates</label>
+    <div class="position-email-form-elements">
+      <input type="text" name="email" id="email" placeholder="jane@email.com">
       <input type="submit" value="Subscribe" class="button--primary">
-    </p>
+    </div>
     <input type="hidden" value="poplus/blog" name="uri">
     <input type="hidden" value="en_US" name="loc">
   </form>
-
+</div>
   <ul class="post">
   			{% for post in site.categories.post %}
 			    	<li class="listed-post">
