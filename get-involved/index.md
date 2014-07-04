@@ -2,7 +2,7 @@
 layout: inner-page
 title: Get involved
 ---
-
+<img src="{{ site.baseurl }}/assets/img/popluscon-celebrate.jpg" />
 Poplus is still in its infancy. There's one thing it needs more than anything else: enthusiastic people!
 
 We welcome everyone who is interested in helping, and there are a number of ways in which you can do so:

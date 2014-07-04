@@ -11,13 +11,15 @@ This page represents a v.01 spec, as agreed by about twenty people from various 
 
 If your code fits every one of the points below, congratulations! It's a Component and eligible for the Poplus seal of approval.
 
-* My code helps Civic/Democratic websites
-* It solves a Single Problem
-* It is Composable with other Poplus Components
-* It's Platform Agnostic
-* It's Country Agnostic
-* It's Free/Open Source software
-* It has a stable, documented API
+<ul class="tick-list">
+    <li>My code helps Civic/Democratic websites</li>
+    <li>It solves a Single Problem</li>
+    <li>It is Composable with other Poplus Components</li>
+    <li>It's Platform Agnostic</li>
+    <li>It's Country Agnostic</li>
+    <li>It's Free/Open Source software</li>
+    <li>It has a stable, documented API</li>
+</ul>
 
 ## What do these mean?
 
