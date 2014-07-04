@@ -1218,6 +1218,10 @@ li.listed-post {
 .catalogue-item__content {
   padding: 1em 1.5em; }
 
+.catalogue-links a {
+  display: block;
+  line-height: 1.66em; }
+
 .inner-navigation > ul {
   margin-top: 0; }
 .inner-navigation ul ul {
