@@ -1,11 +1,12 @@
+# Jekyll configuration
 markdown: redcarpet
 permalink: posts/:title
+baseurl:
 
+# feed.atom configuration
 name: Poplus
 url: http://poplus.org
-description: Poplus project.
+description: "Poplus: a global federation for civic tech"
 
 disqus:
   shortname: poplus
-
-baseurl:
