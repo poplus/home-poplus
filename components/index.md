@@ -2,9 +2,9 @@
 layout: inner-page
 title: Components
 redirect_from:
-- "/learn/"
 - "/components.html"
 - "/what-is-a-component.html"
+- "/learn/"
 - "/learn/what-is-a-component.html"
 ---
 

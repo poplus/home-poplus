@@ -6,6 +6,7 @@ redirect_from:
 - "/join/contribute.html"
 - "/join/group.html"
 - "/join/suggest.html"
+- "/join/volunteers-form.html"
 ---
 
 Poplus is still in its infancy. There's one thing it needs more than anything else: enthusiastic people!
