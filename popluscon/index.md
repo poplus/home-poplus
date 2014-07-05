@@ -1,6 +1,10 @@
 ---
 layout: inner-page
 title: Poplus Conference 2014
+redirect_from:
+- "/poplus_event.html"
+- "/popluscon_sessions.html"
+- "/about/popluscon_sessions.html"
 ---
 
 <iframe src="//player.vimeo.com/video/95069822" width="100%" height="350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

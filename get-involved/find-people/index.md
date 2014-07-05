@@ -1,6 +1,9 @@
 ---
 layout: inner-page
 title: Where to find Poplus people
+redirect_from:
+- "/about/people.html"
+- "/about/contributors.html"
 ---
 
 <script src="http://embed.github.com/view/geojson/ciudadanointeligente/home-poplus/gh-pages/assets/json/poplus-apps.geojson"></script>

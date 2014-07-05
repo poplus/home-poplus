@@ -1,6 +1,9 @@
 ---
 layout: inner-page
 title: What is Poplus?
+redirect_from:
+- "/about.html"
+- "/about/history.html"
 ---
 
 Poplus is an open federation of people and organisations from many different countries. Our joint mission is to share knowledge and technology that can help us to help citizens.

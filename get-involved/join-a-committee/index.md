@@ -1,6 +1,7 @@
 ---
 layout: inner-page
 title: Join a committee
+redirect_from: "/about/committee.html"
 ---
 
 We have divided the current workload between a number of committees. These groups meet online (via Skype, Google Hangouts or other convenient technologies) at regular intervals, to discuss and divide up the work that needs to be done.

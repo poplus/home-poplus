@@ -1,6 +1,9 @@
 ---
 layout: inner-page
 title: What Components currently exist?
+redirect_from:
+- "/catalogue/"
+- "/catalogue.html"
 ---
 
 Here are all the Poplus Components in existence. They vary between being very mature and brand new.

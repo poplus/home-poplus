@@ -1,6 +1,11 @@
 ---
 layout: inner-page
 title: Components
+redirect_from:
+- "/learn/"
+- "/components.html"
+- "/what-is-a-component.html"
+- "/learn/what-is-a-component.html"
 ---
 
 Poplus Components are independent pieces of software developed to solve a range of common problems encountered when building civic and democratic websites.

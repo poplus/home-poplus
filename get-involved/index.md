@@ -1,6 +1,11 @@
 ---
 layout: inner-page
 title: Get involved
+redirect_from:
+- "/join/"
+- "/join/contribute.html"
+- "/join/group.html"
+- "/join/suggest.html"
 ---
 
 Poplus is still in its infancy. There's one thing it needs more than anything else: enthusiastic people!
