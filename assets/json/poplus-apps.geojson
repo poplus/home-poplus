@@ -81,6 +81,22 @@
           -33.71177463759947
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "marker",
+        "name": "Odekro",
+        "address": "Accra, Ghana",
+        "url": "http://www.odekro.org"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.652469,
+          -0.068877
+        ]
+      }
     }
   ]
 }
