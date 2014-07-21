@@ -6,7 +6,7 @@ redirect_from:
 - "/about/contributors.html"
 ---
 
-<iframe src="https://mapsengine.google.com/map/u/0/embed?mid=zIRpJTfhUk3U.kz3_0IC6HoQ4" frameborder="0" height="420" width="620"></iframe>
+<iframe src="https://mapsengine.google.com/map/u/0/embed?mid=zIRpJTfhUk3U.kz3_0IC6HoQ4" frameborder="0" height="420" width="583"></iframe>
 
 If you would like to add yourself or your organisation to the map, [here's how](https://github.com/ciudadanointeligente/home-poplus/wiki).
 
