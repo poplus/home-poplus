@@ -28,7 +28,7 @@ We particularly welcome people from any country who are happy to go and talk abo
 ### Communications committee
 
 The Communications group will be setting a strategy for outreach to potential members and member organisations. They'll also look after our website and social media, and there's a plan to make sure that members share their stories and experiences for the benefit of everyone.
-If you have translation skills, this group want to hear from you, too! **[Notes from recent Communications meetings are here](https://docs.google.com/document/d/1H4Qu7t0bJmbVOq3C9mQoxAmTNoTenAGkprhrZSIEmxI/edit#)**
+If you have translation skills, this group want to hear from you, too! **[Notes from recent Communications meetings are here](https://docs.google.com/document/d/1Bnq2xXRw5UMY376-zv626_7sPZRyWFzaKryNp723HUs/edit)**
 
 ### Governance committee
 
