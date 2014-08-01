@@ -16,3 +16,12 @@ We welcome everyone who is interested in helping, and there are a number of ways
 * [Join a committee]({{ site.baseurl }}/get-involved/join-a-committee/)
 * [Other ways to help]({{ site.baseurl }}/get-involved/other-ways/)
 * [Where to find Poplus people]({{ site.baseurl }}/get-involved/find-people)
+
+## What are Poplus members talking about?
+
+<p>Here are the latest discussions in the [Poplus online group](https://groups.google.com/forum/#!forum/poplus). [Join us!](https://groups.google.com/forum/#!forum/poplus/join)</p>
+
+<div id="poplus-group-feed">
+  <ul>
+  </ul>
+</div>
