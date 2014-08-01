@@ -19,7 +19,7 @@ We welcome everyone who is interested in helping, and there are a number of ways
 
 ## What are Poplus members talking about?
 
-<p>Here are the latest discussions in the [Poplus online group](https://groups.google.com/forum/#!forum/poplus). [Join us!](https://groups.google.com/forum/#!forum/poplus/join)</p>
+<p>Here are the latest discussions in the <a href="https://groups.google.com/forum/#!forum/poplus">Poplus online group</a>. <a href="https://groups.google.com/forum/#!forum/poplus/join">Join us!</a></p>
 
 <div id="poplus-group-feed">
   <ul>
