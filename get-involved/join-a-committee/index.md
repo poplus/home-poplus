@@ -17,8 +17,9 @@ Looking for all committee documents? Here's [easy access to all agendas, minutes
 
 ### Components committee
 
-The Components group will offer support in the creation and use of Poplus Components, and will also work towards the creation of a certification standard.
-Their duties will include overseeing / helping with scoping and technical documentation of Poplus Components, as well as giving technical support to anyone who needs it. **[Notes from recent Components meetings are here](https://docs.google.com/document/d/16zq3lkLI05rZmO0hC5RZVErPts5065x4Gj5N_otn2As/view?pli=1&overridemobile=true#heading=h.qlwmoenuh7f3)**.
+The Components group functions as an open space for developers working on, using or considering Components to share news, propose ideas, and help each other in their work. Its primary responsibilities are to certify software as Poplus Components and to generate interest in Poplus Components from developer communities.
+
+For more information on what makes a Component, read [What is a Component?](http://poplus.org/components/definition/). You can also **[catch up on the group's latest meetings](https://docs.google.com/document/d/16zq3lkLI05rZmO0hC5RZVErPts5065x4Gj5N_otn2As/view?pli=1&overridemobile=true#heading=h.qlwmoenuh7f3)**.
 
 ### Events committee
 
