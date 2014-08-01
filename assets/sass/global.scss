@@ -368,6 +368,15 @@ textarea,
     }
 }
 
+#poplus-group-feed {
+    .title {
+        padding-right: 1em;
+        font-family: $signika;
+    }
+    .snippet {
+        color: $colour_dark_grey;
+    }
+}
 
 @import 'header';
 @import 'footer';

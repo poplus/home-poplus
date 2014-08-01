@@ -29,7 +29,7 @@ if (feed_list.length) {
       if (!result.error) {
         for (var i = 0, l = result.feed.entries.length; i < l; i++) {
           var entry = result.feed.entries[i];
-          feed_list.append('<li><p><a href="' + entry.link + '">' + entry.title + '</a></p><p>' + entry.contentSnippet + '</p></li>');
+          feed_list.append('<li><span class="title"><a href="' + entry.link + '">' + entry.title + '</a></span><span class="snippet">' + entry.contentSnippet + '</span></li>');
         }
       }
     })
