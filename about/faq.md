@@ -1,4 +1,8 @@
-# New to Poplus? Read this first
+---
+layout: inner-page
+title: Frequently Asked Questions
+---
+## New to Poplus? Read this first
 
 Greetings, and welcome to Poplus. Thanks for visiting!
 
@@ -13,7 +17,8 @@ Here are five things that will start you off.
 3. Take a look at the [Poplus map](http://poplus.org/get-involved/find-people/) and see if there’s anyone local to you. If so, they will be happy to say hello, or answer your questions.
 4. Join the [Google Group](https://groups.google.com/forum/#!forum/poplus) and introduce yourself. Poplus is open to anyone who is interested, and the Google Group is where most activity and discussion takes place. You are welcome, whether you are from an organisation which might like to use a Poplus Component, or a developer who  might like to help make them. 5. Ready for more? Get involved - full details on how to do that [can be found here](http://poplus.org/get-involved/).
 
-## FAQs 
+## Frequently Asked Questions
+
 ### What is Poplus?
 
 Poplus is an international federation for Collaborative Civic Coding. 
@@ -21,7 +26,6 @@ Poplus is an international federation for Collaborative Civic Coding.
 In other words, it brings together people who create civic software, and the organisations or people that need that software.
 
 Its primary aim is to save work for everyone, by sharing digital tools that help people in the civic and democratic areas of life. You can read more on our [About page](http://poplus.org/about/).
-
 
 ### How do I join Poplus?
 
@@ -47,7 +51,7 @@ As there is no-one ‘in charge’ of Poplus, most communication is via the [Goo
 
 If you have a message that is better suited to one-on-one communication, you should mail hello [at] poplus.org. This email address is accessed by a number of active Poplus members, and one of them will respond.
 
-## Still got questions?
+### Still got questions?
 
 Post them to the [Google Group](https://groups.google.com/forum/#!forum/poplus)!
 
