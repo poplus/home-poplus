@@ -21,22 +21,39 @@ The Components group functions as an open space for developers working on, using
 
 For more information on what makes a Component, read [What is a Component?](http://poplus.org/components/definition/). You can also **[catch up on the group's latest meetings](https://docs.google.com/document/d/16zq3lkLI05rZmO0hC5RZVErPts5065x4Gj5N_otn2As/view?pli=1&overridemobile=true#heading=h.qlwmoenuh7f3)**.
 
-### Events committee
+### Communications &amp; Events committee
 
-This group will be working together to run Poplus meet-ups, conferences and talks, and also to make sure that we are represented at existing events.
-We particularly welcome people from any country who are happy to go and talk about Poplus at conferences or meet-ups. **[Notes from recent Events meetings are here](https://popluscon.hackpad.com/Events-Group-1st-Meeting-Agenda-and-Notes-BnLhF57G61Q)**.
+This group has several responsibilities:
 
-### Communications committee
+   * We set a strategy for outreach to potential members and member
+     organisations.
+   * We look after our website and social media.
+   * There's a plan to make sure that members share their stories and
+     experiences for the benefit of everyone.
+   * We work together to run Poplus meet-ups, conferences and talks...
+   * ...and also to make sure that we are represented at existing events.
 
-The Communications group will be setting a strategy for outreach to potential members and member organisations. They'll also look after our website and social media, and there's a plan to make sure that members share their stories and experiences for the benefit of everyone.
-If you have translation skills, this group want to hear from you, too! **[Notes from recent Communications meetings are here](https://docs.google.com/document/d/1Bnq2xXRw5UMY376-zv626_7sPZRyWFzaKryNp723HUs/edit)**
+We particularly welcome people from any country who are happy to go and talk
+about Poplus at conferences or meet-ups. If you have translation skills, this
+group wants to hear from you, too!
 
-### Governance committee
+See these **[notes from recent Events meetings](https://popluscon.hackpad.com/Events-Group-1st-Meeting-Agenda-and-Notes-BnLhF57G61Q)**
+and 
+**[notes from recent Communications meetings](https://docs.google.com/document/d/1Bnq2xXRw5UMY376-zv626_7sPZRyWFzaKryNp723HUs/edit)** (we started as two separate committees, but we're one now).
 
-Poplus won’t succeed if it doesn’t have a plan, and enthusiastic people who want to see that plan become reality.
-That’s what the governance committee is for - it’s a group of people from different countries and organisations who are working together to make Poplus really work. Right now, they are working on an action plan for the next twelve months.
+### Governance &amp; Finance committee
 
-### Finance committee
+Poplus won’t succeed if it doesn’t have a plan, and enthusiastic people who
+want to see that plan become reality. That’s what the governance part of the
+G&amp;F committee is for - it’s a group of people from different countries and
+organisations who are working together to make Poplus really work. Right now,
+they are working on an action plan for the next twelve months.
 
-Every organisation has its financial issues, and Poplus is no different.
-The Finance group will be looking at issues such as obtaining funding grants, which jurisdiction we should be registered in, and how best to oversee our funds. **[Notes from recent Finance meetings are here](https://popluscon.hackpad.com/Finance-Committee-Call-Agenda-tvW3dW5BJY3#:h=3%29-What-should-the-Federation-)**
+Every organisation has its financial issues, and Poplus is no different. The
+G&amp;F group also looks at financial issues such as obtaining funding grants,
+which jurisdiction we should be registered in, and how best to oversee our
+funds. See these **[notes from recent Governance &amp; Finance
+meetings](https://popluscon.hackpad.com/Governance-and-Finance-Committee-Call-CS
+YUA19HguV)** (see also some [earlier
+ones](https://popluscon.hackpad.com/Finance-Committee-Call-Agenda-tvW3dW5BJY3#:h
+=3%29-What-should-the-Federation-)).
