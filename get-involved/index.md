@@ -14,7 +14,8 @@ Poplus is still in its infancy. There's one thing it needs more than anything el
 We welcome everyone who is interested in helping, and there are a number of ways in which you can do so:
 
 * [Join a committee]({{ site.baseurl }}/get-involved/join-a-committee/)
-* [Other ways to help]({{ site.baseurl }}/get-involved/other-ways/)
+* [Read our meeting minutes and agendas](http://hackfoldr.org/poplusteam/)
+* [Get involved with code, events, and more]({{ site.baseurl }}/get-involved/other-ways/)
 * [Where to find Poplus people]({{ site.baseurl }}/get-involved/find-people)
 
 ## What are Poplus members talking about?
