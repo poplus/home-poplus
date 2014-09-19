@@ -52,3 +52,7 @@ Poplus won’t succeed if it doesn’t have a plan, and enthusiastic people who 
 * deciding on issues that cannot be resolved by the committees
 
 See these **[notes from recent Governance &amp; Finance meetings](https://popluscon.hackpad.com/Governance-and-Finance-Committee-Call-CSYUA19HguV)** and from [earlier Finance meetings](https://popluscon.hackpad.com/Finance-Committee-Call-Agenda-tvW3dW5BJY3)).
+
+## Meetings calendar
+
+<iframe src="https://www.google.com/calendar/embed?src=b9cleffo7lgld26strcs6ec1os%40group.calendar.google.com&ctz=America/Toronto" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
