@@ -3,11 +3,6 @@ markdown: redcarpet
 permalink: posts/:title
 baseurl:
 
-# feed.atom configuration
-name: Poplus
-url: http://poplus.org
-description: "Poplus: a global federation for civic tech"
-
 disqus:
   shortname: poplus
 
