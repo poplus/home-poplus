@@ -1,12 +1,3 @@
-#temp
 *.DS_Store
-
-#jekyll
-_plugins
 _site
-build
-serve
-# _config.yml
-
-
 .sass-cache
