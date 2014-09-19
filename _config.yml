@@ -6,5 +6,10 @@ baseurl:
 disqus:
   shortname: poplus
 
+# @see http://jekyllrb.com/docs/assets/
+sass:
+  style: :compressed
+
+# @see https://pages.github.com/versions/
 gems:
   - jekyll-redirect-from
