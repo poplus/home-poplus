@@ -1,5 +1,5 @@
 ---
-layout: popconf
+layout: post
 title:  "Minutes from the first Communications committee meeting"
 author: Myf Nixon
 date: 23-05-2014

@@ -1,11 +1,11 @@
 ---
-layout: popconf
+layout: post
 title:  "Minutes from the second Communications committee meeting"
 author: Myf Nixon
 date: 06-06-2014
 categories: post
 published: true
----s
+---
 
 Here are the minutes from the Communications subcommittee meeting on 6th June 2014.
 
