@@ -43,17 +43,12 @@ and
 
 ### Governance &amp; Finance committee
 
-Poplus won’t succeed if it doesn’t have a plan, and enthusiastic people who
-want to see that plan become reality. That’s what the governance part of the
-G&amp;F committee is for - it’s a group of people from different countries and
-organisations who are working together to make Poplus really work. Right now,
-they are working on an action plan for the next twelve months.
+Poplus won’t succeed if it doesn’t have a plan, and enthusiastic people who want to see that plan become reality. This committee brings together people from different countries and organisations who are working together to make Poplus succeed. Its responsibility is to ensure the success and well-functioning of Poplus. This largely involves supporting the other committees. It does this by:
 
-Every organisation has its financial issues, and Poplus is no different. The
-G&amp;F group also looks at financial issues such as obtaining funding grants,
-which jurisdiction we should be registered in, and how best to oversee our
-funds. See these **[notes from recent Governance &amp; Finance
-meetings](https://popluscon.hackpad.com/Governance-and-Finance-Committee-Call-CS
-YUA19HguV)** (see also some [earlier
-ones](https://popluscon.hackpad.com/Finance-Committee-Call-Agenda-tvW3dW5BJY3#:h
-=3%29-What-should-the-Federation-)).
+* seeking funding to support the activities of other committees
+* identifying outside opportunities for the committees to pursue to push Poplus forward
+* facilitating “in-community” opportunities, helping members enjoy the benefits of Poplus
+* monitoring committee activity and ensuring strong participation and motivation
+* deciding on issues that cannot be resolved by the committees
+
+See these **[notes from recent Governance &amp; Finance meetings](https://popluscon.hackpad.com/Governance-and-Finance-Committee-Call-CSYUA19HguV)** and from [earlier Finance meetings](https://popluscon.hackpad.com/Finance-Committee-Call-Agenda-tvW3dW5BJY3)).
