@@ -20,7 +20,7 @@ Here are a couple of examples:
 <div class="grid-row"><div class="column-one-of-two">
 
   <a href="http://philadelphia.sayit.mysociety.org/speakers">
-    <img class="example-screenshot" src="{{site.baseurl}}/assets/img/example-sayit-philly.png">
+    <img class="example-screenshot" src="{{ site.baseurl }}/assets/img/example-sayit-philly.png">
   </a>
 
   <p><a href="http://philadelphia.sayit.mysociety.org/">Philadelphia City Council meetings</a> from January 2013 to March 2014 are presented here, so that Philadelphia 's residents can search for topics that particularly interest them, or simply browse by date or speaker to understand more about their council's internal workings.</p>
@@ -28,7 +28,7 @@ Here are a couple of examples:
 </div><div class="column-one-of-two">
 
   <a href="http://www.pa.org.za/hansard/2014/february/20/proceedings-of-the-national-assembly-thursday-20-f/announcements-tablings-and-committee-reports-reply">
-    <img class="example-screenshot" src="{{site.baseurl}}/assets/img/example-sayit-pa.png">
+    <img class="example-screenshot" src="{{ site.baseurl }}/assets/img/example-sayit-pa.png">
   </a>
 
   <p>People's Assembly in South Africa use SayIt to <a href="http://www.pa.org.za/hansard/">publish the South African parliament's written record</a>.</p>
@@ -48,7 +48,7 @@ Here are some websites where you can see it in use:
 <div class="grid-row"><div class="column-one-of-two">
 
   <a href="http://votainteligente.cl">
-    <img class="example-screenshot" src="{{site.baseurl}}/assets/img/example-popit-vota.png">
+    <img class="example-screenshot" src="{{ site.baseurl }}/assets/img/example-popit-vota.png">
   </a>
 
   <p><a href="http://votainteligente.cl/">Vota Inteligente</a>, Chile, invited its users to 'vote for proposals, not slogans'  during the run-up to the 2013 presidential election.</p>
@@ -58,7 +58,7 @@ Here are some websites where you can see it in use:
 </div><div class="column-one-of-two">
 
   <a href="http://monitor.congresointeractivo.org/congresistas">
-    <img class="example-screenshot" src="{{site.baseurl}}/assets/img/example-popit-congreso.png">
+    <img class="example-screenshot" src="{{ site.baseurl }}/assets/img/example-popit-congreso.png">
   </a>
 
   <p><a href="http://monitor.congresointeractivo.org/">Congreso Interactivo</a> in Argentina is a classic parliamentary monitoring website, presenting votes and activity from members of the nation's congress.</p>
@@ -80,7 +80,7 @@ See MapIt in action here:
 <div class="grid-row"><div class="column-one-of-two">
 
   <a href="https://www.writetothem.com">
-    <img class="example-screenshot" src="{{site.baseurl}}/assets/img/example-mapit-wtt.jpg">
+    <img class="example-screenshot" src="{{ site.baseurl }}/assets/img/example-mapit-wtt.jpg">
   </a>
 
   <p>The UK site <a href="https://www.writetothem.com/">WriteToThem</a> asks users to input their postcode. It then displays all the people who represent them, from local councillors to members of parliament, and lets them write to them.</p>
@@ -90,7 +90,7 @@ See MapIt in action here:
 </div><div class="column-one-of-two">
 
   <a href="http://aduanku.my">
-    <img class="example-screenshot" src="{{site.baseurl}}/assets/img/example-mapit-aduanku.png">
+    <img class="example-screenshot" src="{{ site.baseurl }}/assets/img/example-mapit-aduanku.png">
   </a>
 
   <p><a href="http://aduanku.my/">Aduanku</a> is a Malaysian install of the FixMyStreet platform, which allows citizens to report problems with their local area, like potholes or broken streetlights.</p>
