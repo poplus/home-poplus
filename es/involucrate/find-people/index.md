@@ -5,30 +5,30 @@ title: Donde encontrar gente Poplus
 
 <iframe src="https://mapsengine.google.com/map/u/0/embed?mid=zIRpJTfhUk3U.kz3_0IC6HoQ4" frameborder="0" height="420" width="583"></iframe>
 
-If you would like to add yourself or your organisation to the map, [here's how](https://github.com/ciudadanointeligente/home-poplus/wiki).
+Si quieres agregarte a ti o tu organización al mapa, [aquí está cómo hacerlo](https://github.com/poplus/home-poplus/wiki#adding-an-organization-to-the-map).
 
-People all over the world are involved in Poplus. We can't always meet up in the same place, so we make very good use of online spaces!
+Gente de todo el mundo está participando en Poplus. No siempre podemos encontrarnos en el mismo lugar ¡por eso hacemos un uso intensivo de los espacios en línea!
 
-Here's where you can talk and collaborate on current Poplus projects.
+Estos son los lugares donde puedes hablar y colaborar con la comunidad Poplus.
 
-### Mailing list
+### Lista de Correo
 
-Our [Google Group](https://groups.google.com/forum/#!forum/poplus) is the main place for discussions of all sorts.
+Nuestro [Google Group](https://groups.google.com/forum/#!forum/poplus) es el lugar principal para las discusiones de todo tipo.
 
 ### Hackpad
 
-We use [Hackpad](https://popluscon.hackpad.com/) for collaborative note-taking, agendas, and notes from meetings.
+Usamos [Hackpad](https://popluscon.hackpad.com/) para colaborar en el tomado de puntes, definición de agendas y elaboración de contenido.
 
 ### IRC
 
-For instant chat, find us on #poplus on [Freenode](https://webchat.freenode.net/)
+Para chatear en tiempo real usa #poplus en [Freenode](https://webchat.freenode.net/)
 
 ### Trello
 
-[Trello](https://trello.com) is where we discuss and prioritise work tasks. There's a board specifically for [ideas for new Components](https://trello.com/b/5gGF4xrJ/ideas-for-new-poplus-components).
+[Trello](https://trello.com) es donde discutimos y priorizamos tareas. Hay un tablero especial para [nuevas ideas de componentes](https://trello.com/b/5gGF4xrJ/ideas-for-new-poplus-components).
 
 ### GitHub
 
-Poplus Components are all Open Source. You can find their code or add tickets for bugs or suggested changes on GitHub.
+Todos los componentes de Poplus son de código abierto. Puedes encontrar los repositorios y tickets de problemas o sugerencias en GitHub.
+Revisa la [página de componentes({{ site.baseurl }}/es/componentes/).
 
-See the [Components page]({{ site.baseurl }}/components/) for links.
