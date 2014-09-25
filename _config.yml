@@ -1,7 +1,7 @@
 # Jekyll configuration
 markdown: redcarpet
 permalink: posts/:title
-baseurl:
+baseurl: 
 
 disqus:
   shortname: poplus
