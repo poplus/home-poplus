@@ -3,7 +3,7 @@ layout: inner-page-es
 title: Componentes Poplus
 ---
 
-Poplus componentes son piezas independientes de software desarrolladas para resolver una serie de problemas comunes que se encuentran en la construcción de sitios web cívicos y democráticos . Estos problemas incluyen tareas como:
+Los componentes Poplus son piezas independientes de software desarrolladas para resolver una serie de problemas comunes que se encuentran en la construcción de sitios web cívicos y democráticos . Estos problemas incluyen tareas como:
 
 * Hacer y mantener data actual sobre políticos.
 * Ver a qué distrito, ciudad o región, se relaciona un problema o un político.

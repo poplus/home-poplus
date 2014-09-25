@@ -1,5 +1,5 @@
 ---
-layout: inner-page-fr
+layout: inner-page-es
 title: Componentes actuales
 ---
 

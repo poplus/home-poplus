@@ -1,21 +1,21 @@
 ---
-layout: inner-page-fr
-title: Les éléments Poplus utilisés
+layout: inner-page-es
+title: Los Componentes Poplus en uso
 ---
 
-Pour comprendre les avantages de l'utilisation d'un élément Poplus, il est utile voir comment il fonctionne.
+Para entender los beneficios de utilizar Componentes Poplus, es bueno verlos en acción.
 
-Voici quelques exemples des façons dont les éléments Poplus sont utilisés sur des sites web à travers le monde.
+Acá algunos ejemplos de cómo los componentes Poplus están siendo usados alrededor del mundo.
 
 ---
 
 ## SayIt
 
-<a href="http://sayit.mysociety.org/">Sayit</a> est un logiciel qui sert à stocker des transcriptions et sur lequel il est facile de naviguer, de partager des informations et de réaliser des recherches.
+<a href="http://sayit.mysociety.org/">Sayit</a> Sayit es un software para hacer que en transcripciones sea más fácil buscar, compartir y linkear.
 
-Vous pouvez utiliser SayIt pour la publication des discours prononcés durant des réunions, des audiences, des interventions. Bref, tout ce qui concerne les personnes et leurs paroles.
+Puedes usar SayIt para publicar lo que personas dijeron en reuniones, juicios, discursos - básicamente cualquier situación que implique gente y palabras habladas.
 
-Voici quelques exemples :
+Acá hay un par de ejemplos:
 
 <div class="grid-row"><div class="column-one-of-two">
 
@@ -23,7 +23,7 @@ Voici quelques exemples :
     <img class="example-screenshot" src="{{ site.baseurl }}/assets/img/example-sayit-philly.png">
   </a>
 
-  <p>Les <a href="http://philadelphia.sayit.mysociety.org/">réunions du conseil municipal de Philadelphie</a> de janvier 2013 à mars 2014 sont présentées ici, afin que les résidents de Philadelphie puissent faire des recherches sur des sujets qui les intéressent particulièrement ou simplement parcourir les discours par date ou par intervenant pour mieux comprendre le fonctionnement interne de leur conseil.</p>
+  <p>Acá se visualizan <a href="http://philadelphia.sayit.mysociety.org/">reuniones del Consejo de la ciudad de Filadelfia</a> desde enero 2013 hasta marzo 2014. Los residentes de Filadelfia pueden buscar temas que les interesan, o simplemente según fecha o representante, para entender más sobre el funcionamiento interno de su consejo.</p>
 
 </div><div class="column-one-of-two">
 
@@ -31,7 +31,7 @@ Voici quelques exemples :
     <img class="example-screenshot" src="{{ site.baseurl }}/assets/img/example-sayit-pa.png">
   </a>
 
-  <p>L'Assemblée populaire en Afrique du Sud utilise SayIt afin de <a href="http://www.pa.org.za/hansard/">publier le procès-verbal du parlement sud-africain</a>.</p>
+  La Asamblea Popular en Sudáfrica utiliza SayIt para publicar los [registros escritos](http://www.pa.org.za/hansard/) de sus parlamentarios/as.
 
 </div></div>
 
@@ -39,11 +39,11 @@ Voici quelques exemples :
 
 ## PopIt
 
-<a href="http://popit.poplus.org/">PopIt</a> est un moyen facile de stocker et de publier des listes de personnes et de leurs fonctions : si vous avez un site de surveillance parlementaire, vous pouvez l'utiliser pour les anciens membres du Parlement et les membres actuels, incluant leurs fonctions professionnelles.
+[Popit](http://popit.poplus.org/) es una manera fácil de almacenar y publicar las listas de las personas y sus posiciones. Si tienes un sitio web de control parlamentario, es posible utilizarlo para miembros (pasados ​​y actuales) del Parlamento.
 
-PopIt n’est pas exclusivement destiné aux politiciens. Vous pouvez ainsi l'utiliser pour n'importe quel groupe de personnes inter liées.
+PopIt no tiene que ser necesariamente utilizado en políticos. Puedes utilizarlo para cualquier grupo de personas inter-relacionadas.
 
-Voici quelques sites où vous pouvez observer l’utilisation de cet élément :
+Acá hay sitios en los que puedes verlo siendo utilizado:
 
 <div class="grid-row"><div class="column-one-of-two">
 
@@ -51,9 +51,9 @@ Voici quelques sites où vous pouvez observer l’utilisation de cet élément :
     <img class="example-screenshot" src="{{ site.baseurl }}/assets/img/example-popit-vota.png">
   </a>
 
-  <p><a href="http://votainteligente.cl/">Vota Inteligente</a>, au Chili, a invité ses utilisateurs à « voter en faveur des propositions et non pas des slogans » au cours de la période qui a précédé l'élection présidentielle de 2013.</p>
+  <p>[Vota Inteligente](http://votainteligente.cl), Chile, invitaba a sus usuarios a votar por propuestas y no por slogans, durante la elección presidencial 2013.</p>
 
-  <p>Le site utilise PopIt afin de présenter des données sur les candidats et de permettre aux gens de comparer leurs antécédents à leurs valeurs.</p>
+  <p>El sitio usa PopIt para presentar información sobre los canidatos y así permitir que los usuarios compararan su bio y sus posturas.</p>
 
 </div><div class="column-one-of-two">
 

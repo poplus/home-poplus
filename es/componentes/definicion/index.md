@@ -1,6 +1,6 @@
 ---
-layout: inner-page-fr
-title: Définition d'un élément Poplus
+layout: inner-page-es
+title: Definición de un Componente Poplus
 ---
 
 Un des évènements les plus importants ayant eu lieu à PoplusCon fût l'accord concernant les caractéristiques qu'une section de code doit posséder avant de pouvoir être appelé un élément Poplus.
