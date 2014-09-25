@@ -1,6 +1,6 @@
 ---
 layout: "inner-page"
-title: Making new Poplus components
+title: Haciendo nuevos componentes Poplus
 published: true
 ---
 
