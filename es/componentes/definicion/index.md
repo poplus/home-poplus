@@ -2,111 +2,109 @@
 layout: inner-page-es
 title: Definición de un Componente Poplus
 ---
+<!-- /es/componentes/definicion/index.md -->
 
-Un des évènements les plus importants ayant eu lieu à PoplusCon fût l'accord concernant les caractéristiques qu'une section de code doit posséder avant de pouvoir être appelé un élément Poplus.
+Una de las cosas más relevantes que ha pasado en Poplus es el acuerdo sobre las características que un programa informatico debe tener antes de ser llamado un componente Poplus.
 
-Cette page représente une spécification de v.01, comme convenu par une vingtaine de personnes provenant de diverses organisations qui se trouvaient dans la salle à l'époque. Si vous souhaitez en débattre ou l’améliorer, veuillez-vous joindre à la liste de courrier et nous dire ce qui devrait être différent dans la prochaine version.
+Esta página despliega una primera versión en la que participaron más de veinte personas de distintas organizaciones. Si quieres debatir al respecto o mejorarla, por favor únete a nuestro mailing list y plantea tus inquietudes.
 
-## Sept choses qui font un élément Poplus
 
-Si votre code possède les caractéristiques de chacun des points ci-dessous, félicitations, il s’agit d’un élément éligible pour obtenir le sceau d'approbation Poplus.
+## Las 7 características de un componente Poplus
+
+Un componente Poplus tiene 7 características. Si tu código tiene todas estas características, entonces ¡Felicitaciones! Es un componente digno del sello de aprobación Poplus.
 
 <ul class="tick-list">
-    <li>Mon code sert les sites web à fonction civique/démocratique</li>
-    <li>Il résout un problème unique</li>
-    <li>Il est possible de l’assembler avec d’autres éléments Poplus</li>
-    <li>Il est indifférent de la plate-forme l’accueillant</li>
-    <li>Il est indifférent au pays l’accueillant</li>
-    <li>Il s’agit d’un logiciel libre et gratuit</li>
-    <li>Il possède une API stable et documentée</li>
+    <li> Mi código ayuda a sitios Cívico / Democráticos.</li>
+    <li>Resuelve un problema específico.</li>
+    <li>Dialoga con otros componentes Poplus</li>
+    <li>Funciona en cualquier plataforma</li>
+    <li>Funciona en cualquier país</li>
+    <li> Es un software gratis y de código abierto</li>
+    <li>Tiene una API estable y documentada</li>
 </ul>
 
-## Qu’est-ce que cela signifie ?
+##  ¿Qué significa esto?
 
-### À fonction civique/démocratique
+### Cívico / Democrático
 
-**Les éléments fonctionnent sur ​​des sites web qui encouragent les gens à contribuer activement dans leur vie de citoyens ou dans leur devoir démocratique.**
+**Los componentes trabajan en páginas que empoderan a las personas en sus vidas cívicas o democráticas.**
 
-Les sites web à fonction civique démocratique comprennent les sites qui :
+Las páginas cívicas o democráticas incluyen sitios que:
 
-aide les gens ordinaires à comprendre ce qui se passe dans leurs parlements ou leurs organes gouvernementaux,
+* Ayudan a gente común y corriente a entender lo que está pasando en sus parlamentos o gobiernos.
+* Permiten a ciudadanos contactar a personas y/o organizaciones que tienen un efecto en sus vidas.
+* Le entregan a las personas el poder para ejercer cambio en sus comunidades.
+* Facilitan la transparencia, y permiten compartir información.
+* Generalmente estos sitios no son ni comerciales o político-partidistas, y son abiertos a todas las personas.
+* Tu componente puede trabajar bien en sitios que no cumplen con lo anterior, pero también en sitios que sí.
 
-* permet aux citoyens de communiquer avec les personnes et les organisations qui affectent leur vie,
-* donner aux gens le pouvoir d'effectuer des changements dans leur propre communauté,
-* mettre en évidence la corruption et permettre aux gens de faire quelque chose à ce sujet,
-* faciliter la transparence et permettre le partage d'informations,
-* En règle générale, ces sites sont non commerciaux, non partisans et ouverts à tous.
+### Resuelve un solo problema.
 
-Votre élément peut très bien fonctionner sur des sites qui ne correspondent pas à ces lignes directrices, mais il doit aussi fonctionner sur des sites comparables à ceux précisés.
+**Cada componente hace solamente una cosa.**
 
-### Il résout un problème unique
+Tu componente debería solucionar un problema para personas con sitios cívicos o democráticos. Si hace más de una cosa entonces deberías dividirlo en dos componentes.
 
-**Chaque élément ne fait qu'une seule chose.**
+Por ejemplo, existen componentes que modelan leyes. Hay algunos que modelan personas, votos, y discursos. Hay componentes que ayudan a las personas a contactar políticos, y otros que ayudan a que se envíen solicitudes de información.
 
-Votre élément ne doit résoudre qu’un seul problème au bénéfice des personnes qui administrent des sites web à fonction civiques ou démocratiques. S’il est destiné à résoudre plusieurs problèmes, vous devez le diviser en différents éléments.
+Cada uno de estos componentes puede trabajar en conjunto con otros componentes, o bien de manera independiente.
 
-Par exemple, il y a des éléments qui élaborent des projets de lois. Il y a ceux qui cherchent à influencer, ceux destinés aux votes et ceux pour les discours. Il existe des éléments qui permettent aux gens de communiquer avec les politiciens, d'autres qui leur permettent d'envoyer des demandes de renseignements.
+Tu componente puede solucionar problemas obvios, como el almacenamiento de nombres y cargos de políticos. Debe hacerlo con muchos cuidado, e idealmente debe estar creado  la experiencia: tu propia experiencia o la experiencia de quienes la van a usar. 
 
-Chacun de ces éléments peut fonctionner avec d’autres ou de façon indépendante.
+También puede ayudar con problemas más pequeños, cosas que la mayoría de las personas quizás antes ni siquiera había pensado, como el hecho de que muchas veces los políticos cambian sus nombres. Gracias a tu componente, las personas no tendrán que pensar al respecto.
 
-Votre élément doit avoir pour objet de résoudre des problèmes évidents, comme l'enregistrement des noms et des fonctions des politiciens. Cela devra être fait de façon minutieuse et, idéalement, cela devrait être basé sur l'expérience : votre propre expérience ou les expériences de ceux qui vont l'utiliser.
 
-De plus, il peut aider à résoudre des questions précises auxquelles la plupart des gens ne penseraient jamais : comme le fait que les politiciens changent parfois leurs noms. Grâce à votre élément, les gens n’auront jamais besoin d'y penser !
+### Componible
 
-### Associable
+**Que dialoguen con otros componentes.**
 
-**Votre élément fonctionne avec d’autres.**
+Este es uno de los elementos clave de un componente (y de donde proviene el término componente) - debe poder conectarse con otros componentes. Los componentes deben entenderse como piezas de bloques: puedes ponerlos juntos para hacer algo más grande. 
 
-Il s’agit là d’un des éléments clés d'un élément (et c'est de cette caractéristique que l’élément a hérité de son nom). Il doit pouvoir fonctionner avec tous les autres éléments. Les éléments sont comme des blocs de construction : vous pouvez les mettre ensemble pour créer quelque chose de plus grand.
+Sitios autónomos, o las plataformas para construirlas (como Alaveteli) son pedazos de software muy valiosos, pero no son componentes.
 
-Les sites autonomes ou les plate-formes destinées à les créer (comme Alaveteli) sont des pièces de logiciels dotées d’une grande valeur, mais ne sont pas des éléments.
+Las personas deben poder utilizar tus componentes en cualquier sitio web, sin importar qué plataforma utilizan.
 
-### Indifférent à la plateforme l’accueillant
+Tus componentes pueden ser escritos en cualquier lenguaje o infraestructura - eso es porque la interacción debe ser sobre una API (ver más abajo), por lo que el código subyacente no es tan importante para la persona implementádolo. Escribe tu componente en el lenguaje que te sea más cómodo.
 
-**Les gens devraient être en mesure d'utiliser votre élément Poplus sur tout site web, peu importe la plateforme qu'ils utilisent.**
+Idealmente, tu componente puede ser ofrecido en la nube o en una versión SAAS: eso lo hace muy fácil para que las personas lo usen. Al mismo tiempo, debería ser relativamente fácil de instalar, configurar y deployar, pues muchos usuarios eventualmente querrán hacer su propia versión local.
 
-Votre élément peut être écrit dans n'importe quelle langage ou structure de programmation. L'interaction devrait être réalisée selon les API (voir ci-dessous) afin que le code sous-jacent ne soit pas si important pour la personne qui le met en œuvre. Créez votre élément dans le langage avec lequel vous êtes le plus à l'aise.
+Docker es una manera muy simple de hacer esto muy fácil.
 
-Idéalement, votre élément sera disponible en Cloud ou en version SAAS, ce qui le rend facilement utilisable. Parallèlement, il devrait être relativement facile à installer, à configurer et à mettre en marche, étant donné que de nombreux utilisateurs finiront par vouloir gérer leur propre version hébergée localement.
+### Independencia de País
 
-Docker est un moyen simple de réaliser cela.
+**Los componentes funcionan en todas partes.**
 
-### Indifférent du pays l’accueillant
+Poplus fue creado para organizaciones en todas partes pudieran compartir y colaborar en código. Existimos para que las personas no tengan que continuamente reinventar la rueda, o bien escribir un nuevo código cuando ese código ya existe.
 
-**L’élément fonctionne partout.**
+Por lo mismo, tu componente debe ser deployable en cualquier parte del mundo. Esto significa el mínimo número de supuestos sobre modelos políticos y estructura. Significa que la interfaz y la data deberían funcionar en otros idiomas (piensa en árabe o ruso, no inglés y español), y preferiblemente en varios lenguajes simultáneamente.
 
-Poplus a été créé afin que les organisations du monde entier puissent partager des codes et ainsi collaborer. Nous existons afin que les gens n’aient pas à réinventer systématiquement la roue ou, autrement dit, à écrire de nouveaux codes alors qu’ils peuvent utiliser les codes existants.
+Reconocemos que no es fácil modelar todos los sistemas del mundo. Si no puedes con todo lo anterior guíate por lo siguiente: debería ser más fácil adaptar el componente a un país completamente distinto, que empezar desde cero.
 
-Ainsi, dans la mesure du possible, il doit être possible de faire fonctionner votre élément partout dans le monde. Cela suppose émettre un minimum d'hypothèses concernant les modèles et les structures politiques. Cela signifie aussi que l'interface et les données doivent fonctionner dans d'autres langues (pensez à l’arabe et au russe – pas seulement à l’anglais et à l’espagnol) et, de préférence, en plusieurs langues simultanément.
+En muchos casos valdrá la pena trabajar en grupos en otros países, en un conjunto de datos, antes de comenzar a desarrollar un código. La comunidad Poplus te puede ayudar a hacer esas conexiones.
 
-Nous reconnaissons qu'il n'est pas facile de modéliser tous les systèmes du monde afin qu’ils soient prêts à l’emploi. Si vous ne pouvez pas gérer tout ce qui précède, essayez de réfléchir à ce qui suit : il devrait être plus simple d'adapter l’élément à un pays complètement différent que de repartir de zéro. 
+### Libre, de código abierto
 
-Dans de nombreux cas, il sera intéressant de travailler avec des groupes en provenance d’autres pays sur une norme de données appropriée avant même de commencer à écrire le code. La communauté Poplus peut vous aider à créer des liens intéressants.
+**Tu componente debe tener el espíritu del código abierto.**
 
-### Source libre et gratuite
+Cuando hablamos de código abierto no hablamos que tu componente debe tener una licencia de código abierto (aunque por supuesto eso es esencial).
 
-**Votre élément doit respecter l'esprit de l’Open Source**
+Desarrollar un componente significa ser abierto en todos los sentidos. Tu código debe estar en Github, o en un repositorio de código abierto similar, con un issue tracker público donde cualquiera pueda contribuir.
 
-Lorsque nous parlons de l'Open Source ou de source libre, nous ne voulons pas seulement dire que votre élément doit avoir une licence Open Source (même si cette partie est essentielle).
+Debes comprometerte a mantener tu componente responsablemente y responsivamente, y si te das cuenta que ya no tienes la capacidad para seguir haciéndolo, entonces deberás prepararlo para traspasar la responsabilidad a alguien más.
 
-Le fait de développer un élément suppose d’être libre dans tous les sens de terme. Ainsi, votre code doit se retrouver sur GitHub ou sur un référentiel équivalent de source libre, avec un tracker publique auquel n'importe qui peut contribuer.
+### Estable, documentado
 
-Vous devriez vous engager à l'entretien de votre élément de façon responsable tout en restant réactif. Si vous trouvez que vous n'êtes plus capable de le faire, vous devez être prêt à remettre cette tâche à quelqu'un qui le peut.
+**Los usuarios de la API deberían poder confiar en componentes.**
 
-### Stable, documenté
+Para que los componentes puedan operar juntos, todas las funcionalidades deben ser expuestas sobre APIs. Estas APIs deben estar muy bien documentadas para que cualquiera pueda usarlas, y para que futuros colaboradores puedan trabajar con ellas también
 
-**Les utilisateurs de l'API devraient être en mesure de s'appuyer sur les éléments**
+Recomendamos una API tipo-REST sobre HTTP. Si no sabes lo que esto significa tu desarrollador sí debería (o grita por ayuda en la lista de correo).
 
-Afin que les éléments puissent fonctionner ensemble, toutes les fonctionnalités devraient être exposées sur les API. Ces API doivent être très bien documentés, de sorte que tout le monde puisse les utiliser et que les futurs contributeurs puissent y travailler.
+Como otros sitios y otros componentes dependerán de esta, es esencial que la API sea estable. Nuevos puntos de entrada pueden ser agregados, pero los existentes no deberían desaparecer, o cambiar su significado, sin un cambio de versión o pasar por un ciclo de obsolescencia apropiado.
 
-Nous recommandons une API telle que REST-like HTTP. Si vous ne savez pas ce que cela signifie, vos développeurs doivent le savoir (sinon, faites-nous signe via notre liste de diffusion et nous vous aiderons).
+## ¿Cumples con los 7 puntos?
 
-Sachant que d'autres sites et éléments s'appuieront sur lui, il est essentiel que l'API soit stable. De nouveaux critères peuvent être ajoutés, mais ceux qui existent déjà ne devraient en aucun cas disparaître, ni changer de sens, sans procéder à un changement de version ou passer par un cycle de dévalorisation approprié.
+Maravilloso. Has creado un componente Poplus. Por favor cuéntanos y te ayudaremos a comunicarlo con personas que puedan usarlo.
 
-## Vous avez coché les sept cases ?
+### ¿Cumples con 4?¿Necesitas ayuda para llegar a los 7?
 
-Magnifique : vous avez créé un élément Poplus. Veuillez nous en informer et nous vous aiderons à faire passer l’information aux personnes qui souhaitent l'utiliser.
-
-### Avez-vous besoin d'aide pour y arriver ?
-
-Laissez-nous un message sur la [liste de diffusion de Poplus](https://groups.google.com/forum/#!forum/poplus) : il y existe beaucoup de codeurs sympathiques qui peuvent vous aider avec vos questions ou vos problèmes.
+Deja un mensajito en nuestra lista de correos - hay desarrolladores amistosos que te pueden ayudar con preguntas o problemas.

@@ -2,22 +2,23 @@
 layout: inner-page-es
 title: ¿Qué es Poplus?
 ---
+<!-- /es/about/faq/index.md -->
 <img src="{{ site.baseurl }}/assets/img/shiny-happy-poplus-people.jpg" />
-Poplus is an open federation of people and organisations from many different countries. Our joint mission is to share knowledge and technology that can help us to help citizens.
+Poplus es una federación de personas y organizaciones provenientes de diferentes países. Nuestra misión conjunta es compartir experiencia y tecnología y pueda ayudarnos a ayudar ciudadanos y ciudadanas
 
-Poplus' founding principle is that collaborative civic coding can help save time and expense for people and organisations everywhere. And that sharing stories and lessons will help us all to be as effective as possible.
+Los principios fundantes de Poplus son que el desarrollo cívico colaborativo nos ayuda a ahorrar tiempo y costos para personas y organizaciones en todas partes, y que compartir historias, experiencias y aprendizajes nos ayudarán a todos a ser lo más efectivos posible.
 
-Civic websites often need the same basic functionalities, no matter what kind of legislature or form of government they operate within. At Poplus we have been trying to build technologies that can save us all time and money by re-using each others work.
+Los sitios cívicos usualmente necesitan las mismas funcionalidades, sin importar el tipo de legislación o sistema gubernamental. En Poplus hemos tratado de construir tecnologías que nos puedan ahorrar tiempo y dinero al re-utilizar nuestro trabajo y el de otros.
 
-We call the resulting software [Poplus Components](/components/). They are open source and are available for anyone to use for free.
+Llamamos el software que sale de esto un “[componente]({{ site.baseurl }}/es/componetes/)”. Son de código abierto, y disponibles para que cualquiera los use gratis.
 
-## How Poplus began
+## Cómo comenzó Poplus
 
-In April 2014, the [first Poplus conference](/popluscon/) threw the doors open to international attendees, who discussed how to take the project forward - [what makes a Component](/components/#definition), what Components are most needed, [how Poplus should organise itself](/posts/santiago-conference-2014/), and how to [facilitate communication](https://groups.google.com/forum/#!forum/poplus).
+En abril del año 2014, en la [primera conferencia Poplus]({{ site.baseurl }}/popluscon), las puertas de Poplus se abrieron a organizaciones en todas partes del mundo, quienes discutieron sobre cómo hacer que el proyecto avance hacia adelante, sobre [qué es un componente]({{ site.baseurl }}/es/componetes/definicion/), sobre qué tipos de componentes son más requeridos, y sobre [cómo Poplus se debe organizar]({{ site.baseurl }}/posts/santiago-conference-2014/) y ser un [facilitador de comunicación](https://groups.google.com/forum/#!forum/poplus)).
 
-If you are interested in joining Poplus, you can [find out more](https://groups.google.com/forum/#!forum/poplus).
 
-## Where is Poplus going next?
+Si estás interesado o interesada en unirte a Poplus puedes obtener más información [leyendo o preguntando](https://groups.google.com/forum/#!forum/poplus).
 
-Poplus is just getting started. We have goals to hold more events, build more shared technologies, and to share more stories of success and failure. But the real answer is that we are going where you want us to go. So why not get involved, and help plot our journey?
+## ¿Hacia dónde va Poplus ahora? 
 
+Poplus está recién comenzando. Tenemos la meta de hacer más eventos, desarrollar más tecnologías compartibles, e intercambiar más historias de éxitos y fracasos. Pero la verdadera respuesta es que vamos hacia donde nos quieras llevar. Entonces, por qué no involucrarse y ayudarnos a construir este camino?
