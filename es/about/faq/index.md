@@ -2,56 +2,59 @@
 layout: inner-page-es
 title: Preguntas Frecuentes
 ---
-## New to Poplus? Read this first
+<!-- /es/about/faq/index.md -->
+## ¿Nuevo en Polpus? Lee esto primero.
 
-Greetings, and welcome to Poplus. Thanks for visiting!
+Saludos y bienvenido a Poplus ¡Gracias por visitarnos!
 
-We know that it can be hard to understand exactly what Poplus is. Here are some hints about where to begin.
+Sabemos que puede ser difícil comprender exactamente qué es Poplus. Aquí hay algunas pistas sobre cómo comenzar.
 
-## What should I do first?
+## ¿Qué es lo primero que debería hacer?
 
-Here are five things that will start you off.
+Aquí hay cinco cosas para comenzar.
 
-1. Find out what Poplus is: visit our [About page](http://poplus.org/about/) and read our FAQs below.
-2. Understand what Poplus Components are: [see some Poplus Components in action](http://poplus.org/components/examples/).
-3. Take a look at the [Poplus map](http://poplus.org/get-involved/find-people/) and see if there’s anyone local to you. If so, they will be happy to say hello, or answer your questions.
-4. Join the [Google Group](https://groups.google.com/forum/#!forum/poplus) and introduce yourself. Poplus is open to anyone who is interested, and the Google Group is where most activity and discussion takes place. You are welcome, whether you are from an organisation which might like to use a Poplus Component, or a developer who  might like to help make them. 5. Ready for more? Get involved - full details on how to do that [can be found here](http://poplus.org/get-involved/).
+1. Averigua qué es Poplus: Visita nuestra página [Acerca de]({{ site.baseurl }}/es/about/) y lee nuestras Preguntas Frecuentes a continuación.
+2. Comprende qué son los componentes Poplus: ve algunos componentes [Poplus en acción]({{ site.baseurl }}/es/componentes/ejemplos/).
+3. Dale una mirada al [mapa Poplus]({{ site.baseurl }}/es/involucrate/find-people/) y ve si hay alguien cerca de ti. Si es así, ellos te saludarán alegremente y contestarán tus dudas.
+4. Únete al [grupo de Google](https://groups.google.com/forum/#!forum/poplus) y preséntate. Poplus está abierto a todos los interesados, y el grupo de Google es donde ocurren la mayor parte de la actividad y de las discusiones. Eres bienvenido, así vengas de una organización que podría querer usar un componente Poplus o si eres un desarrollador que puede querer ayudar a hacerlos.
+5. ¿Listo para más? Involúcrate, los detalles de cómo hacerlo se encuentran [aquí]({{ site.baseurl }}/es/involucrate/).
 
-## Frequently Asked Questions
+## Preguntas Frecuentes
 
-### What is Poplus?
+### ¿Qué es Poplus?
 
-Poplus is an international federation for Collaborative Civic Coding. 
+Poplus es una federación internacional para la programación cívica colaborativa.
 
-In other words, it brings together people who create civic software, and the organisations or people that need that software.
+En otras palabras, agrupa personas que crean software cívico, y las organizaciones o gente que necesitan ese software.
 
-Its primary aim is to save work for everyone, by sharing digital tools that help people in the civic and democratic areas of life. You can read more on our [About page](http://poplus.org/about/).
+Su objetivo principal es ahorrar trabajo a todos, compartiendo herramientas digitales que ayudan a la gente temas cívicos y democráticos. Puedes leer más en la página [Acerca de]({{ site.baseurl }}/es/about/).
 
-### How do I join Poplus?
+### ¿Cómo puedo unirme a Poplus?
 
-There is no membership process; you become an active member by participating.
+No hay proceso de membresía, la forma de convertirse en un miembro activo es participando.
 
-But you don’t have to participate immediately! Feel free to join the [Google Group](https://groups.google.com/forum/#!forum/poplus), subscribe to updates, and comment when you have something to say.
+Pero no tienes porqué participar inmediatamente! Siéntete libre de unirte al [grupo de Google](https://groups.google.com/forum/#!forum/poplus), suscribirte a las actualizaciones y comenta cuando tengas algo para decir.
 
-### What are some concrete ways to work with Poplus?
+### ¿Cuáles son las formas concretas de trabajar con Poplus?
 
-There are many ways to get involved. If you are a developer, you can write code, or improve other people’s code.
+Hay muchas formas de involucrarse. Si eres programador, puedes reescribir código, o mejorar el código de otros.
 
-If you are in need of online tools, you can share your experiences and hopes, and help shape the ones that are made.
+Si necesitas herramientas en línea, puedes compartir tus experiencias y expectativas para ayudar a darle forma a las que se están desarrollando.
 
-If you are neither a coder nor in need of digital tools, but are just an interested person, you are still welcome, and there are many other ways to get involved. For example, you might like to join one of the Poplus sub-committees. Find out more [here](http://poplus.org/get-involved/).
+Si no eres programador ni necesitas herramientas digitales, pero igual estás interesado, aún así eres bienvenido, y hay muchas otras formas de [involucrarse]({{ site.baseurl }}/es/involucrate/). Por ejemplo, podrías querer unirte a uno de los subcomites de Poplus.
 
-### What are the expectations in working with Poplus?
+### ¿Cuáles son las exigencias para trabajar en Poplus?
 
-At the moment there is no minimum requirement. Poplus is still young, and we are in the process of forming it. We will accept all the help that we are offered!
+Por el momento no hay requisitos mínimos. Poplus aún es joven y estamos en el proceso de formarlo. Aceptaríamos toda la ayuda que ser nos ofrezca.
 
-### How do I make contact?
+### ¿Cómo hago contacto?
 
-As there is no-one ‘in charge’ of Poplus, most communication is via the [Google Group](https://groups.google.com/forum/#!forum/poplus). This is the place to introduce yourself, ask questions, offer help and feedback, etc etc.
+Como no hay nadie "a cargo"; de Poplus, la mayor parte de la comunicación es por el [grupo de Google](https://groups.google.com/forum/#!forum/poplus). Este es el lugar para presentarse, hacer preguntas, ofrecer ayuda y retroalimentación, etc etc.
 
-If you have a message that is better suited to one-on-one communication, you should mail hello [at] poplus.org. This email address is accessed by a number of active Poplus members, and one of them will respond.
+Si tienes un mensaje que es más apropiado para la comunicación uno a uno, deberías enviar un mail a hola (arroba) poplus.org
+Esta dirección de correo es accedida por varios miembros activos de Poplus, y uno de ellos responderá.
 
-### Still got questions?
 
-Post them to the [Google Group](https://groups.google.com/forum/#!forum/poplus)!
+### ¿Más preguntas?
+... Adivinaste ¡Publícalas en nuestro [grupo de Google](https://groups.google.com/forum/#!forum/poplus)!
 

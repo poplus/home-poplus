@@ -30,5 +30,5 @@ Para chatear en tiempo real usa #poplus en [Freenode](https://webchat.freenode.n
 ### GitHub
 
 Todos los componentes de Poplus son de código abierto. Puedes encontrar los repositorios y tickets de problemas o sugerencias en GitHub.
-Revisa la [página de componentes({{ site.baseurl }}/es/componentes/).
+Revisa la [página de componentes]({{ site.baseurl }}/es/componentes/).
 
