@@ -7,9 +7,16 @@ To understand the benefits of using a Poplus Component, it helps to see them in 
 
 Here are a few of the ways in which Poplus Components are being used on sites around the world.
 
+* [SayIt](#sayit)
+* [PopIt](#popit)
+* [MapIt](#mapit)
+* [Represent Boundaries](#represent-boundaries)
+
+Additionally, this <a href="https://docs.google.com/a/mysociety.org/spreadsheets/d/1O8-2uwUufcigjwxymcDaSJ25GpXfh1is63PUnhFgmhw/edit#gid=0">shared spreadsheet</a> lists every deployment of a Poplus Component we know about. Feel free to add anything we've missed.
+
 ---
 
-## SayIt
+<h2 id="sayit">SayIt</h2>
 
 <a href="http://sayit.mysociety.org/">Sayit</a> is software for making transcripts really easy to browse,  share, search and link to.
 
@@ -37,7 +44,7 @@ Here are a couple of examples:
 
 ---
 
-## PopIt
+<h2 id="popit">PopIt</h2>
 
 <a href="http://popit.poplus.org/">PopIt</a> is an easy way to store and publish lists of people and their positions - if you run a parliamentary monitoring website, you might use it for past and present members of Parliament and their job titles.
 
@@ -67,7 +74,7 @@ Here are some websites where you can see it in use:
 
 ---
 
-## MapIt
+<h2 id="mapit">MapIt</h2>
 
 If you need your website to match governing bodies and geographic points, <a href="http://mapit.poplus.org/">MapIt</a> can help.
 
@@ -101,8 +108,28 @@ See MapIt in action here:
 
 ---
 
-## More
+<h2 id="represent-boundaries">Represent Boundaries</h2>
 
-This <a href="https://docs.google.com/a/mysociety.org/spreadsheets/d/1O8-2uwUufcigjwxymcDaSJ25GpXfh1is63PUnhFgmhw/edit#gid=0">shared spreadsheet</a> lists every deployment of a Poplus Component we know about.
+[Represent Boundaries](http://represent.poplus.org/) helps to provide relevant information based on your user's location. For example, collect a user's address on your website, use Represent Boundaries to find the geographic area that covers their location, and then display relevant content, like inviting supporters to take local actions or running “email your elected official” campaigns.
 
-Feel free to add anything we've missed.
+You can also use Represent Boundaries to organize your people database by geographic area. After matching people to geographic areas using Represent Boundaries, you can segment people geographically, to match your volunteers, donors or voters to electoral districts to better mobilize volunteers, organize donation drives or target canvassing.
+
+Represent Boundaries is used by some of the most popular civic and democratic websites:
+
+<div class="grid-row"><div class="column-one-of-two">
+
+  <a href="http://www.govtrack.us/">
+    <img class="example-screenshot" src="{{ site.baseurl }}/assets/img/example-represent-boundaries-govtrack.jpg">
+  </a>
+
+  <p><a href="http://www.govtrack.us/">GovTrack.us</a> helps millions of Americans easily track the activities of the United States Congress.</p>
+
+</div><div class="column-one-of-two">
+
+  <a href="http://openstates.org/">
+    <img class="example-screenshot" src="{{ site.baseurl }}/assets/img/example-represent-boundaries-openstates.jpg">
+  </a>
+
+  <p><a href="http://openstates.org/">Open States</a> by the Sunlight Foundation allows anyone to track lawmaking in their US state.</p>
+
+</div></div>
