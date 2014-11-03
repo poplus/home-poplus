@@ -340,3 +340,13 @@ hr {
         margin-bottom: 1.5em;
     }
 }
+
+.mailing-list-call-to-action {
+    background-color: $colour_light_grey;
+    padding: 1em;
+    margin-bottom: 1.5em;
+    border-radius: 5px;
+    h2 {
+        font-size: 1.5em;
+    }
+}
