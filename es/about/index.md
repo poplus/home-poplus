@@ -10,7 +10,7 @@ Los principios fundantes de Poplus son que el desarrollo cívico colaborativo no
 
 Los sitios cívicos usualmente necesitan las mismas funcionalidades, sin importar el tipo de legislación o sistema gubernamental. En Poplus hemos tratado de construir tecnologías que nos puedan ahorrar tiempo y dinero al re-utilizar nuestro trabajo y el de otros.
 
-Llamamos el software que sale de esto un “[componente]({{ site.baseurl }}/es/componetes/)”. Son de código abierto, y disponibles para que cualquiera los use gratis.
+Llamamos el software que sale de esto un “[componente]({{ site.baseurl }}/es/componentes/)”. Son de código abierto, y disponibles para que cualquiera los use gratis.
 
 ## Cómo comenzó Poplus
 
