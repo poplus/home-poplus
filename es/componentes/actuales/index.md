@@ -7,7 +7,7 @@ Estos son todos los componentes Poplus existentes. Algunos están bien maduros y
 
 <div class="grid-row" id="components">
 <!--
-{% for post in site.categories.component_fr %}
+{% for post in site.categories.component_es %}
   --><div class="column-one-of-two">
     <div class="catalogue-item catalogue-item--poplus-component">
       <h3><a href="
