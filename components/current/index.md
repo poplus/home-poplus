@@ -6,7 +6,9 @@ redirect_from:
 - "/catalogue.html"
 ---
 
-Here are all the Poplus Components in existence. They vary between being very mature and brand new.
+All Poplus Components are listed below - visit their websites to find out more about how to use them.
+
+Questions? Problems? Post on the [online Poplus Group](https://groups.google.com/forum/#!forum/poplus) where you’ll find plenty of people to help you.
 
 <div class="grid-row" id="components">
 <!--
