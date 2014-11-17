@@ -2,6 +2,8 @@
 layout: "inner-page"
 title: Making new Poplus components
 published: true
+redirect_from:
+- "/apply/"
 ---
 
 ## How to get your software certified as a Poplus Component
