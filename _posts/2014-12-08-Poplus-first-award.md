@@ -6,7 +6,7 @@ date: 08-12-2014
 categories: post
 published: true
 ---
-# Poplus’ first award
+
 
 Last week, we received the gratifying news that Poplus has been recognised in the [Nominet Trust 100](http://socialtech.org.uk/nominet-trust-100/).
 
