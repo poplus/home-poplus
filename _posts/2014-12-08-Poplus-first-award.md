@@ -1,8 +1,4 @@
 ---
-published: false
----
-
----
 layout: post
 title:  "Poplus' First Award"
 author: Myfanwy Nixon
