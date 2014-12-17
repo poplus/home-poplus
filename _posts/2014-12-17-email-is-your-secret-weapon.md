@@ -115,8 +115,7 @@ In the meantime, if you want access please email us at [contact@oaf.org.au](mail
 
 * Your name
 * Your email address &mdash; where you will receive the Cuttlefish invitation
-* Organisation name
-* Organisation website
+* Organisation name & website &mdash; If you're not part of an official organisation, that's fine too. Simply include something about the people you're working with.
 * Describe the emails you would like to send with Cuttlefish and the applications they come from (e.g. email alerts for our parliamentary monitoring site ...)
 
 The obvious disclaimer here is don't use Cuttlefish to send anything that could be mistaken as spam. No unsolicited emails. No mass marketing emails. Only things related to civic technology. If you have **[any doubts or questions just ask](mailto:contact@oaf.org.au)**.
