@@ -14,3 +14,9 @@ To preview the website locally, run:
 ```shell
 bundle exec jekyll serve --watch
 ```
+
+Additional dependencies, on Ubuntu:
+
+```
+sudo apt-get install nodejs
+```
