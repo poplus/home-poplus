@@ -4,7 +4,7 @@ title:  "Part 1: Popit a Key Component for Malaysia's Governance Initiatives"
 author: Khairil Yusof
 date: 17-12-2014
 categories: post
-published: false
+published: true 
 ---
 
 In Malaysia, political parties, politicians and businesses are highly
@@ -30,12 +30,16 @@ Basic CV information of most parliamentary representatives are not
 easily available. An effort to do surveys in 2013 as part of MyMP
 project and crowdsourcing information lead to only partial information
 of 60 out of 222 MPs.[2] As a result of this, we have learned that to
-build up CVs of past employment and posts held by our represenatives to
+build up CVs of past employment and posts held by our representatives to
 know them better, we have to piece together this information from
 various sources.  This reinforces the need to work on a single
 comprehensive database.
 
-Building career history from multiple sources.
+Building career history from multiple sources. The history of the
+following representative comes from general elections candidate
+database, website of government statutory body and news archive.
+
+[Popit Entry: Datuk Ahmad Husni Hadzlah](https://sinar-malaysia.popit.mysociety.org/persons/545e44b75222837c2c058d60)
 
 ![represenative career](http://sinarproject.org/projects/Datuk%20Ahmad%20Husni%20Hanadzlah.png/image_large)
 
@@ -86,12 +90,12 @@ especially start and end dates backed by sources in Malaysia's popit
 database is key to building applications and visulizations around them.
 
 Recent news on 3 deputy ministers on board of a government public
-corporate accepting honorariums along withi current and past 11 other
-directors stresses this point. We now can match this information and
-learn more about political history and which constituency this minister
-is from. [4]
+corporate accepting honorariums along with current and past 11 other
+directors stresses this point. We will soon have ability to match this
+information and learn more about the political history and which
+constituency these ministers are from. [4]
 
-This will take a lot of effort, and Sinar Project is working with
+This is a long term effort and resources, and Sinar Project is working with
 coalition of several local NGOs consisting of Transparency International
 Malaysia, Institute for Democracy and Economic Affairs, Citizens Network
 for Better Malaysia and Centre to Combat Corruption and Cronyism to
@@ -102,7 +106,7 @@ database and supporting applications.
 
 ### Political Financing and Clean Elections
 
-Posts for representatives also has a key Area field, which is important
+Posts for representatives also has an  Area field, which is important
 for analysis to track down political funding. If the Area field [5] is
 mapped to another Poplus component MapIT or Represent Boundaries it will
 provide basic lookup funcationality for finding represenatives, but it
