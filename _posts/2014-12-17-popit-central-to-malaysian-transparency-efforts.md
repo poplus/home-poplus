@@ -123,7 +123,7 @@ public funds were spent in the constituencies of various represenatives.
 
 Thanks to Poplus mini-grant, we have been able to work on this initial import
 excercise, as well as develop initial supporting applications. As a
-result wof this work, we have been funded to continue development and
+result of this work, we have been funded to continue development and
 build supporting applications for other NGOs to use Popit in Malaysia
 with a small full time team for the next 6 months thanks to the  Southeast Asia Technology and
 Transparency Initiative (SEATTI) [6].
