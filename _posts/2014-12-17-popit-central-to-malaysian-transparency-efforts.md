@@ -65,20 +65,14 @@ Some lessons learned during this excercise:
   weak, populating information on representatives often involves
   putting together bits and pieces of information from lots of
   different sources.
-- A user friendly, multi-user UI is needed for crowdsourcing
-  [https://github.com/mysociety/popit/issues/425] (implemented by
-  MySociety)
-- Updates for each field need to be attributed properly for
-  information integrity.
-  [https://github.com/mysociety/popit/issues/26] A workaround
-  currently being used is general source field. Source per field
+- A user friendly, [multi-user UI](https://github.com/mysociety/popit/issues/425) is needed for crowdsourcing.
+- Updates for each field need to be [attributed properly for information integrity](https://github.com/mysociety/popit/issues/26).
+  A workaround currently being used is general source field. Source per field
   is still needed when other applictions use the database and only
   reference parts of the information. More on this later.
-- Posts are needed in web UI
-  [https://github.com/mysociety/popit/issues/685](https://github.com/mysociety/popit/issues/685)
+- [Posts are needed in web UI](https://github.com/mysociety/popit/issues/685).
 - Honorary titles for names are used officially a lot in Malaysia, and this would
-  need to be implemented in Popit UI.
-  [https://github.com/mysociety/popit/issues/480](https://github.com/mysociety/popit/issues/480)
+  [need to be implemented in Popit UI](https://github.com/mysociety/popit/issues/480).
 
 ### Accountability and Beneficial Ownership
 
