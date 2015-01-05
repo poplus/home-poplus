@@ -5,6 +5,11 @@ redirect_from:
 - "/about/people.html"
 - "/about/contributors.html"
 ---
+We’re an international federation, and there are Poplus people in many places.
+
+Between us, we’re often at civic or open data conferences, hackathons and events, and we’re always happy to chat. Check the calendar at the foot of this page to see if we’ll be coming your way.
+
+If in doubt, the best thing to do by far is to join the [online Poplus Group](https://groups.google.com/forum/#!forum/poplus) to introduce yourself and see if anyone else is in the neighbourhood.
 
 <iframe src="https://mapsengine.google.com/map/u/0/embed?mid=zIRpJTfhUk3U.kz3_0IC6HoQ4" frameborder="0" height="420" width="583"></iframe>
 
@@ -35,3 +40,7 @@ For instant chat, find us on #poplus on [Freenode](https://webchat.freenode.net/
 Poplus Components are all Open Source. You can find their code or add tickets for bugs or suggested changes on GitHub.
 
 See the [Components page]({{ site.baseurl }}/components/) for links.
+
+## Meetings calendar
+
+<iframe src="https://www.google.com/calendar/embed?src=b9cleffo7lgld26strcs6ec1os%40group.calendar.google.com&ctz=America/Toronto" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>

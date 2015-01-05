@@ -1,23 +1,14 @@
 ---
 layout: inner-page
-title: Poplus Conference 2014
+title: Resources
 redirect_from:
 - "/poplus_event.html"
 - "/popluscon_sessions.html"
 - "/about/popluscon_sessions.html"
+- "/popluscon/"
 ---
 
-<iframe src="//player.vimeo.com/video/95069822" width="100%" height="350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<p class="intro">In April 2014, coders, journalists and activists met in Santiago Chile for PoplusCon. This international conference was Poplus' first major event. </p>
-
-<p class="intro">The aims were to kickstart the federation and to agree its founding principles; both aims were emphatically achieved! </p>
-
-<p class="intro">After the conference, Poplus had defined a clear direction for its future. We'd also discussed a number of topics highly relevant to Poplus' mission of shared civic coding.</p>
-
-<p class="intro">You can find out more by exploring the notes from each of the conference sessions, and the follow-up blog posts of delegates. We've linked to all of them below.</p>
-
-<h2>Session notes</h2>
+<h2>PoplusCon Session notes</h2>
 <h3>Building Poplus</h3>
 
 <p>Four PoplusCon sessions focused on basic definitions and criteria for Poplus. These are the notes you should read if you want a clear understanding of the decisions that are now being acted on:</p>

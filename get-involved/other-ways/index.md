@@ -2,33 +2,70 @@
 layout: inner-page
 title: Other ways to get involved
 ---
+
+So you’ve joined the [Poplus Google Group](https://groups.google.com/forum/#!forum/poplus)? Great! That’s where all our discussions happen. Now here are some other valuable ways to get involved.
+
+Poplus aims to bring together the creators of civic technology, and the groups and people who need to use them. So - if you’re a coder, see below. If you’re an end user, [click here](#activist).
+
 <img src="{{ site.baseurl }}/assets/img/popluscon-talk.jpg" />
-You don’t have to join a committee to be part of the Poplus Federation. Here are some other valuable ways to get involved.
 
-## Write stories
+## If you're a coder
 
-People in the Poplus community have expressed a desire to hear stories from others who are trying to use digital technologies to empower citizens, open governments and get things changed.
+### 1. Join the Google Group
 
-You can help Poplus by sharing your experiences. You can write them in any language; and even better, you or other Poplus members can translate your stories so that everyone can benefit from them.
+Join the [Google Group](https://groups.google.com/forum/#!forum/poplus)and ask if anyone needs any help using existing Poplus Components. You might be able to lend a hand to someone with an important project!
 
-Add your contributions to the [Google Group](https://groups.google.com/forum/#!forum/poplus)
+### 2. Find out about Poplus Components
 
-## Organise Poplus events (or take Poplus to other events)
+First, make sure you understand what [Poplus Components](/components/) are - you’ll need this knowledge before you progress to the following points.
 
-Poplus started at the [Poplus conference]({{ site.baseurl }}/popluscon/) in Santiago, Chile, in May 2014.
+### 3. Help us try Components out
 
-In order for people to come together to share stories, technology and lessons we will need to have more events, in more places.
+Software always needs testers, and your feedback will be invaluable. Visit  the [Poplus online group](https://groups.google.com/forum/#!forum/poplus) to find out if there are any Components that are at the testing stage. Or view [existing Components](/components/current/) and give them a go - feedback is extremely welcome for these, too.
 
-So you can help by either helping to organise an event about Poplus, or by going to an existing event and telling people about Poplus. Just don’t forget to join the [Poplus mailing list](https://groups.google.com/forum/#%21forum/poplus) and tell other people what you have planned!
+### 4. Help assess software for inclusion as a Poplus Component
+Poplus Components aspire to meet [specific requirements](/components/definition/). We welcome coders who can help us assess new submissions to see whether or not they meet these guidelines - holler in the [Poplus online group](https://groups.google.com/forum/#!forum/poplus) and we’ll let you know when we need you.
 
-## Write code
+### 5. Develop new Poplus Components, or find out if your software already qualifies to be one
 
-If you’re a coder, there are lots of ways you can get involved.
+Perhaps you’d like to write a new Component - or maybe you’ve already written some Open Source software that you’d like to share with the community. Let us know in the [Poplus online group](https://groups.google.com/forum/#!forum/poplus) and we’ll point you towards the submission process.
 
-You can learn about Poplus Components, try them out, and give feedback to the people who are building them. Or you can contribute directly to the development of current Poplus Components, or build new ones. Read about [what a Poplus component is]({{ site.baseurl }}/components/), and learn about the ones that [already exist]({{ site.baseurl }}/components/#components).
+### 6. Help others who want to use Poplus Components
 
-But Poplus is not just for people who want to use Poplus Components - it’s for anyone who thinks there is value in sharing lessons relating to technologies for citizens. So if you already run a civic or democratic tech project, and you want to be connected to Poplus, just join [the mailing list](https://groups.google.com/forum/#!forum/poplus) and tell us a bit about yourself, your project, and what you’re trying to do next.
+Poplus Components are for anyone who needs them - whatever their level of technical expertise. As a result, technical queries will arise, and we can always use coders and developers who can respond.
 
-## Design
+### 7. Join in discussions
 
-Help us make Poplus look elegant, and communicate effectively. If you have design skills, our developers will be very happy to meet you. Just drop us a line on the [mailing list](https://groups.google.com/forum/#!forum/poplus).
+We always need coders’ input on questions that arise in the [Poplus online group](https://groups.google.com/forum/#!forum/poplus), from what direction Poplus should be taking, to which features might be most needed in a new Component. Don’t be shy - we’d love to hear your opinions.
+
+### 8. Tell your friends and acquaintances
+
+If you move in the civic tech world, at work or in your social life, do us a favour and make sure your associates know about Poplus.
+
+<h2 id="activist">If you’re an activist or a member of a civic organisation</h2>
+
+### Tell us about yourself
+
+Coders in the Poplus community need to hear from people who are trying to use digital technologies to empower citizens, open governments and get things changed. They want to know about your needs, your frustrations and what does and doesn’t work.
+
+You can help Poplus by sharing your experiences. Please post them to the [Google group](https://groups.google.com/forum/#!forum/poplus).
+
+### See if any of the Poplus Components can help you
+
+Poplus Components are nifty pieces of code that help civic groups with common digital tasks, like storing names of politicians, or publishing everything they say.
+
+You can see some examples of [how Components are being used on this page](/components/examples/), and find out [what’s currently available here](/components/current/).
+
+Interested in using a Component? Or maybe you don’t see quite what you need? Join the [Poplus online group](https://groups.google.com/forum/#!forum/poplus) and tell us all about it.
+
+## Whatever you are
+
+### Help us spread the word
+
+Attend conferences, talks or events and tell people about Poplus. [Poplus online group](https://groups.google.com/forum/#!forum/poplus) to find out when events are happening in your area (or to tell us about them!).
+
+Write a piece for a blog or a newsletter. Or simply [follow us on Twitter](https://twitter.com/poplusproject) and retweet our messages - every little helps.
+
+### Join our discussions
+
+The Google Group is the place to voice your opinion. See you there!

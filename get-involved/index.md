@@ -8,15 +8,25 @@ redirect_from:
 - "/join/suggest.html"
 - "/join/volunteers-form.html"
 ---
+Poplus is open to anyone with an interest in civic digital tools - using them or creating them.
+
+If that sounds like you, here’s what to do first:
+
+## 1. Join the Poplus community’s Google Group and [say hello](https://groups.google.com/forum/#!forum/poplus)
+
+The Poplus Google Group is our main forum for discussion. It’s the easiest way to access advice, ideas and the discussions taking place across the Poplus community.
+
+You don’t have to have a burning question - please just join and introduce yourself. We’ll be pleased to meet you! [Join or browse now](https://groups.google.com/forum/#!forum/poplus).
+
+## 2. [Find Poplus people](/get-involved/find-people/)
+
+Poplus is an international organisation and we have members in many countries. Check our map to see if there’s someone near you, or take a look at our calendar - we may be visiting a conference or event in your area.
+
+## 3. Read about more ways you can [get involved](/get-involved/other-ways/)
+
+Whether you’re a coder or an activist, or anywhere in between, we can use your skills. [Find out what we’re looking for here](/get-involved/other-ways/).
+
 <img src="{{ site.baseurl }}/assets/img/popluscon-celebrate.jpg" />
-Poplus is still in its infancy. There's one thing it needs more than anything else: enthusiastic people!
-
-We welcome everyone who is interested in helping, and there are a number of ways in which you can do so:
-
-* [Join a committee]({{ site.baseurl }}/get-involved/join-a-committee/)
-* [Read our meeting minutes and agendas](http://hackfoldr.org/poplusteam/)
-* [Get involved with code, events, and more]({{ site.baseurl }}/get-involved/other-ways/)
-* [Where to find Poplus people]({{ site.baseurl }}/get-involved/find-people)
 
 ## What are Poplus members talking about?
 

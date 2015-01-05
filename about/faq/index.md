@@ -6,44 +6,46 @@ title: Frequently Asked Questions
 
 Greetings, and welcome to Poplus. Thanks for visiting!
 
-We know that it can be hard to understand exactly what Poplus is. Here are some hints about where to begin.
+If you’re wondering just where to start, or how to get involved, you’re in the right place.
 
 ## What should I do first?
 
-Here are five things that will start you off.
+Here are three things that will start you off.
 
 1. Find out what Poplus is: visit our [About page](http://poplus.org/about/) and read our FAQs below.
 2. Understand what Poplus Components are: [see some Poplus Components in action](http://poplus.org/components/examples/).
-3. Take a look at the [Poplus map](http://poplus.org/get-involved/find-people/) and see if there’s anyone local to you. If so, they will be happy to say hello, or answer your questions.
-4. Join the [Google Group](https://groups.google.com/forum/#!forum/poplus) and introduce yourself. Poplus is open to anyone who is interested, and the Google Group is where most activity and discussion takes place. You are welcome, whether you are from an organisation which might like to use a Poplus Component, or a developer who  might like to help make them. 5. Ready for more? Get involved - full details on how to do that [can be found here](http://poplus.org/get-involved/).
+3. Join the [Google Group](https://groups.google.com/forum/#!forum/poplus) and introduce yourself. Poplus is open to anyone who is interested, and the Google Group is where most activity and discussion takes place. You are welcome, whether you are from an organisation which might like to use a Poplus Component, or a developer who might like to help make them.
+
 
 ## Frequently Asked Questions
 
 ### What is Poplus?
 
-Poplus is an international federation for Collaborative Civic Coding. 
+Poplus is an international federation for Collaborative Civic Coding. It is free to join.
 
-In other words, it brings together people who create civic software, and the organisations or people that need that software.
+Poplus brings together people who create civic software, and the organisations or people that use that software.
 
-Its primary aim is to save work for everyone, by sharing digital tools that help people in the civic and democratic areas of life. You can read more on our [About page](http://poplus.org/about/).
+Its primary aim is to save time, energy and money for everyone, by supplying technical components that make it quicker and easier to build and maintain civic apps and websites. You can read more on our [About page](http://poplus.org/about/).
 
 ### How do I join Poplus?
 
 There is no membership process; you become an active member by participating.
 
-But you don’t have to participate immediately! Feel free to join the [Google Group](https://groups.google.com/forum/#!forum/poplus), subscribe to updates, and comment when you have something to say.
+Join the [Google Group](https://groups.google.com/forum/#!forum/poplus), say hello, and you’re in!
 
-### What are some concrete ways to work with Poplus?
+### What will Poplus do for me?
 
-There are many ways to get involved. If you are a developer, you can write code, or improve other people’s code.
+Poplus exists to help you save time, energy and money when it comes to building civic apps or websites.
 
-If you are in need of online tools, you can share your experiences and hopes, and help shape the ones that are made.
+Specifically it will do this by removing the need to program parts of your civic applications - it takes away the need to solve certain problems, such as mapping locations to political boundaries.
 
-If you are neither a coder nor in need of digital tools, but are just an interested person, you are still welcome, and there are many other ways to get involved. For example, you might like to join one of the Poplus sub-committees. Find out more [here](http://poplus.org/get-involved/).
+And it does it in a way that means you don’t have to buy into one programming language or operating system.
+
+If you’re not sure if Poplus can help you, just join the [Google Group](https://groups.google.com/forum/#!forum/poplus) and tell us about the problem you’re trying to solve. We welcome techies, campaigners, everyone.
 
 ### What are the expectations in working with Poplus?
 
-At the moment there is no minimum requirement. Poplus is still young, and we are in the process of forming it. We will accept all the help that we are offered!
+There is no minimum requirement. Every little helps.
 
 ### How do I make contact?
 
