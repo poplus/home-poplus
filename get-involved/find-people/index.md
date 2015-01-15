@@ -17,6 +17,8 @@ Here's where you can talk and collaborate on current Poplus projects.
 ### Mailing list
 
 Our [Google Group](https://groups.google.com/forum/#!forum/poplus) is the main place for discussions of all sorts.
+[Read introductions](https://groups.google.com/forum/#!topic/poplus/FAAmhwOosns)
+and add your own.
 
 ### Hackpad
 
