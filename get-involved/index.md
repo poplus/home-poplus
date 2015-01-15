@@ -17,9 +17,9 @@ Poplus is still in its infancy. There's one thing it needs more than anything el
 
 We welcome everyone who is interested in helping, and there are a number of ways in which you can do so:
 
-* [Join the mailing list](https://groups.google.com/forum/#!forum/poplus)
-* [Join a committee]({{ site.baseurl }}/get-involved/join-a-committee/)
-* [Read our meeting minutes and agendas](http://hackfoldr.org/poplusteam/)
+* [Read introductions](https://groups.google.com/forum/#!topic/poplus/FAAmhwOosns)...
+  then **[join the online group](https://groups.google.com/forum/#!forum/poplus)**
+* [Read our meeting minutes and agendas](http://poplus.org/get-involved/join-a-committee/)
 * [Get involved with code, events, and more]({{ site.baseurl }}/get-involved/other-ways/)
 * [Where to find Poplus people]({{ site.baseurl }}/get-involved/find-people)
 

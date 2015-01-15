@@ -1,6 +1,6 @@
 ---
 layout: inner-page
-title: Join a committee
+title: Online meetings and more
 redirect_from: "/about/committee.html"
 ---
 
