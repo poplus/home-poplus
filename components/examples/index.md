@@ -11,6 +11,7 @@ Here are a few of the ways in which Poplus Components are being used on sites ar
 * [PopIt](#popit)
 * [MapIt](#mapit)
 * [Represent Boundaries](#represent-boundaries)
+* [Cuttlefish](#cuttlefish)
 
 Additionally, this <a href="https://docs.google.com/a/mysociety.org/spreadsheets/d/1O8-2uwUufcigjwxymcDaSJ25GpXfh1is63PUnhFgmhw/edit#gid=0">shared spreadsheet</a> lists every deployment of a Poplus Component we know about. Feel free to add anything we've missed.
 
@@ -131,5 +132,31 @@ Represent Boundaries is used by some of the most popular civic and democratic we
   </a>
 
   <p><a href="http://openstates.org/">Open States</a> by the Sunlight Foundation allows anyone to track lawmaking in their US state.</p>
+
+</div></div>
+
+---
+
+<h2 id="cuttlefish">Cuttlefish</h2>
+
+[Cuttlefish](https://cuttlefish.oaf.org.au) is a transactional email server. It ensures your mails get to their destination without fuss, handling bounces, and optionally tracking email opens and link clicks so you can better understand how people are using your emails.
+
+At the [OpenAustralia Foundation](https://www.openaustraliafoundation.org.au/) we've been using Cuttlefish for almost 2 years to reliably send lots of emails from a number of our projects including:
+
+<div class="grid-row"><div class="column-one-of-two">
+
+<a href="http://www.planningalerts.org.au/">
+<img class="example-screenshot" src="{{ site.baseurl }}/assets/img/example-cuttlefish-planningalerts.png">
+</a>
+
+<p><a href="http://www.planningalerts.org.au/">PlanningAlerts.org.au</a> sends out 50,000 email alerts per week to let Australians know what's being built and knocked down in their area.</p>
+
+</div><div class="column-one-of-two">
+
+<a href="https://morph.io/">
+<img class="example-screenshot" src="{{ site.baseurl }}/assets/img/example-cuttlefish-morph.png">
+</a>
+
+<p><a href="https://morph.io/">morph.io</a> is an open source scraping & collaboration platform. Morph uses Cuttlefish to send email alerts that notify people of problems with their scrapers.</p>
 
 </div></div>
