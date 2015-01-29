@@ -9,10 +9,15 @@ redirect_from:
 - "/join/volunteers-form.html"
 ---
 <img src="{{ site.baseurl }}/assets/img/popluscon-celebrate.jpg" />
+<div class="mailing-list-call-to-action">
+    <h2>Join the mailing list</h2>
+    <p>The best way to keep up to date with Poplus news, and talk to the people already involved in Poplus is on the [Poplus mailing list](https://groups.google.com/forum/#!forum/poplus).</p>
+</div>
 Poplus is still in its infancy. There's one thing it needs more than anything else: enthusiastic people!
 
 We welcome everyone who is interested in helping, and there are a number of ways in which you can do so:
 
+* [Join the mailing list](https://groups.google.com/forum/#!forum/poplus)
 * [Join a committee]({{ site.baseurl }}/get-involved/join-a-committee/)
 * [Read our meeting minutes and agendas](http://hackfoldr.org/poplusteam/)
 * [Get involved with code, events, and more]({{ site.baseurl }}/get-involved/other-ways/)
