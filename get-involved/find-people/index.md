@@ -17,10 +17,14 @@ Here's where you can talk and collaborate on current Poplus projects.
 ### Mailing list
 
 Our [Google Group](https://groups.google.com/forum/#!forum/poplus) is the main place for discussions of all sorts.
+[Read introductions](https://groups.google.com/forum/#!topic/poplus/FAAmhwOosns)
+and add your own.
 
-### Hackpad
+### Hackpad & Google Docs
 
-We use [Hackpad](https://popluscon.hackpad.com/) for collaborative note-taking, agendas, and notes from meetings.
+We use [Hackpad](https://popluscon.hackpad.com/) and 
+[Google Docs](https://drive.google.com/open?id=0B7hmVl0vhGLVOFd4WEg5RUxNek0&authuser=0)
+for collaborative note-taking, agendas, and notes from meetings.
 
 ### IRC
 
