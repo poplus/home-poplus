@@ -15,11 +15,11 @@ Being out there from a number of years, fighting to build and maintain complex s
 
 One of the first applications we developed in 2006, OpenPolitici, is a searchable directory of all elected representatives in Italy: [http://politici.openpolis.it](http://politici.openpolis.it/). There are currently more than 120 thousands active elected officials ranging from the High Representative of the European Union for Foreign Affairs and Security Policy, Ms. Federica Mogherini, to the 13 members of the city government and council of [Morterone](https://it.wikipedia.org/wiki/Morterone), a village in the Lumbard Alps with 33 inhabitants according to the official national census data of 2001.
 
-![OpenPolitici](https://quip.com/blob/VMAAAAiNFsc/PjmYsR_DGJ6TEIPIapspSw "OpenPolitici web site")
+![OpenPolitici](https://github.com/openpolis/home-poplus/blob/gh-pages/images/post_images/2015-04-02-openpolis-openpolitici-site.png "OpenPolitici web site")
 
 In order to stress test the Poplus component architecture, we want to implement a new version of the OpenPolitici platform. The name of the new project is PolitikOS, and the the [user stories](https://quip.com/XghfAbrizOHb) we've written involve using [PopIt](http://popit.poplus.org/), [Mapit](http://mapit.poplus.org/)/[Represent Boundaries](http://represent.poplus.org/), and [SayIt](http://sayit.mysociety.org/).
 
-![PolitikOS](https://quip.com/-/blob/L0oGB3laWW40-0KQVw9U8Q "politikOS web site")
+![PolitikOS](https://github.com/openpolis/home-poplus/blob/gh-pages/images/post_images/2015-04-02-openpolis-politikos.png "politikOS web site")
 
 The prototype we've implemented so far is available at [http://politikos.openpolis.it](http://politikos.openpolis.it/). It's a Python/[Django](https://www.djangoproject.com/) project that integrates data coming from a MapIt and a PopIt instances to return the members of parliament for the electoral constitution corresponding to the address or city entered by the user.
 
