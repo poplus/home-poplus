@@ -79,7 +79,7 @@ for mapit_id, mapit_data in mapit_areas:
         )
 ```
 
-## What did we discovered about components while developing PCI/PolitikOS?
+## What did we discover about components while developing PCI/PolitikOS?
 
 ### Popolo
 
