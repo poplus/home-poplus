@@ -1,4 +1,11 @@
-# Using Poplus components at Openpolis
+---
+published: true
+layout: post
+title: Using Poplus components at Openpolis
+author: Guglielmo Celata
+date: "2015-04-03"
+categories: post
+---
 
 About one year ago, we came to know the Poplus effort here at Openpolis. We were glad to see something like that happen, and started to think how we could possibly contribute to that.
 
