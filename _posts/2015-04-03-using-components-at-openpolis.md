@@ -99,9 +99,7 @@ Some components use other components internally. SayIt and WriteIt need to impor
  Some sort of communication protocol among components could be inserted into the picture, allowing components or external applications to receive push notifications in reaction to pre-defined events. This would help developers build more sophisticated and effective applications out of the Poplus components building blocks.
 The [webhooks](http://www.slideshare.net/progrium/web-hooks-and-the-programmable-world-of-tomorrow-presentation) pattern, or one of the [alternatives](http://apiux.com/2013/09/12/webhooks/), could provide this possibility by using standard HTTP request/response technology, thus not introducing a technological complexity which would hinder the adoption by coders in this context.
 
-Guglielmo Celata
-
-Openpolis
+Guglielmo Celata - [Openpolis](http://www.openpolis.it)
 
 
 
