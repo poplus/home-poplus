@@ -7,9 +7,10 @@ categories: post
 published: true
 ---
 
-Civic Tech and NGOs … wait, and donors - Reflections on a Re:publica session about collaboration in global Transparency and Accountability work
------------------------------------------------------------------------------------------
-### By Kersti Ruth Wissenbach
+Civic Tech and NGOs... wait, and donors
+---------------------------------------
+
+###Reflections on a Re:publica session about collaboration in global Transparency and Accountability work
 
 At our Re:publica session in May we set out to gather together transparency and accountability practitioners from traditional NGOs as well as from the civic tech scene. We came to recognise that, to a large extent, we keep working in silos rather than merging together in new ways so as to collaborate and benefit from each others expertise and experiences. Thus, we wanted to identify the reasons and, together, explore how to enable closer collaboration.
 
@@ -25,7 +26,7 @@ Understand the strengths and weaknesses of both types of organisation, so that t
 We gathered an unexpectedly big group of techies, NGOs and donors, which brought many different perspectives to the table. Given the great interest in our session, we split into two groups, one identifying barriers for stronger collaboration and the other group exploring how to overcome barriers striving to enable stronger collaboration. 
 In summary, we gathered a profound first set of barriers and had some vital discussions on what to do about them.
 
-What we need and how to get there
+## What we need and how to get there
 
 ###Active outreach 
 It does not seem to be common practise within all NGOs to identify and reach out to digital activists or civic tech groups from project countries when beginning to prepare new projects. Those actors are the experts in the local technology context! Therefore, they are the best people to collaborate with in order to explore chances and boundaries when it comes to using tech or data in the respective contexts. Also do they know what is in place already and potentially just need some support in order to take the current projects to the next phase or scale them up. 
