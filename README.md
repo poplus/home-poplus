@@ -15,10 +15,8 @@ To preview the website locally, run:
 bundle exec jekyll serve --watch
 ```
 
-To compile the Sass stylesheets into CSS, run:
+Additional dependencies, on Ubuntu:
 
-```shell
-bundle exec sass --watch assets/sass:css
 ```
-
-**Please don’t edit global.css directly.** If you do, your changes will be overwritten the next time we compile our Sass files.
+sudo apt-get install nodejs
+```

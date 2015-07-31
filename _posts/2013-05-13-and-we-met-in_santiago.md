@@ -1,5 +1,5 @@
 ---
-layout: popconf
+layout: post
 title:  "And we met in Santiago!"
 author: Catalina Margozzini
 date: 13-05-2014

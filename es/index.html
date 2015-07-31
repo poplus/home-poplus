@@ -1,0 +1,104 @@
+---
+layout: default-es
+title: Poplus
+---
+
+<div class="hero">
+    <div class="container">
+        <div class="hero__component-introduction">
+            <h1 class="hero__component-title">Poplus: una federación global por la tecnología cívica</h1>
+            <div class="hero__component-description">
+                <p>Compartiendo tecnología para ayudar a proyectos cívicos y democráticos... en cualquier lugar.</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="home-about">
+    <div class="container">
+        <h2>Acerca de</h2>
+        <div class="grid-row">
+            <div class="home-about__section">
+                <p>Organizaciones de todo el mundo están exigiendo que sus gobiernos rindan cuentas, combatiendo la corrupción y luchando por el derecho a la transparencia, y lo están haciendo con tecnologías digitales.</p>
+                <p>¿Por qué debería cada organización escribir su propio software desde cero? Al compartir código, podemos hacer las cosas más rápido y más fácil, liberando el tiempo para las cosas importantes.</p>
+            </div>
+            <div>
+                <a href="{{ site.baseurl }}/es/about/">Más sobre Poplus</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="home-actions">
+    <div class="container">
+        <div class="home-actions__position">
+            <div class="home-get">
+                <h2>Obtén los componentes Poplus</h2>
+                <p>Los componentes Poplus son pedacitos de tecnología interactiva y útil que puedes incluir en tu sitio o aplicación.</p>
+                <a href="{{ site.baseurl }}/es/componentes/" class="button--quarternary">Saber más</a>
+            </div>
+            <div class="home-join">
+                <h2>Únete</h2>
+                <p>Poplus es una federación abierta con miembros en todo el mundo. Tu código y tus habilidades pueden realmente ayudar a hacer la diferencia.</p>
+                <a href="{{ site.baseurl }}/es/involucrate/" class="button--tertiary">Involúcrate</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="home-news">
+    <div class="container">
+        <h2>Novedades</h2>
+        <div class="grid-row">
+            <!--
+            {% for post in site.posts limit:2 %}
+            --><div class="home-news__section">
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <p class="meta--date">{{ post.date | date: "%d %B %Y" }}</p>
+            </div><!--
+            {% endfor %}
+            -->
+        </div>
+    </div>
+</div>
+
+<div class="home-poplus-components">
+    <div class="container">
+        <h2>Los Componentes Poplus</h2>
+        <div class="grid-row">
+            <div class="home-component__section home-components-intro">
+               <p>Los Componentes Poplus son código abierto y libres para que cualquiera los use</p>
+               <p><a href="{{ site.baseurl }}/es/componentes/">Revisa los componentes actuales</a></p>
+            </div><!--
+            --><div class="home-component__section">
+                <div class="home-poplus-component">
+                    <h3><a href="http://popit.poplus.org/">PopIt</a></h3>
+                    <p>Almacena y comparte listas de políticos.</p>
+                </div>
+                <div class="home-poplus-component">
+                    <h3><a href="http://writeit.poplus.org/">WriteIt</a></h3>
+                    <p>Escribe y envía mensajes a personajes públicos</p>
+                </div>
+                <div class="home-poplus-component">
+                    <h3><a href="http://mapit.poplus.org/">MapIt</a></h3>
+                    <p>Mapea puntos geográficos a límites jurisdiccionales</p>
+                </div>
+            </div><!--
+            --><div class="home-component__section">
+                <div class="home-poplus-component">
+                    <h3><a href="https://github.com/ciudadanointeligente/bill-it">BillIt</a></h3>
+                    <p>Almacena, busca y realiza seguimiento de proyectos de ley a medida que van cambiando.</p>
+                </div>
+                <div class="home-poplus-component">
+                    <h3><a href="http://sayit.poplus.org/">SayIt</a></h3>
+                    <p>Busca, encuentra y comparte tus transcripciones</p>
+                </div>
+                <div class="home-poplus-component">
+                    <h3><a href="http://represent.poplus.org/">Represent</a></h3>
+                    <p>Entrega al usuario información basada en su ubicación.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

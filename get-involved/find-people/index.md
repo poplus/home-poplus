@@ -6,7 +6,7 @@ redirect_from:
 - "/about/contributors.html"
 ---
 
-<script src="http://embed.github.com/view/geojson/ciudadanointeligente/home-poplus/gh-pages/assets/json/poplus-apps.geojson"></script>
+<iframe src="https://mapsengine.google.com/map/u/0/embed?mid=zIRpJTfhUk3U.kz3_0IC6HoQ4" frameborder="0" height="420" width="583"></iframe>
 
 If you would like to add yourself or your organisation to the map, [here's how](https://github.com/ciudadanointeligente/home-poplus/wiki).
 
@@ -17,10 +17,14 @@ Here's where you can talk and collaborate on current Poplus projects.
 ### Mailing list
 
 Our [Google Group](https://groups.google.com/forum/#!forum/poplus) is the main place for discussions of all sorts.
+[Read introductions](https://groups.google.com/forum/#!topic/poplus/FAAmhwOosns)
+and add your own.
 
-### Hackpad
+### Hackpad & Google Docs
 
-We use [Hackpad](https://popluscon.hackpad.com/) for collaborative note-taking, agendas, and notes from meetings.
+We use [Hackpad](https://popluscon.hackpad.com/) and 
+[Google Docs](https://drive.google.com/open?id=0B7hmVl0vhGLVOFd4WEg5RUxNek0&authuser=0)
+for collaborative note-taking, agendas, and notes from meetings.
 
 ### IRC
 
