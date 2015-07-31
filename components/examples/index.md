@@ -47,11 +47,9 @@ Here are a couple of examples:
 
 <h2 id="popit">PopIt</h2>
 
-<a href="http://popit.poplus.org/">PopIt</a> is an easy way to store and publish lists of people and their positions - if you run a parliamentary monitoring website, you might use it for past and present members of Parliament and their job titles.
+<a href="http://popit.poplus.org/">PopIt</a> is no longer in active development. 
 
-PopIt doesn't have to be for politicians, though: you can use it for any inter-related group of people.
-
-Here are some websites where you can see it in use:
+Here are some websites where you can see it when it was in use:
 
 <div class="grid-row"><div class="column-one-of-two">
 
