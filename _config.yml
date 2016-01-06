@@ -13,3 +13,58 @@ sass:
 # @see https://pages.github.com/versions/
 gems:
   - jekyll-redirect-from
+
+prose:
+  # Whitelist allowed directories using .gitignore syntax
+  ignore:
+    - '*'
+    - '!_posts'
+    - '!about'
+    - '!components'
+    - '!es'
+    - '!fr'
+    - '!get-involved'
+    - '!popluscon'
+  siteurl: http://poplus.org
+  media: images
+  relativeLinks: http://poplus.org/links.jsonp
+  metadata:
+    "":
+      - name: layout
+        field:
+          element: hidden
+          value: inner-page
+      - name: title
+        field:
+          element: text
+          label: Title
+          value: ""
+    es:
+      - name: layout
+        field:
+          element: hidden
+          value: inner-page-es
+    fr:
+      - name: layout
+        field:
+          element: hidden
+          value: inner-page-fr
+    _posts:
+      - name: category
+        field:
+          element: hidden
+          value: post
+      - name: layout
+        field:
+          element: hidden
+          value: post
+      - name: title
+        field:
+          element: text
+          label: Title
+          value: ""
+      - name: author
+        field:
+          element: text
+          label: Author
+          value: ""
