@@ -37,36 +37,6 @@ Voici quelques exemples :
 
 ---
 
-## PopIt
-
-<a href="http://popit.poplus.org/">PopIt</a> est un moyen facile de stocker et de publier des listes de personnes et de leurs fonctions : si vous avez un site de surveillance parlementaire, vous pouvez l'utiliser pour les anciens membres du Parlement et les membres actuels, incluant leurs fonctions professionnelles.
-
-PopIt n’est pas exclusivement destiné aux politiciens. Vous pouvez ainsi l'utiliser pour n'importe quel groupe de personnes inter liées.
-
-Voici quelques sites où vous pouvez observer l’utilisation de cet élément :
-
-<div class="grid-row"><div class="column-one-of-two">
-
-  <a href="http://votainteligente.cl">
-    <img class="example-screenshot" src="{{ site.baseurl }}/assets/img/example-popit-vota.png">
-  </a>
-
-  <p><a href="http://votainteligente.cl/">Vota Inteligente</a>, au Chili, a invité ses utilisateurs à « voter en faveur des propositions et non pas des slogans » au cours de la période qui a précédé l'élection présidentielle de 2013.</p>
-
-  <p>Le site utilise PopIt afin de présenter des données sur les candidats et de permettre aux gens de comparer leurs antécédents à leurs valeurs.</p>
-
-</div><div class="column-one-of-two">
-
-  <a href="http://monitor.congresointeractivo.org/congresistas">
-    <img class="example-screenshot" src="{{ site.baseurl }}/assets/img/example-popit-congreso.png">
-  </a>
-
-  <p><a href="http://monitor.congresointeractivo.org/">Congreso Interactivo</a> en Argentine est un site classique parlementaire de surveillance, présentant les votes et l'activité des membres du congrès de la nation.</p>
-
-</div></div>
-
----
-
 ## MapIt
 
 Si vous avez besoin que votre site fasse correspondre les organes gouvernementaux à des points géographiques, <a href="http://mapit.poplus.org/">MapIt</a>peut vous aider.
