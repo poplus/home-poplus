@@ -8,7 +8,6 @@ To understand the benefits of using a Poplus Component, it helps to see them in 
 Here are a few of the ways in which Poplus Components are being used on sites around the world.
 
 * [SayIt](#sayit)
-* [PopIt](#popit)
 * [MapIt](#mapit)
 * [Represent Boundaries](#represent-boundaries)
 * [Cuttlefish](#cuttlefish)
@@ -40,34 +39,6 @@ Here are a couple of examples:
   </a>
 
   <p>People's Assembly in South Africa use SayIt to <a href="http://www.pa.org.za/hansard/">publish the South African parliament's written record</a>.</p>
-
-</div></div>
-
----
-
-<h2 id="popit">PopIt</h2>
-
-<a href="http://popit.poplus.org/">PopIt</a> is no longer in active development. 
-
-Here are some websites where you can see it when it was in use:
-
-<div class="grid-row"><div class="column-one-of-two">
-
-  <a href="http://votainteligente.cl">
-    <img class="example-screenshot" src="{{ site.baseurl }}/assets/img/example-popit-vota.png">
-  </a>
-
-  <p><a href="http://votainteligente.cl/">Vota Inteligente</a>, Chile, invited its users to 'vote for proposals, not slogans'  during the run-up to the 2013 presidential election.</p>
-
-  <p>The site uses PopIt to present data on candidates and allow people to compare their track record and beliefs.</p>
-
-</div><div class="column-one-of-two">
-
-  <a href="http://monitor.congresointeractivo.org/congresistas">
-    <img class="example-screenshot" src="{{ site.baseurl }}/assets/img/example-popit-congreso.png">
-  </a>
-
-  <p><a href="http://monitor.congresointeractivo.org/">Congreso Interactivo</a> in Argentina is a classic parliamentary monitoring website, presenting votes and activity from members of the nation's congress.</p>
 
 </div></div>
 
