@@ -7,7 +7,6 @@ Poplus aún está en formación, y lo que se necesita más que cualqiuer cosa es
 
 Recibimos felices cualquier persona interesada en ayudar. Hay varias formas de hacerlo:
 
-* [Unirse a un comité]({{ site.baseurl }}/es/involucrate/join-a-committee/)
 * [Revisa nuestro calendario de reuniones y agendas](http://hackfoldr.org/poplusteam/)
 * [Participando de código, eventos y más]({{ site.baseurl }}/es/involucrate/other-ways/)
 * [Encuentra más gente de Poplus]({{ site.baseurl }}/es/involucrate/find-people)
