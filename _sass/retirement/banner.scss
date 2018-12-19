@@ -1,7 +1,7 @@
 @import 'variables';
 @import 'mixins';
 
-$colour_banner: mix($colour_red, #333, 90%);
+$colour_banner: #e94f36;
 
 %reset {
   margin: 0;
@@ -21,7 +21,7 @@ $colour_banner: mix($colour_red, #333, 90%);
   color: #fff;
   font-size: 16px;
   line-height: 1.2em;
-  font-family: $body_typeface;
+  font-family: inherit;
 
   * {
     @extend %reset;
@@ -55,10 +55,10 @@ $colour_banner: mix($colour_red, #333, 90%);
   background-position: 0 0;
   @include prefix(background-size, 93px 19px);
   background-repeat: no-repeat;
-  background-image: url('../img/mysociety-logo-white.png');
+  background-image: url('../assets/img/retirement/mysociety-logo-white.png');
 
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-    background-image: url('../img/mysociety-logo-white@2.png');
+    background-image: url('../assets/img/retirement/mysociety-logo-white@2.png');
   }
 
   @media (min-width: 480px) {
