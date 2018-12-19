@@ -1,0 +1,95 @@
+.content__row {
+  @include grid-row;
+  padding: 2em 0;
+}
+
+.content__primary {
+  p + h2 {
+    margin-top: 1em;
+  }
+}
+
+.content__secondary {
+  margin-top: 2em;
+
+  @media (min-width: $medium-screen) {
+    position: relative;
+    top: -5em;
+    margin-top: 0;
+  }
+
+  @media (min-height: 30em) {
+    top: -6em;
+  }
+
+  .content__secondary__cta {
+    display: block;
+    margin-top: 1.5em;
+    text-align: left;
+    font-weight: 600;
+
+    &:before {
+      @extend %social-icon;
+      content: "";
+      vertical-align: -0.4em;
+    }
+
+    &.button--tertiary:before {
+      @extend %social-icon--dark;
+    }
+
+    // Base font size is bigger on medium+ screens, so icon needs to be higher
+    @media (min-width: $medium-screen) {
+      &:before {
+        vertical-align: -0.3em;
+      }
+    }
+
+    // Special fix for when the sidebar is really narrow
+    @media (min-width: $medium-screen) and (max-width: $large-screen-max) {
+      text-align: center;
+
+      &:before {
+        display: none;
+      }
+    }
+
+    &[href*="github.com"] {
+      &:before {
+        @extend %social-icon--github;
+      }
+    }
+
+    &[href*="mysociety.org/contact"] {
+      &:before {
+        @extend %social-icon--email;
+      }
+    }
+  }
+}
+
+@media (min-width: $medium-screen) {
+  .content__primary {
+    @include grid-column-two-thirds;
+  }
+
+  .content__secondary {
+    @include grid-column-one-third;
+  }
+
+  .screenshot-wrapper {
+    display: block;
+    border: 5px solid #fff;
+    margin: -5px;
+    line-height: 0; // avoid space under child img
+    .popit & {
+      border: 0;
+    }
+  }
+}
+
+@media (min-width: $medium-screen) and (max-width: $medium-screen-max) {
+  .content__secondary {
+
+  }
+}

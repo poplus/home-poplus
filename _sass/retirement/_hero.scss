@@ -1,0 +1,79 @@
+.hero {
+  background-color: $colour_dark_grey;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+
+  .scenicornot & { background-color: #5FAB9F; }
+  .groupsnearyou & { background-color: #f60; }
+  .notapathetic & { background-color: #099; }
+  .hearfromyourmp & { color: #20005c; background-color: #d9ecff; text-shadow: none; }
+  .fixmytransport & {
+    background-color: #048fc2;
+    a {
+      color: #fff;
+      text-decoration: underline;
+    }
+  }
+  .pledgebank & { background-color: #9c7bbd; }
+  .popit & { background-color: #e04b4b; }
+  .poplus & { background-color: #e94f36; }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.topbar {
+  background: rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding: 0.8em 0 1em;
+
+  p {
+    line-height: 1.4em;
+    @include grid-column;
+  }
+
+  strong {
+    display: block;
+    @media (min-width: $medium-screen) {
+      display: inline;
+      margin-right: 0.5em;
+    }
+  }
+}
+
+.topbar__row,
+.hero__row {
+  @include grid-row;
+}
+
+.hero__intro {
+  padding: 2em 0;
+
+  @media (min-height: 30em) {
+    padding: 3em 0;
+  }
+
+  @media (min-width: $medium-screen){
+    @include grid-column-two-thirds;
+  }
+
+  h1 {
+    font-size: 2.4em;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: underline;
+    &:hover,
+    &:active,
+    &:focus {
+      color:rgba(255,255,255,0.8);
+    }
+  }
+}

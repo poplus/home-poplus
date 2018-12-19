@@ -1,0 +1,58 @@
+.button {
+  display: inline-block;
+  padding: 0.8em 1em;
+  border-radius: 0.2em;
+  font-size: 1em;
+  line-height: 1em;
+  text-align: center;
+  border: none;
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+.button--primary {
+  @extend .button;
+  background-color: $colour_green;
+  color: #fff;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: darken($colour_green, 10%);
+  }
+}
+
+.button--secondary {
+  @extend .button;
+  background-color: $colour_blue;
+  color: #fff;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: darken($colour_blue, 10%);
+  }
+}
+
+.button--tertiary {
+  @extend .button;
+  color: $colour_black;
+  background-color: $colour_light_grey;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: darken($colour_light_grey, 5%);
+  }
+}
+
+.button--link {
+  @extend .button;
+  color: $colour_blue;
+  background-color: transparent;
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: underline;
+  }
+}

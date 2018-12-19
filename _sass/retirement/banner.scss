@@ -1,0 +1,116 @@
+@import 'variables';
+@import 'mixins';
+
+$colour_banner: mix($colour_red, #333, 90%);
+
+%reset {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  background: transparent;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: left;
+}
+
+.retirement-banner {
+  @extend %reset;
+  background-color: $colour_banner;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.2em;
+  font-family: $body_typeface;
+
+  * {
+    @extend %reset;
+  }
+
+  p a, p a:link {
+    margin: 0 0.2em;
+    color: mix($colour_banner, #fff, 20%);
+    text-decoration: none;
+    border-bottom: 1px solid mix($colour_banner, #fff, 50%);
+  }
+
+  p a:hover, p a:focus {
+    text-decoration: none;
+    color: #fff;
+    border-bottom-color: mix($colour_banner, #fff, 20%);
+  }
+}
+
+.retirement-banner__inner {
+  padding: 1.5em 1em;
+  margin: 0 auto;
+}
+
+.retirement-banner__logo {
+  @extend %image-replacement;
+  display: block;
+  width: 93px;
+  height: 19px;
+  margin-bottom: 1em;
+  background-position: 0 0;
+  @include prefix(background-size, 93px 19px);
+  background-repeat: no-repeat;
+  background-image: url('../img/mysociety-logo-white.png');
+
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    background-image: url('../img/mysociety-logo-white@2.png');
+  }
+
+  @media (min-width: 480px) {
+    float: right;
+    margin-left: 2em;
+  }
+}
+
+.retirement-banner__more,
+.retirement-banner__more:link {
+  margin-left: 0.2em;
+}
+
+.retirement-banner--pledgebank {
+  // body font size is browser default (16px)
+  // header is full width, content is 70em (1120px)
+
+  & + .retirement-replacement-body {
+    border-top: 10px solid #9c7bbd;
+  }
+}
+
+.retirement-banner--hassleme {
+  // body font size is browser default (16px)
+  // header is full width, content is 55em (880px)
+}
+
+.retirement-banner--fixmytransport {
+  // body font size is 82% of default (13px)
+  // header and content are 950px
+  // mobile style kicks in 600px and below
+
+  .retirement-banner__inner {
+    max-width: (950em/16);
+  }
+}
+
+.retirement-banner--hearfromyourmp {
+  // body font size is browser default (16px)
+  // header is full width, content is 50em (800px)
+}
+
+.retirement-banner--notapathetic {
+  // body font size is 80% of browser default (13px)
+  // header and content are 750px centred
+  margin-bottom: 20px;
+
+  .retirement-banner__inner {
+    max-width: 750px;
+  }
+}
+
+.retirement-replacement-body {
+  position: relative;
+}

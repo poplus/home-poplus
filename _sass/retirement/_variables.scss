@@ -1,0 +1,32 @@
+$colour_orange: #f4a140;
+$colour_blue: #4faded;
+$colour_green: #62b356;
+$colour_yellow: #ffd836;
+$colour_red: #e04b4b;
+$colour_violet: #a94ca6;
+$colour_purple: #5c377f;
+$colour_off_white: #f3f1eb;
+$colour_light_grey: #e2dfd9;
+$colour_dark_grey: #6c6b68;
+$colour_black: #333333;
+
+$colour_background: #fff;
+$colour_links: $colour_blue;
+$colour_borders: $colour_light_grey;
+
+$body_typeface: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+
+$huge-screen: 65em; // 1040px
+$large-screen: 50em; // 800px
+$medium-screen: 40em; // 640px
+$small-screen: 30em; // 480px
+$tiny-screen: 20em; // 320px
+
+$large-screen-max: $huge-screen - 0.0625em;
+$medium-screen-max: $large-screen - 0.0625em;
+$small-screen-max: $medium-screen - 0.0625em;
+$tiny-screen-max: $small-screen - 0.0625em;
+
+$high-dpi-screen: '-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi';
+
+
