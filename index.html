@@ -1,106 +1,53 @@
 ---
-layout: default
+layout: retirement
 title: Poplus
+siteSlug: poplus
+siteName: Poplus
+siteSummary: A global federation for civic tech
+screenshot: poplus.jpg
 ---
 
 <div class="hero">
-    <div class="container">
-        <div class="hero__component-introduction">
-            <h1 class="hero__component-title">Poplus: a global federation for civic tech</h1>
-            <div class="hero__component-description">
-                <p>Sharing technology to help civic and democratic projects&hellip; everywhere</p>
-            </div>
-
-        </div>
+  <div class="topbar">
+    <div class="topbar__row">
+      <p><strong>{{ page.siteName }}</strong> {{ page.siteSummary }}</p>
     </div>
+  </div>
+  <div class="hero__row">
+    <div class="hero__intro">
+      <h1>Looking for {{ page.siteName }}?</h1>
+      <p>Poplus was a global network of organisations working in Civic Tech. Its aim was that members would make and share code which could empower citizens anywhere in the world.</p>
+    </div>
+  </div>
 </div>
+<div class="content">
+  <div class="content__row">
+    <div class="content__primary">
 
-<div class="home-about">
-    <div class="container">
-        <h2>About</h2>
-        <div class="grid-row">
-            <div class="home-about__section">
-                <p>Organisations all over the world are holding governments to account, challenging corruption, and demanding the right to transparency, and they are using digital technologies to do so.</p>
-                <p>Why should every organisation have to write their software from scratch? By sharing code, we can make things quicker and easier, freeing up time for the important things.</p>
-            </div>
-            <div>
-                <a href="{{ site.baseurl }}/about/">More about Poplus</a>
-            </div>
-        </div>
-    </div>
-</div>
+        <p>In 2014, the UK organisation <a href="https://www.mysociety.org">mySociety</a> and the Chilean <a href="https://ciudadanointeligente.org/">Fundación Ciudadano Intelligente</a> conceived of Poplus, a global federation for Civic Tech. Members came together in a landmark conference in Santiago, and pledged to create code components that would be free and simple to use, for people anywhere in the world.</p>
 
-<div class="home-actions">
-    <div class="container">
-        <div class="home-actions__position">
-            <div class="home-get">
-                <h2>Get Poplus Components</h2>
-                <p>Poplus Components are useful, interactive bits of technology that you can slot right into your website or app.</p>
-                <a href="{{ site.baseurl }}/components/" class="button--quarternary">Find out more</a>
-            </div>
-            <div class="home-join">
-                <h2>Join us</h2>
-                <p>Poplus is an open federation with members all over the world. Your code and skills can really help make a difference.</p>
-                <a href="{{ site.baseurl }}/get-involved/" class="button--tertiary">Get involved</a>
-            </div>
+        <p>These components would help activists and organisations when building online tools that empower citizens. They’d take the hard work out of creating systems to track or contact politicians; to represent constituency boundaries, or to create transcripts of public meetings, to reference but a few of the components that went on to be created under the Poplus banner.</p>
 
-        </div>
-    </div>
-</div>
-<div class="home-news">
-    <div class="container">
-        <h2>News</h2>
-        <div class="grid-row">
-            <!--
-            {% for post in site.posts limit:2 %}
-            --><div class="home-news__section">
-                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                <p class="meta--date">{{ post.date | date: "%d %B %Y" }}</p>
-            </div><!--
-            {% endfor %}
-            -->
-        </div>
-    </div>
-</div>
+        <h2>Why have we closed this site?</h2>
 
-<div class="home-poplus-components">
-    <div class="container">
-        <h2>Poplus components</h2>
-        <div class="grid-row">
-            <div class="home-component__section home-components-intro">
-               <p>Poplus Components are open source and free for anyone to use. </p>
-               <p><a href="{{ site.baseurl }}/components/">See what's available</a></p>
-            </div><!--
-            --><div class="home-component__section">
-                <div class="home-poplus-component">
-                    <h3><a href="http://writeit.poplus.org/">WriteIt</a></h3>
-                    <p>Write and send messages to public figures</p>
-                </div>
-                <div class="home-poplus-component">
-                    <h3><a href="http://mapit.poplus.org/">MapIt</a></h3>
-                    <p>Map geographic points to administrative boundaries</p>
-                </div>
-            </div><!--
-            --><div class="home-component__section">
-                <div class="home-poplus-component">
-                    <h3><a href="https://github.com/ciudadanointeligente/bill-it">BillIt</a></h3>
-                    <p>Record, search and track bills as they change</p>
-                </div>
-                <div class="home-poplus-component">
-                    <h3><a href="http://sayit.poplus.org/">SayIt</a></h3>
-                    <p>Search, browse and share your transcripts</p>
-                </div>
-                <div class="home-poplus-component">
-                    <h3><a href="http://represent.poplus.org/">Represent Boundaries</a></h3>
-                    <p>Match your users with location-based information</p>
-                </div>
-            </div><!--
-            --><div class="home-component__section">
-                <div class="home-poplus-component">
-                    <h3><a href="https://cuttlefish.oaf.org.au/">Cuttlefish</a></h3>
-                    <p>A lovely, easy-to-set-up transactional email server</p>
-                </div>
-            </div>
-        </div>
+        <p>The concept behind Poplus has evolved.</p>
+
+        <p>Poplus was founded on the belief that wasted effort was going into the building of Civic Tech tools that were, essentially, being coded from scratch, in different countries, time and again. We wanted to prevent people from having to reinvent the wheel, so that they could get on with the important business of running their own sites.</p>
+
+        <p>While we still stand by this principle, we found that in reality, creating components to fit any and every type of legislature was more of a challenge than we’d anticipated. And we discovered another way that we could provide help to those organisations, activists and campaigners: by providing reliable political data.</p>
+
+        <p>mySociety is now contributing to the <a href="https://www.mysociety.org/democracy/democratic-commons/">Democratic Commons</a>, largely through the <a href="https://everypolitician.org/">EveryPolitician project</a>, which in turn is aiding the global repository of politician data on <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a>.</p>
+
+        <p>By providing a reliable source of accurate data, we can remove one of the key challenges for  Civic Tech projects. <a href="https://www.mysociety.org/">Find out more about mySociety’s projects here.</a></p>
+
     </div>
+
+    <div class="content__secondary">
+      <a class="screenshot-wrapper" href="{{ site.baseurl }}/assets/img/screenshot-{{ page.screenshot }}">
+        <img src="{{ site.baseurl }}/assets/img/retirement/screenshot-{{ page.screenshot }}" alt="Screenshot of {{ page.siteName }}">
+      </a>
+      <a class="button--primary content__secondary__cta" href="{{ site.baseurl }}/home">Browse the site archive</a>
+      <a class="button--secondary content__secondary__cta" href="https://www.mysociety.org/contact/">Contact us about this site</a>
+    </div>
+  </div>
 </div>

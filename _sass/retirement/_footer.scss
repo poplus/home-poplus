@@ -1,0 +1,75 @@
+body {
+  background-color: $colour_off_white; // simulate endless footer
+}
+
+.content {
+  background-color: #fff; // compensate for cream body colour
+}
+
+.footer {
+  @include clearfix;
+  background-color: $colour_off_white;
+  border-top: 1px solid darken($colour_off_white, 3%);
+  padding: 2em 0;
+
+  @media (min-height: 30em) {
+    padding: 3em 0;
+  }
+
+  .mysociety-logo {
+    display: block;
+    width: 176px;
+    height: 38px;
+    margin: 0 0 1em 0;
+    @extend %image-replacement;
+    background-image: url(../assets/img/retirement/mysociety-logo.png);
+    background-position: center center;
+    background-size: 176px 38px;
+    background-repeat: no-repeat;
+    @media ($high-dpi-screen)  {
+        background-image: url(../assets/img/retirement/mysociety-logo@2.png);
+    }
+  }
+}
+
+.footer__row {
+  @include grid-row;
+}
+
+.footer__about-mysociety {
+  margin-bottom: 2em;
+
+  @media (min-width: $medium-screen) {
+    margin-bottom: 0;
+    @include grid-column-two-thirds;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.footer__mysociety-links {
+  ul {
+    @extend .unstyled-list;
+    margin: 0;
+    @include prefix('column-count', 2);
+  }
+
+  @media (min-width: $small-screen) {
+    ul {
+      @include prefix('column-count', 3);
+    }
+  }
+
+
+  @media (min-width: $medium-screen) {
+    @include grid-column-one-third;
+
+    ul {
+      @include prefix('column-count', 2);
+    }
+  }
+}
+
+

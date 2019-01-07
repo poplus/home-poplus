@@ -1,0 +1,53 @@
+%image-replacement {
+  text-indent: -1000%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@mixin clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+$prefixes: ("-webkit-","-moz-", "-o-", "-ms-", "");
+@mixin prefix($property, $value) {
+  @each $prefix in $prefixes {
+    #{$prefix}#{$property}: #{$value};
+  }
+}
+
+%social-icon {
+  display: inline-block;
+  background-image: url('../assets/img/retirement/social-sprite.png');
+  @media ($high-dpi-screen)  {
+    background-image: url('../assets/img/retirement/social-sprite@2.png');
+  }
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 50px 125px; //change me when you add more sprites to the file
+  height: 25px;
+  width: 25px;
+  margin-right: 0.75em;
+}
+
+%social-icon--dark {
+  background-image: url('../assets/img/retirement/social-sprite-dark.png');
+  @media ($high-dpi-screen)  {
+    background-image: url('../assets/img/retirement/social-dark@2.png');
+  }
+}
+
+%social-icon--github {
+  background-position: -25px -50px;
+}
+
+%social-icon--email {
+  background-position: 0 -100px;
+}

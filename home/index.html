@@ -1,0 +1,106 @@
+---
+layout: default
+title: Poplus
+---
+
+<div class="hero">
+    <div class="container">
+        <div class="hero__component-introduction">
+            <h1 class="hero__component-title">Poplus: a global federation for civic tech</h1>
+            <div class="hero__component-description">
+                <p>Sharing technology to help civic and democratic projects&hellip; everywhere</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="home-about">
+    <div class="container">
+        <h2>About</h2>
+        <div class="grid-row">
+            <div class="home-about__section">
+                <p>Organisations all over the world are holding governments to account, challenging corruption, and demanding the right to transparency, and they are using digital technologies to do so.</p>
+                <p>Why should every organisation have to write their software from scratch? By sharing code, we can make things quicker and easier, freeing up time for the important things.</p>
+            </div>
+            <div>
+                <a href="{{ site.baseurl }}/about/">More about Poplus</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="home-actions">
+    <div class="container">
+        <div class="home-actions__position">
+            <div class="home-get">
+                <h2>Get Poplus Components</h2>
+                <p>Poplus Components are useful, interactive bits of technology that you can slot right into your website or app.</p>
+                <a href="{{ site.baseurl }}/components/" class="button--quarternary">Find out more</a>
+            </div>
+            <div class="home-join">
+                <h2>Join us</h2>
+                <p>Poplus is an open federation with members all over the world. Your code and skills can really help make a difference.</p>
+                <a href="{{ site.baseurl }}/get-involved/" class="button--tertiary">Get involved</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="home-news">
+    <div class="container">
+        <h2>News</h2>
+        <div class="grid-row">
+            <!--
+            {% for post in site.posts limit:2 %}
+            --><div class="home-news__section">
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <p class="meta--date">{{ post.date | date: "%d %B %Y" }}</p>
+            </div><!--
+            {% endfor %}
+            -->
+        </div>
+    </div>
+</div>
+
+<div class="home-poplus-components">
+    <div class="container">
+        <h2>Poplus components</h2>
+        <div class="grid-row">
+            <div class="home-component__section home-components-intro">
+               <p>Poplus Components are open source and free for anyone to use. </p>
+               <p><a href="{{ site.baseurl }}/components/">See what's available</a></p>
+            </div><!--
+            --><div class="home-component__section">
+                <div class="home-poplus-component">
+                    <h3><a href="http://writeit.poplus.org/">WriteIt</a></h3>
+                    <p>Write and send messages to public figures</p>
+                </div>
+                <div class="home-poplus-component">
+                    <h3><a href="http://mapit.poplus.org/">MapIt</a></h3>
+                    <p>Map geographic points to administrative boundaries</p>
+                </div>
+            </div><!--
+            --><div class="home-component__section">
+                <div class="home-poplus-component">
+                    <h3><a href="https://github.com/ciudadanointeligente/bill-it">BillIt</a></h3>
+                    <p>Record, search and track bills as they change</p>
+                </div>
+                <div class="home-poplus-component">
+                    <h3><a href="http://sayit.poplus.org/">SayIt</a></h3>
+                    <p>Search, browse and share your transcripts</p>
+                </div>
+                <div class="home-poplus-component">
+                    <h3><a href="http://represent.poplus.org/">Represent Boundaries</a></h3>
+                    <p>Match your users with location-based information</p>
+                </div>
+            </div><!--
+            --><div class="home-component__section">
+                <div class="home-poplus-component">
+                    <h3><a href="https://cuttlefish.oaf.org.au/">Cuttlefish</a></h3>
+                    <p>A lovely, easy-to-set-up transactional email server</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
